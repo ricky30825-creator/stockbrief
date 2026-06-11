@@ -1,0 +1,15 @@
+{
+ "generated_at": "2026-06-11T06:23:07.917398+00:00",
+ "entries": [
+  {
+   "ts": "2026-06-11T06:19:40.883765+00:00",
+   "video_id": "lQyQ_MWZogs",
+   "channel": "토마토증권통",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 26058,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 2530,
+   "cost_usd": 0.0659689
+  }
+ ]
+}

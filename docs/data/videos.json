@@ -1,6 +1,25 @@
 {
- "generated_at": "2026-06-11T01:35:55.189859+00:00",
+ "generated_at": "2026-06-11T06:23:07.911419+00:00",
  "videos": [
+  {
+   "video_id": "lQyQ_MWZogs",
+   "channel": "토마토증권통",
+   "channel_id": "UCgJ5pT6S2NuTVP-6-AlLZew",
+   "title": "원자는 아직 사이클 초입부! 진정한 슈퍼사이클은 '2027년'! 하반기 주목할 원자재는? #원자재 #전력난 #최진영연구원 #마켓마스터",
+   "published": "2026-06-11T06:12:57.788489+00:00",
+   "url": "https://www.youtube.com/watch?v=lQyQ_MWZogs",
+   "status": "analyzed",
+   "summary": "원자재 애널리스트가 2026년 상반기 원자재 시장을 리뷰하고 하반기 이후 전망을 제시합니다. 중동 지정학적 리스크로 알루미늄과 유가가 상승한 반면 금은 약세를 보였으며, AI 수요 급증에 따른 구조적 에너지·비철금속 공급 부족이 핵심이라고 강조합니다. 내년에는 유가 사상 최고치 달성, 천연가스 8달러 이상, 알루미늄·구리의 추가 상승을 예상하며, 하반기부터는 에너지(유가·천연가스) 중심의 투자 전략 전환을 권장합니다.",
+   "opinions": [],
+   "analyzed_at": "2026-06-11T06:19:40.883765+00:00",
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 26058,
+    "cache_read_input_tokens": 11929,
+    "output_tokens": 2530,
+    "cost_usd": 0.0659689
+   }
+  },
   {
    "video_id": "WLZzm6hq5IE",
    "channel": "삼프로TV",
