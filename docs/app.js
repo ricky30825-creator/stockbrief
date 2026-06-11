@@ -239,7 +239,7 @@ document.getElementById("tabs").addEventListener("click", (e) => {
   if (!btn) return;
   state.tab = btn.dataset.tab;
   document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("active", b === btn));
-  window.scrollTo(0, 0);
+  document.getElementById("scroll-area").scrollTo(0, 0);
   render();
 });
 

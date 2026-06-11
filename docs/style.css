@@ -12,24 +12,33 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* 앱 프레임: 헤더·탭바는 고정, 내용(#scroll-area)만 내부 스크롤.
+   Safari 툴바 유무와 무관하게 탭바가 항상 화면 바닥에 붙는다. */
 body {
   background: var(--bg);
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
-  padding-bottom: calc(64px + env(safe-area-inset-bottom));
   -webkit-tap-highlight-color: transparent;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#scroll-area {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  flex: none;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   padding: calc(12px + env(safe-area-inset-top)) 16px 12px;
   background: rgba(15, 17, 21, 0.92);
-  backdrop-filter: blur(8px);
   border-bottom: 1px solid #262a33;
 }
 
@@ -49,9 +58,7 @@ header h1 { font-size: 19px; }
 .hdr-right button.active { background: var(--accent); border-color: var(--accent); }
 
 #searchbar {
-  position: sticky;
-  top: calc(58px + env(safe-area-inset-top));
-  z-index: 9;
+  flex: none;
   display: flex;
   gap: 8px;
   padding: 8px 12px;
@@ -177,13 +184,9 @@ main { padding: 12px 12px 24px; max-width: 640px; margin: 0 auto; }
 }
 
 #tabs {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  flex: none;
   display: flex;
   background: rgba(15, 17, 21, 0.95);
-  backdrop-filter: blur(8px);
   border-top: 1px solid #262a33;
   padding-bottom: env(safe-area-inset-bottom);
 }
