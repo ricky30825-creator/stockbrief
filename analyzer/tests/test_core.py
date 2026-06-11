@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 from aggregate import build_stocks
 from main import should_run_daily, transcript_wait_expired
-from analyze import _parse_result, extract_json
+from analyze import _parse_result, extract_json, parse_cli_envelope
 from feeds import parse_feed
 from notify import format_video_message
 from transcript import truncate_evenly
@@ -72,6 +72,27 @@ class TestAnalyze(unittest.TestCase):
         self.assertIsNone(op["market"])
         self.assertEqual(op["confidence"], "medium")
         self.assertIsNone(op["ticker"])
+
+
+class TestCliEnvelope(unittest.TestCase):
+    def test_extracts_text_and_usage(self):
+        stdout = """{"type":"result","is_error":false,"result":"{\\"summary\\":\\"s\\"}",
+          "total_cost_usd":0.012,
+          "usage":{"input_tokens":10,"cache_creation_input_tokens":5,
+                   "cache_read_input_tokens":20000,"output_tokens":900}}"""
+        text, usage = parse_cli_envelope(stdout)
+        self.assertEqual(text, '{"summary":"s"}')
+        self.assertEqual(usage["input_tokens"], 10)
+        self.assertEqual(usage["cache_read_input_tokens"], 20000)
+        self.assertEqual(usage["cost_usd"], 0.012)
+
+    def test_error_response_raises(self):
+        with self.assertRaises(ValueError):
+            parse_cli_envelope('{"type":"result","is_error":true,"result":"x"}')
+
+    def test_empty_result_raises(self):
+        with self.assertRaises(ValueError):
+            parse_cli_envelope('{"type":"result","is_error":false,"result":""}')
 
 
 def _video(video_id, channel, published, opinions):

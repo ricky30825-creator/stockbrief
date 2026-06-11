@@ -115,7 +115,13 @@ def process_video(video: dict) -> dict | None:
     except Exception as e:
         log.warning("분석 일시 오류 %s: %s", video["video_id"], e)
         return None
-    record.update(status="analyzed", summary=result["summary"], opinions=result["opinions"])
+    record.update(
+        status="analyzed",
+        summary=result["summary"],
+        opinions=result["opinions"],
+        analyzed_at=datetime.now(timezone.utc).isoformat(),
+        usage=result.get("usage"),
+    )
     log.info(
         "분석 완료: [%s] %s — 의견 %d건",
         video["channel"], video["title"], len(result["opinions"]),
@@ -186,6 +192,7 @@ def main():
         "stocks": build_stocks(videos),
     })
     save_json(STATE_PATH, sorted(processed))
+    update_usage_log(notified)
 
     git_push()
 
@@ -196,6 +203,26 @@ def main():
             log.warning("텔레그램 전송 실패: %s", e)
 
     _mark_ran_today()
+
+
+def update_usage_log(analyzed_records: list[dict], keep_days: int = 30):
+    """분석 호출별 토큰 사용량을 docs/data/usage.json에 누적한다 (앱 '사용량' 탭용)."""
+    path = DATA_DIR / "usage.json"
+    entries = load_json(path, {"entries": []})["entries"]
+    for r in analyzed_records:
+        if not r.get("usage"):
+            continue
+        entries.append({
+            "ts": r["analyzed_at"],
+            "video_id": r["video_id"],
+            "channel": r["channel"],
+            **r["usage"],
+        })
+    cutoff = datetime.now(timezone.utc).timestamp() - keep_days * 86400
+    entries = [e for e in entries
+               if datetime.fromisoformat(e["ts"]).timestamp() >= cutoff]
+    save_json(path, {"generated_at": datetime.now(timezone.utc).isoformat(),
+                     "entries": entries})
 
 
 def _mark_ran_today():

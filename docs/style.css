@@ -36,6 +36,51 @@ header {
 header h1 { font-size: 19px; }
 #updated-at { font-size: 11px; color: var(--muted); }
 
+.hdr-right { display: flex; align-items: center; gap: 10px; }
+.hdr-right button {
+  background: var(--card);
+  border: 1px solid #2a2e38;
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 15px;
+  width: 34px;
+  height: 34px;
+}
+.hdr-right button.active { background: var(--accent); border-color: var(--accent); }
+
+#searchbar {
+  position: sticky;
+  top: calc(58px + env(safe-area-inset-top));
+  z-index: 9;
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg);
+  border-bottom: 1px solid #262a33;
+}
+#searchbar.hidden { display: none; }
+#searchbar input {
+  flex: 1;
+  background: var(--card);
+  border: 1px solid #2a2e38;
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 15px;
+  padding: 9px 12px;
+}
+#searchbar button {
+  background: var(--card);
+  border: 1px solid #2a2e38;
+  border-radius: 10px;
+  color: var(--muted);
+  width: 40px;
+}
+
+.usage-stat { display: flex; flex-direction: column; gap: 6px; }
+.usage-stat .big { font-size: 22px; font-weight: 700; }
+.usage-stat .row { font-size: 13px; color: var(--muted); line-height: 1.6; }
+.usage-note { font-size: 12px; color: var(--muted); line-height: 1.6; padding: 4px 6px 12px; }
+
 main { padding: 12px 12px 24px; max-width: 640px; margin: 0 auto; }
 
 .empty { color: var(--muted); text-align: center; padding: 48px 0; font-size: 14px; }

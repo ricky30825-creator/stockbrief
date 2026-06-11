@@ -16,8 +16,17 @@
 <body>
   <header>
     <h1>📊 주식 브리핑</h1>
-    <span id="updated-at"></span>
+    <div class="hdr-right">
+      <span id="updated-at"></span>
+      <button id="btn-refresh" title="새로고침">↻</button>
+      <button id="btn-search" title="종목 검색">🔍</button>
+    </div>
   </header>
+
+  <div id="searchbar" class="hidden">
+    <input id="search-input" type="search" placeholder="종목명·티커로 검색 (예: 삼성전자, NVDA)" autocomplete="off">
+    <button id="search-clear">✕</button>
+  </div>
 
   <main id="content">
     <p class="empty">불러오는 중…</p>
@@ -29,6 +38,7 @@
     <button data-tab="feed" class="active">🏠<span>피드</span></button>
     <button data-tab="stocks">📈<span>종목별</span></button>
     <button data-tab="channels">📺<span>채널별</span></button>
+    <button data-tab="usage">🧾<span>사용량</span></button>
   </nav>
 
   <script src="app.js"></script>
