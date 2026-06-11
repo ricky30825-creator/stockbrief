@@ -1,0 +1,160 @@
+:root {
+  --bg: #0f1115;
+  --card: #1a1d24;
+  --card-2: #22262f;
+  --text: #e8eaed;
+  --muted: #9aa0a8;
+  --buy: #2ecc71;
+  --sell: #ff5e57;
+  --hold: #8a93a0;
+  --accent: #4f8cff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
+  padding-bottom: calc(64px + env(safe-area-inset-bottom));
+  -webkit-tap-highlight-color: transparent;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: calc(12px + env(safe-area-inset-top)) 16px 12px;
+  background: rgba(15, 17, 21, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #262a33;
+}
+
+header h1 { font-size: 19px; }
+#updated-at { font-size: 11px; color: var(--muted); }
+
+main { padding: 12px 12px 24px; max-width: 640px; margin: 0 auto; }
+
+.empty { color: var(--muted); text-align: center; padding: 48px 0; font-size: 14px; }
+
+.card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.card .meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.card .meta .channel { color: var(--accent); font-weight: 600; }
+
+.card h2 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: var(--card-2);
+}
+
+.badge.buy { color: var(--buy); border: 1px solid rgba(46, 204, 113, 0.4); }
+.badge.sell { color: var(--sell); border: 1px solid rgba(255, 94, 87, 0.4); }
+.badge.hold { color: var(--hold); border: 1px solid rgba(138, 147, 160, 0.4); }
+.badge.none { color: var(--muted); }
+
+.detail { display: none; margin-top: 12px; border-top: 1px solid #2a2e38; padding-top: 12px; }
+.card.open .detail { display: block; }
+
+.detail .summary { font-size: 13px; color: var(--muted); line-height: 1.6; margin-bottom: 12px; }
+
+.opinion {
+  background: var(--card-2);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+
+.opinion .head { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; font-size: 14px; font-weight: 600; }
+.opinion .stance { font-size: 12px; padding: 2px 8px; border-radius: 999px; }
+.opinion .stance.buy { background: rgba(46, 204, 113, 0.15); color: var(--buy); }
+.opinion .stance.sell { background: rgba(255, 94, 87, 0.15); color: var(--sell); }
+.opinion .stance.hold { background: rgba(138, 147, 160, 0.15); color: var(--hold); }
+.opinion .reasoning { font-size: 13px; line-height: 1.6; color: var(--text); }
+.opinion .sub { font-size: 11px; color: var(--muted); margin-top: 6px; }
+
+.yt-link {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.stock-counts { display: flex; gap: 10px; font-size: 13px; font-weight: 600; }
+.stock-counts .b { color: var(--buy); }
+.stock-counts .s { color: var(--sell); }
+.stock-counts .h { color: var(--hold); }
+
+.chips { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 12px; -webkit-overflow-scrolling: touch; }
+.chip {
+  flex: 0 0 auto;
+  font-size: 13px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--muted);
+  border: 1px solid #2a2e38;
+}
+.chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+.disclaimer {
+  text-align: center;
+  font-size: 11px;
+  color: #5b626c;
+  padding: 8px 24px 16px;
+}
+
+#tabs {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background: rgba(15, 17, 21, 0.95);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid #262a33;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+#tabs button {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 20px;
+  padding: 8px 0 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+#tabs button span { font-size: 10px; }
+#tabs button.active { color: var(--accent); }

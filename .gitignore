@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+analyzer/.env
+analyzer/state/
+analyzer/logs/
+.DS_Store

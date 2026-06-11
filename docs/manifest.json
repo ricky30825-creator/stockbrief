@@ -1,0 +1,14 @@
+{
+  "name": "주식 브리핑",
+  "short_name": "주식브리핑",
+  "description": "주식 유튜버 영상 자동 분석 — 종목별 매수/매도 의견 모아보기",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "icons": [
+    { "src": "icons/icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

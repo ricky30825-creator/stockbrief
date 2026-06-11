@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.jungjeahwan.stockbrief</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/jungjeahwan/Desktop/claude/app/.venv/bin/python</string>
+    <string>/Users/jungjeahwan/Desktop/claude/app/analyzer/main.py</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/jungjeahwan/Desktop/claude/app</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartInterval</key>
+  <integer>3600</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/jungjeahwan/Desktop/claude/app/analyzer/logs/launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/jungjeahwan/Desktop/claude/app/analyzer/logs/launchd.err.log</string>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+{
+  "channels": [
+    {
+      "name": "토마토증권통",
+      "channel_id": "UCgJ5pT6S2NuTVP-6-AlLZew",
+      "market": "KR"
+    },
+    {
+      "name": "삼프로TV",
+      "channel_id": "UChlv4GSd7OQl3js-jkLOnFA",
+      "market": "KR/US"
+    },
+    {
+      "name": "전인구경제연구소",
+      "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
+      "market": "KR/US"
+    },
+    {
+      "name": "소수몽키",
+      "channel_id": "UCC3yfxS5qC6PCwDzetUuEWg",
+      "market": "US"
+    },
+    {
+      "name": "미국주식으로은퇴하기",
+      "channel_id": "UCNnwmqZOxSuOiF3_c7mAGWA",
+      "market": "US"
+    }
+  ]
+}
