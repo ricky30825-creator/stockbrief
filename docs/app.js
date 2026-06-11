@@ -304,6 +304,16 @@ searchInput.addEventListener("input", () => {
   render();
 });
 
+// iOS: 키보드가 닫힌 뒤 뷰포트 높이가 복원되지 않아 탭바가 떠 보이는 버그 보정
+searchInput.addEventListener("blur", () => {
+  setTimeout(() => window.scrollTo(0, 0), 50);
+});
+if (window.visualViewport) {
+  window.visualViewport.addEventListener("resize", () => {
+    if (document.activeElement?.tagName !== "INPUT") window.scrollTo(0, 0);
+  });
+}
+
 document.getElementById("search-clear").addEventListener("click", () => {
   state.query = "";
   searchInput.value = "";

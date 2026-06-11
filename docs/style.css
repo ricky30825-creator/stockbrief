@@ -30,6 +30,8 @@ body {
   flex: 1;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  /* 고정 탭바에 내용이 가려지지 않도록 */
+  padding-bottom: calc(58px + env(safe-area-inset-bottom));
 }
 
 header {
@@ -211,9 +213,13 @@ main { padding: 12px 12px 24px; max-width: 640px; margin: 0 auto; }
 }
 
 #tabs {
-  flex: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
   display: flex;
-  background: rgba(15, 17, 21, 0.95);
+  background: #11141a;
   border-top: 1px solid #262a33;
   padding-bottom: env(safe-area-inset-bottom);
 }
