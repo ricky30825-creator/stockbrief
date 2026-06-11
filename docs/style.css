@@ -21,9 +21,9 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
   -webkit-tap-highlight-color: transparent;
-  /* iOS에서 vh/dvh가 실제 화면과 어긋나는 문제 회피: JS가 실측값(--app-h)을 채운다 */
-  height: 100%;
-  height: var(--app-h, 100%);
+  /* 높이를 계산하지 않고 화면 네 모서리에 직접 고정 — iOS vh/innerHeight 버그 회피 */
+  position: fixed;
+  inset: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;

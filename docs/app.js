@@ -178,11 +178,17 @@ function renderUsage() {
       ${usageLine(e)}
     </article>`).join("");
 
+  // 화면 진단(탭바 위치 문제 추적용 임시 표시)
+  const vv = window.visualViewport;
+  const debug = `화면 진단: inner ${window.innerHeight} / client ${document.documentElement.clientHeight}` +
+    ` / vv ${vv ? Math.round(vv.height) : "-"} / screen ${window.screen.height}` +
+    ` / standalone ${window.navigator.standalone === true}`;
+
   content.innerHTML =
     usageStatCard("최근 5시간", last5h) +
     usageStatCard("최근 7일", last7d) +
     `<p class="usage-note">이 앱의 영상 분석(claude 호출)에 쓰인 토큰만 집계합니다. 구독 요금제 내 사용이라
-     실제 청구액이 아닌 API 환산 금액이며, 플랜 한도 대비 %는 공식적으로 조회할 수 없어 제공하지 않습니다.</p>` +
+     실제 청구액이 아닌 API 환산 금액이며, 플랜 한도 대비 %는 공식적으로 조회할 수 없어 제공하지 않습니다.<br><br>${debug}</p>` +
     (recent ? `<h2 style="font-size:14px;margin:4px 6px 10px;color:var(--muted)">최근 분석 내역</h2>${recent}`
             : `<p class="empty">아직 기록된 사용량이 없습니다.<br>다음 분석부터 집계됩니다.</p>`);
 }
@@ -304,19 +310,15 @@ searchInput.addEventListener("input", () => {
   render();
 });
 
-// iOS에서 vh/dvh가 실제 화면 높이와 어긋나는 문제(탭바가 떠 보임) 보정:
-// 실제 창 높이를 측정해 CSS 변수로 넣고, 키보드 개폐·회전 때마다 다시 맞춘다.
-function setAppHeight() {
-  document.documentElement.style.setProperty("--app-h", `${window.innerHeight}px`);
+// iOS: 키보드 개폐·회전 후 스크롤이 어긋나면 원위치로 되돌린다
+function resetViewport() {
   window.scrollTo(0, 0);
 }
-setAppHeight();
-window.addEventListener("resize", setAppHeight);
-window.addEventListener("orientationchange", () => setTimeout(setAppHeight, 200));
-searchInput.addEventListener("blur", () => setTimeout(setAppHeight, 50));
+window.addEventListener("orientationchange", () => setTimeout(resetViewport, 200));
+searchInput.addEventListener("blur", () => setTimeout(resetViewport, 50));
 if (window.visualViewport) {
   window.visualViewport.addEventListener("resize", () => {
-    if (document.activeElement?.tagName !== "INPUT") setAppHeight();
+    if (document.activeElement?.tagName !== "INPUT") resetViewport();
   });
 }
 
