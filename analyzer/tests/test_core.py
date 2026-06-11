@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).parents[1]))
 from datetime import datetime, timezone
 
 from aggregate import build_stocks
-from main import transcript_wait_expired
+from main import should_run_daily, transcript_wait_expired
 from analyze import _parse_result, extract_json
 from feeds import parse_feed
 from notify import format_video_message
@@ -153,6 +153,17 @@ class TestTranscriptWait(unittest.TestCase):
 
     def test_bad_date_expired(self):
         self.assertTrue(transcript_wait_expired("invalid", self.NOW))
+
+
+class TestDailyRunGuard(unittest.TestCase):
+    def test_before_7am_blocked(self):
+        self.assertFalse(should_run_daily(datetime(2026, 6, 12, 6, 59), ""))
+
+    def test_after_7am_first_run_allowed(self):
+        self.assertTrue(should_run_daily(datetime(2026, 6, 12, 7, 1), "2026-06-11"))
+
+    def test_already_ran_today_blocked(self):
+        self.assertFalse(should_run_daily(datetime(2026, 6, 12, 15, 0), "2026-06-12"))
 
 
 class TestNotify(unittest.TestCase):

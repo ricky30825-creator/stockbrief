@@ -120,8 +120,11 @@ function render() {
     const chips = channels.map((ch) =>
       `<button class="chip${ch === state.channelFilter ? " active" : ""}" data-channel="${esc(ch)}">${esc(ch)}</button>`).join("");
     const list = state.videos.filter((v) => v.channel === state.channelFilter);
+    // 다시 그리면 칩 줄의 가로 스크롤이 0으로 돌아가므로 위치를 보존한다
+    const prevScroll = content.querySelector(".chips")?.scrollLeft ?? 0;
     content.innerHTML = `<div class="chips">${chips}</div>` +
       (list.length ? list.map(videoCard).join("") : `<p class="empty">영상이 없습니다.</p>`);
+    content.querySelector(".chips").scrollLeft = prevScroll;
   }
   document.getElementById("updated-at").textContent =
     state.generatedAt ? `업데이트 ${fmtDate(state.generatedAt)}` : "";

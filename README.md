@@ -27,9 +27,13 @@ launchd/    자동 실행 설정
 
 ## 운영
 
+실행 주기: launchd가 매시간 깨우지만, 스크립트가 **오전 7시 이후 하루 1회**만
+실제로 실행한다 (`analyzer/state/last_run.txt` 기준). 7시 이후에 Mac을 켜면
+그때 바로 실행된다.
+
 ```bash
-# 수동 실행
-.venv/bin/python analyzer/main.py
+# 수동 실행 (하루 1회 가드 무시)
+.venv/bin/python analyzer/main.py --force
 
 # 테스트
 .venv/bin/python -m unittest discover -s analyzer/tests

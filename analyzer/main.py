@@ -20,13 +20,15 @@ BASE = Path(__file__).parent
 REPO = BASE.parent
 DATA_DIR = REPO / "docs" / "data"
 STATE_PATH = BASE / "state" / "processed.json"
+LAST_RUN_PATH = BASE / "state" / "last_run.txt"
 CHANNELS_PATH = BASE / "channels.json"
 LOG_DIR = BASE / "logs"
 
 MAX_VIDEOS_KEPT = 200      # videos.json에 보관할 최대 영상 수
 FIRST_RUN_PER_CHANNEL = 2  # 최초 실행 시 채널당 분석할 최신 영상 수 (백필 폭주 방지)
 NO_TRANSCRIPT_GRACE_HOURS = 6  # 이 시간 안 된 새 영상은 자막 생성을 기다리며 재시도
-MAX_PER_RUN = 12           # 한 주기 처리 상한 (IP 차단·구독 사용량 폭주 방지)
+MAX_PER_RUN = 30           # 한 주기 처리 상한 (IP 차단·구독 사용량 폭주 방지)
+RUN_AFTER_HOUR = 7         # 이 시각(로컬) 이후, 하루 한 번만 실행
 
 log = logging.getLogger("stockbrief")
 
@@ -73,6 +75,13 @@ def collect_new_videos(channels: list[dict], processed: set[str]) -> list[dict]:
         new_videos.extend(fresh)
     new_videos.sort(key=lambda v: v["published"], reverse=True)
     return new_videos[:MAX_PER_RUN]  # 최신 우선, 나머지 백필은 다음 주기로
+
+
+def should_run_daily(now: datetime, last_run_date: str) -> bool:
+    """오전 RUN_AFTER_HOUR시 이후이고 오늘 아직 안 돌았을 때만 True (하루 1회)."""
+    if now.hour < RUN_AFTER_HOUR:
+        return False
+    return last_run_date != now.strftime("%Y-%m-%d")
 
 
 def transcript_wait_expired(published_iso: str, now: datetime | None = None) -> bool:
@@ -134,6 +143,14 @@ def git_push():
 
 def main():
     setup_logging()
+
+    # 하루 1회(오전 7시 이후) 가드 — launchd가 매시간 깨우지만 여기서 거른다.
+    # 테스트 등 강제 실행은 --force.
+    force = "--force" in sys.argv
+    last_run = LAST_RUN_PATH.read_text().strip() if LAST_RUN_PATH.exists() else ""
+    if not force and not should_run_daily(datetime.now(), last_run):
+        return
+
     channels = load_json(CHANNELS_PATH, {})["channels"]
     processed = set(load_json(STATE_PATH, []))
     videos_doc = load_json(DATA_DIR / "videos.json", {"videos": []})
@@ -142,6 +159,7 @@ def main():
     new_videos = collect_new_videos(channels, processed)
     if not new_videos:
         log.info("새 영상 없음")
+        _mark_ran_today()
         return
 
     log.info("새 영상 %d개 처리 시작", len(new_videos))
@@ -176,6 +194,13 @@ def main():
             send_notification(format_video_message(record, app_url))
         except Exception as e:
             log.warning("텔레그램 전송 실패: %s", e)
+
+    _mark_ran_today()
+
+
+def _mark_ran_today():
+    LAST_RUN_PATH.parent.mkdir(exist_ok=True)
+    LAST_RUN_PATH.write_text(datetime.now().strftime("%Y-%m-%d"))
 
 
 if __name__ == "__main__":
