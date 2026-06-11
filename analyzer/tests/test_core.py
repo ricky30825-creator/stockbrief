@@ -4,7 +4,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parents[1]))
 
+from datetime import datetime, timezone
+
 from aggregate import build_stocks
+from main import transcript_wait_expired
 from analyze import _parse_result, extract_json
 from feeds import parse_feed
 from notify import format_video_message
@@ -137,6 +140,19 @@ class TestAggregate(unittest.TestCase):
         ]
         stocks = build_stocks(videos)
         self.assertEqual([s["stock"] for s in stocks], ["테슬라", "애플"])
+
+
+class TestTranscriptWait(unittest.TestCase):
+    NOW = datetime(2026, 6, 11, 12, 0, tzinfo=timezone.utc)
+
+    def test_fresh_video_waits(self):
+        self.assertFalse(transcript_wait_expired("2026-06-11T10:00:00+00:00", self.NOW))
+
+    def test_old_video_expired(self):
+        self.assertTrue(transcript_wait_expired("2026-06-10T12:00:00+00:00", self.NOW))
+
+    def test_bad_date_expired(self):
+        self.assertTrue(transcript_wait_expired("invalid", self.NOW))
 
 
 class TestNotify(unittest.TestCase):

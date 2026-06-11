@@ -14,7 +14,7 @@ from aggregate import build_stocks
 from analyze import analyze_transcript
 from feeds import fetch_channel_videos
 from notify import format_video_message, load_env, send_notification
-from transcript import get_transcript
+from transcript import TransientFetchError, get_transcript
 
 BASE = Path(__file__).parent
 REPO = BASE.parent
@@ -25,6 +25,8 @@ LOG_DIR = BASE / "logs"
 
 MAX_VIDEOS_KEPT = 200      # videos.json에 보관할 최대 영상 수
 FIRST_RUN_PER_CHANNEL = 2  # 최초 실행 시 채널당 분석할 최신 영상 수 (백필 폭주 방지)
+NO_TRANSCRIPT_GRACE_HOURS = 6  # 이 시간 안 된 새 영상은 자막 생성을 기다리며 재시도
+MAX_PER_RUN = 12           # 한 주기 처리 상한 (IP 차단·구독 사용량 폭주 방지)
 
 log = logging.getLogger("stockbrief")
 
@@ -69,19 +71,33 @@ def collect_new_videos(channels: list[dict], processed: set[str]) -> list[dict]:
             v["channel"] = ch["name"]
             v["channel_id"] = ch["channel_id"]
         new_videos.extend(fresh)
-    new_videos.sort(key=lambda v: v["published"])
-    return new_videos
+    new_videos.sort(key=lambda v: v["published"], reverse=True)
+    return new_videos[:MAX_PER_RUN]  # 최신 우선, 나머지 백필은 다음 주기로
+
+
+def transcript_wait_expired(published_iso: str, now: datetime | None = None) -> bool:
+    """업로드 후 충분히 지나 자막 생성을 더 기다릴 필요가 없으면 True."""
+    now = now or datetime.now(timezone.utc)
+    try:
+        published = datetime.fromisoformat(published_iso)
+    except ValueError:
+        return True
+    return (now - published).total_seconds() > NO_TRANSCRIPT_GRACE_HOURS * 3600
 
 
 def process_video(video: dict) -> dict | None:
     """영상 1개 처리. 반환값 None이면 일시 오류 → 이번 회차는 건너뛰고 다음에 재시도."""
     try:
         text = get_transcript(video["video_id"])
-    except Exception as e:
-        log.warning("자막 조회 일시 오류 %s: %s", video["video_id"], e)
+    except TransientFetchError as e:
+        log.warning("자막 조회 일시 오류(재시도 예정) %s: %s", video["video_id"], e)
         return None
     record = {k: video[k] for k in ("video_id", "channel", "channel_id", "title", "published", "url")}
     if text is None:
+        # 갓 올라온 영상은 자동 자막이 아직 안 생겼을 수 있다 → 다음 주기에 재시도
+        if not transcript_wait_expired(video["published"]):
+            log.info("자막 대기(재시도 예정): [%s] %s", video["channel"], video["title"])
+            return None
         record.update(status="no_transcript", summary="", opinions=[])
         log.info("자막 없음: [%s] %s", video["channel"], video["title"])
         return record
