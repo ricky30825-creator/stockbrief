@@ -246,6 +246,44 @@ document.getElementById("tabs").addEventListener("click", (e) => {
 const searchbar = document.getElementById("searchbar");
 const searchInput = document.getElementById("search-input");
 const btnSearch = document.getElementById("btn-search");
+const suggestionsEl = document.getElementById("suggestions");
+
+// 연관검색어: 종목 데이터에서 이름·티커가 일치하는 종목을 추천한다
+function renderSuggestions() {
+  const q = searchInput.value.trim().toLowerCase();
+  if (!q) {
+    suggestionsEl.classList.add("hidden");
+    return;
+  }
+  const matches = state.stocks
+    .filter((s) => s.stock.toLowerCase().includes(q) || (s.ticker || "").toLowerCase().includes(q))
+    .filter((s) => s.stock.toLowerCase() !== q)
+    .slice(0, 8);
+  if (!matches.length) {
+    suggestionsEl.classList.add("hidden");
+    return;
+  }
+  suggestionsEl.innerHTML = matches.map((s) => `
+    <button class="suggestion" data-stock="${esc(s.stock)}">
+      <span class="name">${esc(s.stock)}${s.ticker ? `<small>${esc(s.ticker)}</small>` : ""}</span>
+      <span class="counts">
+        ${s.buy ? `<span class="b">매수 ${s.buy}</span>` : ""}
+        ${s.sell ? `<span class="s">매도 ${s.sell}</span>` : ""}
+        ${s.hold ? `<span class="h">보유·관망 ${s.hold}</span>` : ""}
+      </span>
+    </button>`).join("");
+  suggestionsEl.classList.remove("hidden");
+}
+
+suggestionsEl.addEventListener("click", (e) => {
+  const btn = e.target.closest(".suggestion");
+  if (!btn) return;
+  searchInput.value = btn.dataset.stock;
+  state.query = btn.dataset.stock;
+  suggestionsEl.classList.add("hidden");
+  searchInput.blur(); // 키보드 내리기
+  render();
+});
 
 btnSearch.addEventListener("click", () => {
   const showing = searchbar.classList.toggle("hidden");
@@ -255,18 +293,21 @@ btnSearch.addEventListener("click", () => {
   } else {
     state.query = "";
     searchInput.value = "";
+    suggestionsEl.classList.add("hidden");
     render();
   }
 });
 
 searchInput.addEventListener("input", () => {
   state.query = searchInput.value;
+  renderSuggestions();
   render();
 });
 
 document.getElementById("search-clear").addEventListener("click", () => {
   state.query = "";
   searchInput.value = "";
+  suggestionsEl.classList.add("hidden");
   searchInput.focus();
   render();
 });

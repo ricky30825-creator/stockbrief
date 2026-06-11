@@ -1,4 +1,4 @@
-const CACHE = "stockbrief-v4";
+const CACHE = "stockbrief-v5";
 const SHELL = ["./", "index.html", "style.css", "app.js", "manifest.json"];
 
 self.addEventListener("install", (e) => {
