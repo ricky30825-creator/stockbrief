@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from aggregate import build_stocks
 from main import should_run_daily, transcript_wait_expired
 from analyze import _parse_result, extract_json, parse_cli_envelope
-from feeds import parse_feed
+from feeds import parse_channel_page, parse_feed, parse_relative_time
 from notify import format_video_message
 from transcript import truncate_evenly
 
@@ -31,6 +31,43 @@ class TestFeeds(unittest.TestCase):
         self.assertEqual(videos[0]["video_id"], "abc123")
         self.assertEqual(videos[0]["title"], "영상 제목")
         self.assertIn("watch?v=abc123", videos[0]["url"])
+
+
+class TestChannelPageFallback(unittest.TestCase):
+    NOW = datetime(2026, 6, 11, 12, 0, tzinfo=timezone.utc)
+
+    def test_parse_relative_time_korean(self):
+        dt = parse_relative_time("3시간 전", self.NOW)
+        self.assertEqual(dt, datetime(2026, 6, 11, 9, 0, tzinfo=timezone.utc))
+        dt = parse_relative_time("2일 전 스트리밍", self.NOW)
+        self.assertEqual(dt, datetime(2026, 6, 9, 12, 0, tzinfo=timezone.utc))
+
+    def test_parse_relative_time_fallback_now(self):
+        self.assertEqual(parse_relative_time("실시간", self.NOW), self.NOW)
+
+    def test_parse_lockup_view_model(self):
+        data = {"contents": [{"lockupViewModel": {
+            "contentId": "vid123",
+            "metadata": {"lockupMetadataViewModel": {
+                "title": {"content": "영상 제목"},
+                "rows": [{"content": "조회수 1만회"}, {"content": "5시간 전"}],
+            }},
+        }}]}
+        videos = parse_channel_page(data, now=self.NOW)
+        self.assertEqual(len(videos), 1)
+        self.assertEqual(videos[0]["video_id"], "vid123")
+        self.assertEqual(videos[0]["title"], "영상 제목")
+        self.assertIn("2026-06-11T07:00:00", videos[0]["published"])
+
+    def test_parse_video_renderer_and_dedupe(self):
+        data = [
+            {"videoRenderer": {"videoId": "a1", "title": {"runs": [{"text": "제목A"}]},
+                               "publishedTimeText": {"simpleText": "1일 전"}}},
+            {"videoRenderer": {"videoId": "a1", "title": {"runs": [{"text": "제목A"}]}}},
+        ]
+        videos = parse_channel_page(data, now=self.NOW)
+        self.assertEqual(len(videos), 1)
+        self.assertIn("2026-06-10", videos[0]["published"])
 
 
 class TestTranscript(unittest.TestCase):
