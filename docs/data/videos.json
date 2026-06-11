@@ -1,0 +1,352 @@
+{
+ "generated_at": "2026-06-11T01:05:14.804421+00:00",
+ "videos": [
+  {
+   "video_id": "WLZzm6hq5IE",
+   "channel": "삼프로TV",
+   "channel_id": "UChlv4GSd7OQl3js-jkLOnFA",
+   "title": "지금은 급하게 던질 때가 아닙니다 | 장우진 작가 [더블 체크]",
+   "published": "2026-06-11T00:46:47+00:00",
+   "url": "https://www.youtube.com/watch?v=WLZzm6hq5IE",
+   "status": "analyzed",
+   "summary": "시장이 이란 보복 우려와 선물옵션 동시만기, 스페이스X 상장 등으로 변동성 장세에 접어드는 중. 발화자들은 현금 비중을 높이고 현재 급하게 매도하지 말 것을 강조. 향후 6월은 변동성이 지속될 것으로 예상되며, 타이밍을 맞춰 무조건적인 장기 투자보다는 시장 상황에 맞춰 유동적으로 대응할 것을 조언.",
+   "opinions": [
+    {
+     "stock": "삼성전자",
+     "ticker": "006400",
+     "market": "KR",
+     "stance": "관망",
+     "reasoning": "현재 변동성이 높은 시장 상황에서 현금 보유 비중이 100%일 때만 소량(10~20%) 매수 권유. 급하게 팔지 말고 반등 시 주도주 순환에 집중할 것.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "하이닉스",
+     "ticker": "000660",
+     "market": "KR",
+     "stance": "관망",
+     "reasoning": "현금 비중이 높을 때 소량 진입 권유. 기판 쇼티지 등 반도체 업계 병목 현상에 주의하고 향후 메모리 반도체 수급 개선 신호 대기.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "DWBI",
+     "ticker": null,
+     "market": "KR",
+     "stance": "보유",
+     "reasoning": "원전 관련 주도주로 현재 조정을 받고 있으나 이 자리에서 팔면 안 됨. 향후 정부의 원전 정책 모멘텀 가능성을 고려하여 지켜보기.",
+     "confidence": "high"
+    },
+    {
+     "stock": "SK이터닉스",
+     "ticker": "096770",
+     "market": "KR",
+     "stance": "관망",
+     "reasoning": "KKR의 인수로 글로벌 펀드의 신재생 에너지 평가가 긍정적이나, 실적 확인 전 이슈 주도로 오르는 중이므로 조심 필요. 신재생 섹터 장기 전망은 긍정적.",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "video_id": "RSOtKvknTKg",
+   "channel": "삼프로TV",
+   "channel_id": "UChlv4GSd7OQl3js-jkLOnFA",
+   "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+   "published": "2026-06-11T00:27:28+00:00",
+   "url": "https://www.youtube.com/watch?v=RSOtKvknTKg",
+   "status": "analyzed",
+   "summary": "미국 증시의 반도체 중심 하락과 높은 CPI 발표, 중동 지정학적 리스크, SpaceX 상장 수급 등으로 글로벌 시장이 약세를 보이고 있습니다. 한국 증시도 영향을 받아 코스피가 4.5% 하락했지만, 조선·방산주는 상승세를 보였습니다. 발화자는 다음주 연방준비제도의 기준금리 정책 발표가 시장의 핵심 변수라고 강조하며, 현재 시점에서는 저가 매수 기회를 활용하면서도 신중한 포지셔닝을 권고했습니다.",
+   "opinions": []
+  },
+  {
+   "video_id": "ACMR1ciGqwE",
+   "channel": "토마토증권통",
+   "channel_id": "UCgJ5pT6S2NuTVP-6-AlLZew",
+   "title": "높은 변동성 장세 속 반도체 말고' 이주식'에 주목하라! #트럼프 #이란 #반도체 #삼성전자 #SK하이닉스 #환율 #수급 #2차전지 #금융",
+   "published": "2026-06-10T23:55:20+00:00",
+   "url": "https://www.youtube.com/watch?v=ACMR1ciGqwE",
+   "status": "analyzed",
+   "summary": "미국-이란 갈등과 금리 우려로 높은 변동성이 이어지고 있으며, 특히 반도체주 중심으로 하락했습니다. 외국인의 지속적 매도와 고점에 출시된 레버리지 ETF로 인한 수급 악화가 변동성을 확대하고 있습니다. 펀더멘탈은 여전히 양호(경상수지 흑자)하므로, 포트폴리오 변동성 감소를 위해 조선·2차전지·금융 등 다른 섹터 분산 투자를 권고합니다.",
+   "opinions": [
+    {
+     "stock": "HD 현대중공업",
+     "ticker": "051600",
+     "market": "KR",
+     "stance": "매수",
+     "reasoning": "삼성상선에 대한 마진이 15%에 달해 수익성이 우수하며, 데이터센터형 발전 엔진이라는 새로운 수익 모델 등장. 기술적으로 60일선(약 60만원) 근처에서 지지할 가능성이 높고 수급 약세로 저평가된 상태.",
+     "confidence": "high"
+    },
+    {
+     "stock": "LG 에너지 솔루션",
+     "ticker": "373220",
+     "market": "KR",
+     "stance": "매수",
+     "reasoning": "ESS 수요 급증 모멘텀(최소 5년 이상 지속 예상)으로 매출 성장 확실. 유럽 전기차 수요 회복 및 미국 시장 고정비 부담 완화로 1분기 이후 실적 개선 기대. 미국 IRA·유럽 재생에너지 정책으로 수요 공고.",
+     "confidence": "high"
+    },
+    {
+     "stock": "NH 투자 증권",
+     "ticker": "005940",
+     "market": "KR",
+     "stance": "매수",
+     "reasoning": "높은 거래대금(40조원대)에도 불구하고 브로커리지 중심으로 실적이 우수하며, IMA 등 자금조달 수단으로 추가 수익 창출. 주가가 지지선까지 하락해 배당 매력 부각, 포트폴리오 변동성 감소 효과.",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "video_id": "FyCtInegciU",
+   "channel": "토마토증권통",
+   "channel_id": "UCgJ5pT6S2NuTVP-6-AlLZew",
+   "title": "[모닝토마토] CPI 호재에도 하락한 이유! 시장이 진짜 두려워하는 것은? ★한선호 전문가★",
+   "published": "2026-06-10T23:28:01+00:00",
+   "url": "https://www.youtube.com/watch?v=FyCtInegciU",
+   "status": "no_transcript",
+   "summary": "",
+   "opinions": []
+  },
+  {
+   "video_id": "rCLD_H4U01s",
+   "channel": "미국주식으로은퇴하기",
+   "channel_id": "UCNnwmqZOxSuOiF3_c7mAGWA",
+   "title": "천만 원 ➡️ ??억 원 (feat. 복리의 마법)  |  미주은 모멘텀 투자 101 - 10편",
+   "published": "2026-06-10T12:00:25+00:00",
+   "url": "https://www.youtube.com/watch?v=rCLD_H4U01s",
+   "status": "analyzed",
+   "summary": "영상은 초기 투자금이 적어도 모멘텀 투자 전략을 따르면 장기간에 걸쳐 복리를 통해 큰 수익을 얻을 수 있음을 강조한다. 발화자는 S&P 500의 연평균 수익률 10%를 벤치마크로 제시하면서, 모멘텀 투자로 연평균 20% 수익 달성이 가능하며, 이는 30년 투자 시 1천만 원을 23억 원으로 불릴 수 있다고 설명한다. 투자 자금의 규모와 포트폴리오 구성은 무관하며, 중요한 것은 시장 수익률을 2배 이상 초과 달성하는 것이라고 강조한다.",
+   "opinions": []
+  },
+  {
+   "video_id": "0DdOIhaumYI",
+   "channel": "전인구경제연구소",
+   "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
+   "title": "2008년 리먼은 망하고 골드만삭스는 살아남은 이유(ft.생존지능)",
+   "published": "2026-06-10T09:57:22+00:00",
+   "url": "https://www.youtube.com/watch?v=0DdOIhaumYI",
+   "status": "analyzed",
+   "summary": "영상은 2008년 리먼 사태와 현재 AI 버블을 비교하며, 당시 골드만삭스가 철저한 리스크 관리와 현실 직시를 통해 생존한 사례를 소개합니다. AI 모델 기업들이 대부분 적자를 기록하고 있으나 실제 수익이 발생하는 점이 닷컴 버블과의 차이입니다. 위기 상황에서 기업의 생존 여부는 CEO의 리더십과 리스크 관리 능력에 의해 결정되며, 투자자도 수치 데이터를 통해 기업의 재무 건전성을 평가하고 손실을 적절히 인정해야 합니다.",
+   "opinions": []
+  },
+  {
+   "video_id": "_m8GXmAe-Ew",
+   "channel": "미국주식으로은퇴하기",
+   "channel_id": "UCNnwmqZOxSuOiF3_c7mAGWA",
+   "title": "[미주은행] ‘스트레스’와 ‘열정’은 종이 한 장 차이!",
+   "published": "2026-06-10T09:00:02+00:00",
+   "url": "https://www.youtube.com/watch?v=_m8GXmAe-Ew",
+   "status": "analyzed",
+   "summary": "채널 운영자가 호텔 총지배인에서 유튜버로 전직한 개인 경험을 바탕으로, 스트레스와 열정의 차이를 설명한다. 스트레스는 원하지 않는 일을 강요받을 때, 열정은 자신이 원하는 일에 몰입할 때 발생하는 심리 상태이며, 이 둘은 종이 한 장 차이라고 강조한다. 영상은 자신에게 맞지 않는 직책에서 벗어나 적성에 맞는 업무(예약부 매니저)로 옮기면서 일에 대한 만족도가 극적으로 변했던 경험을 공유하며, 직장을 옮겨다니며 자신에게 어울리는 자리를 찾는 것이 진정한 워라벨의 시작이라고 주장한다.",
+   "opinions": []
+  },
+  {
+   "video_id": "5sp8xisMihc",
+   "channel": "소수몽키",
+   "channel_id": "UCC3yfxS5qC6PCwDzetUuEWg",
+   "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
+   "published": "2026-06-09T11:58:23+00:00",
+   "url": "https://www.youtube.com/watch?v=5sp8xisMihc",
+   "status": "analyzed",
+   "summary": "트럼프 행정부가 오픈 AI, 엔트로픽, 스페이스 X 등 주요 AI 기업에 지분 투자를 검토하고 공공 펀드를 통해 국민에게 배당금을 배분할 계획을 발표했습니다. 발화자는 이를 AI 인프라 투자 사이클 강화와 중국과의 경쟁을 위한 정책으로 평가하며, 반도체, 메모리, 전력 인프라 등 관련 산업이 중기적으로 긍정적인 전망을 가질 것으로 예상합니다.",
+   "opinions": [
+    {
+     "stock": "인텔",
+     "ticker": "INTC",
+     "market": "US",
+     "stance": "보유",
+     "reasoning": "발화자가 인텔 투자로 6~7배의 수익을 얻었으며, 트럼프 대통령도 인텔에 대해 주기적으로 긍정적으로 언급합니다. AI 인프라 투자 사이클에서 반도체 기업들의 수혜를 기대할 수 있습니다.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "반도체 ETF",
+     "ticker": null,
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "AI 인프라 투자 사이클에서 반도체는 핵심 수혜 분야이며, 발화자가 명시적으로 추가 매수를 계획 중입니다.",
+     "confidence": "high"
+    },
+    {
+     "stock": "메모리 ETF",
+     "ticker": null,
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "AI 데이터 센터 투자로 인한 메모리 반도체 수요 증가가 예상되며, 발화자가 명시적으로 투자를 권장합니다.",
+     "confidence": "high"
+    },
+    {
+     "stock": "전력 인프라 ETF",
+     "ticker": null,
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "AI 데이터 센터 운영에 필수적인 전력 인프라 투자가 트럼프 행정부의 우선순위이며, 발화자가 명시적으로 투자를 권장합니다.",
+     "confidence": "high"
+    },
+    {
+     "stock": "나스닥 ETF",
+     "ticker": null,
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "AI 관련 기업들에 종합적으로 투자할 수 있는 수단으로, 발화자가 투자 옵션으로 제시합니다.",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "video_id": "QVwUECYfmPs",
+   "channel": "전인구경제연구소",
+   "channel_id": "UCznImSIaxZR7fdLCICLdgaQ",
+   "title": "인구 감소의 시대, 돈은 여기로 몰립니다(ft. 고우림 저자 2부)",
+   "published": "2026-06-09T03:28:19+00:00",
+   "url": "https://www.youtube.com/watch?v=QVwUECYfmPs",
+   "status": "analyzed",
+   "summary": "영상은 인구 감소 시대의 경제 구조 변화를 다룬다. 고령층은 이미 다량의 실물자산을 보유하고 있으며, 향후 이들의 자산이 부동산에서 금융자산으로 이동할 것으로 예상된다. 이 과정에서 주식시장과 금융투자가 활성화되고, 고령층 대상 서비스 및 로봇 기술이 미래 성장 기회가 될 것으로 제시된다.",
+   "opinions": [
+    {
+     "stock": "증권사",
+     "ticker": null,
+     "market": "KR",
+     "stance": "매수",
+     "reasoning": "고령층의 금융자산 유동화 과정에서 증권사가 수혜를 입을 것으로 명시적으로 언급. 부동산에서 주식시장으로의 자산 이동으로 투자 수요가 증가할 것으로 전망.",
+     "confidence": "high"
+    },
+    {
+     "stock": "Tesla",
+     "ticker": "TSLA",
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "고령층의 대면 서비스 수요 증가 속에서 휴먼노이드 로봇 기술의 필요성 강조. 자동화된 개인 비서 역할로 항공권 예약 등 서비스 제공 가능성 언급.",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "video_id": "pkVOkS2Rs-c",
+   "channel": "소수몽키",
+   "channel_id": "UCC3yfxS5qC6PCwDzetUuEWg",
+   "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+   "published": "2026-06-08T12:55:26+00:00",
+   "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c",
+   "status": "analyzed",
+   "summary": "주 후반부 증시 급락의 주요 원인은 긴축 우려와 유동성 흡수 우려(스페이스X 상장, 구글 유상 증자 등)이며, 메모리·CPU 등 AI 인프라주가 고점 대비 15~20% 하락했다. 발화자는 이를 매수 기회로 보며, 구글의 역대 최대 유상 증자(850억 달러)는 AI 인프라 투자 증가를 의미하므로 장기적으로 호재라고 평가한다. 젠슨 황의 'AI 에이전트 시대' 강조와 메모리 부족 언급, 머스크의 '미국 고성능 메모리 칩이 제로'라는 발언은 메모리·반도체 주도주들의 강세를 뒷받침한다.",
+   "opinions": [
+    {
+     "stock": "마이크론",
+     "ticker": "MU",
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "머스크가 미국의 고성능 메모리 칩이 제로라고 강조했으며, 마이크론이 2028년부터 생산 예정이라 언급. 메모리 부족이 극심한 상황에서 주요 수혜주로 평가.",
+     "confidence": "high"
+    },
+    {
+     "stock": "SK 하이닉스",
+     "ticker": "000660",
+     "market": "KR",
+     "stance": "매수",
+     "reasoning": "젠슨 황이 7개월 내 7회 SK그룹 회장과 회동했으며, 컴퓨텍스에서 SK 하이닉스 부스를 방문해 웨이퍼에 '더 많이 만들어 달라'고 사인. 메모리 부족이 극심한 상황에서 가장 중요한 공급처로 지목.",
+     "confidence": "high"
+    },
+    {
+     "stock": "마벨",
+     "ticker": "MRVL",
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "젠슨 황이 기조연설에서 명시적으로 '다음 1조 달러 회사'라고 추천. AI 에이전트 시대의 핵심은 연결성(광통신)이며 마벨이 중심 역할. S&P 500 편입 예정으로 추가 상승 기대.",
+     "confidence": "high"
+    },
+    {
+     "stock": "ASML",
+     "ticker": "ASML",
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "머스크가 '유럽에서 가장 위대한 회사'라고 평가하며, 최첨단 반도체 생산에 필수적인 반도체 장비 업체. 머스크의 테라 반도체 공장 건설과 협업 논의 중이라 언급.",
+     "confidence": "high"
+    },
+    {
+     "stock": "인텔",
+     "ticker": "INTC",
+     "market": "US",
+     "stance": "보유",
+     "reasoning": "AI 에이전트 시대 CPU의 중요성이 강조되었으며, CEO들이 직접 연락할 정도로 CPU 공급 수요가 높다고 언급. 다만 명시적 추천보다는 긍정적 평가 수준.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "AMD",
+     "ticker": "AMD",
+     "market": "US",
+     "stance": "보유",
+     "reasoning": "AI 에이전트 시대 CPU 주도주로 언급되었으며, 마벨에 지분 투자를 시작해 주목받음. 메모리, CPU 함께 가는 사이클의 주도주 중 하나.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "ARM",
+     "ticker": "ARM",
+     "market": "US",
+     "stance": "보유",
+     "reasoning": "AI 에이전트 10억 대에서 수십억 대로 확대되면서 CPU 수요 폭증이 예상되며, 그 수요를 ARM이 담당할 것이라 언급. 다만 명시적 추천보다는 수혜 예상 수준.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "Qualcomm",
+     "ticker": "QCOM",
+     "market": "US",
+     "stance": "보유",
+     "reasoning": "AI 에이전트 시대에 스마트폰(60억 대), 디바이스(20억 대), PC(20억 대), 자동차(5억 대) 등 100억 대 디바이스가 업그레이드되면서 사상 최대 규모 업그레이드 사이클 예상.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "Lumentum",
+     "ticker": "LITE",
+     "market": "US",
+     "stance": "보유",
+     "reasoning": "엔비디아-젠슨이 광통신주들에 지분 투자 중이며, AI 데이터센터 시대 구리 케이블을 광통신으로 전환하면서 수요 증가 예상.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "Coherent",
+     "ticker": "COHR",
+     "market": "US",
+     "stance": "보유",
+     "reasoning": "엔비디아가 지분 투자 및 협업 발표. AI 인프라 시대 광통신 연결성의 중요성 강조로 인한 수혜주.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "Corning",
+     "ticker": "GLW",
+     "market": "US",
+     "stance": "보유",
+     "reasoning": "엔비디아가 광통신주로 지분 투자 및 협업 발표. AI 데이터센터 광통신 케이블 수요 증가 수혜.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "Google (알파벳)",
+     "ticker": "GOOGL",
+     "market": "US",
+     "stance": "관망",
+     "reasoning": "역대 최대 유상 증자(800-850억 달러) 발표로 AI 투자 의지는 강하나, 단기적으로 유동성 흡수 우려와 자금 조달 부담으로 악재 가능. 다만 AI 인프라 투자는 계속될 것으로 평가.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "Meta",
+     "ticker": "META",
+     "market": "US",
+     "stance": "관망",
+     "reasoning": "유상 증자 논의 중이며 AI 관련 자본 지출이 1450억 달러로 증가. 단기적으로 유동성 우려로 악재 가능하나, AI 투자는 계속될 것으로 예상.",
+     "confidence": "medium"
+    },
+    {
+     "stock": "반도체 ETF",
+     "ticker": null,
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "고점 대비 13% 하락했으며, AI 인프라 사이클의 주요 수혜 자산. 6월 조정 이후 회복될 것으로 기대.",
+     "confidence": "high"
+    },
+    {
+     "stock": "메모리 ETF",
+     "ticker": null,
+     "market": "US",
+     "stance": "매수",
+     "reasoning": "고점 대비 20.5% 하락. 메모리가 이번 사이클 최고 주도주이며, 발화자가 개인적으로 분할 매수할 계획이라 언급.",
+     "confidence": "high"
+    }
+   ]
+  }
+ ]
+}
