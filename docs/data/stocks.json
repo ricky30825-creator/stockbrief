@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-06-11T01:12:53.683610+00:00",
+ "generated_at": "2026-06-11T01:13:57.719102+00:00",
  "stocks": [
   {
    "stock": "삼성전자",
-   "ticker": "005930",
+   "ticker": null,
    "market": "KR",
    "buy": 1,
    "sell": 0,
@@ -33,7 +33,7 @@
   },
   {
    "stock": "하이닉스",
-   "ticker": "000660",
+   "ticker": null,
    "market": "KR",
    "buy": 1,
    "sell": 0,
@@ -73,7 +73,7 @@
   },
   {
    "stock": "SK 이토닉스",
-   "ticker": "011810",
+   "ticker": null,
    "market": "KR",
    "buy": 0,
    "sell": 0,
@@ -153,7 +153,7 @@
   },
   {
    "stock": "SK하이닉스",
-   "ticker": "000660",
+   "ticker": null,
    "market": "KR",
    "buy": 1,
    "sell": 0,
@@ -183,7 +183,7 @@
   },
   {
    "stock": "HD현대중공업",
-   "ticker": "010620",
+   "ticker": null,
    "market": "KR",
    "buy": 1,
    "sell": 0,
@@ -203,7 +203,7 @@
   },
   {
    "stock": "LG에너지솔루션",
-   "ticker": "373220",
+   "ticker": null,
    "market": "KR",
    "buy": 1,
    "sell": 0,
@@ -223,7 +223,7 @@
   },
   {
    "stock": "NH투자증권",
-   "ticker": "005940",
+   "ticker": null,
    "market": "KR",
    "buy": 1,
    "sell": 0,

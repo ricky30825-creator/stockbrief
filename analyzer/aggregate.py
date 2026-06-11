@@ -6,7 +6,12 @@ def build_stocks(videos: list[dict]) -> list[dict]:
     stocks: dict[str, dict] = {}
     for video in videos:
         for op in video.get("opinions") or []:
-            key = (op.get("ticker") or op["stock"]).upper()
+            # 미국 주식은 심볼이 신뢰할 만하지만, 한국 종목 코드는 LLM이
+            # 잘못 추측할 수 있어 종목명(공백 제거)으로 묶는다.
+            if op.get("market") == "US" and op.get("ticker"):
+                key = op["ticker"].upper()
+            else:
+                key = op["stock"].replace(" ", "").upper()
             entry = stocks.setdefault(
                 key,
                 {

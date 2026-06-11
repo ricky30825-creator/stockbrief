@@ -96,6 +96,34 @@ class TestAggregate(unittest.TestCase):
         self.assertEqual((s["buy"], s["sell"], s["hold"]), (1, 1, 0))
         self.assertEqual(s["opinions"][0]["channel"], "채널B")  # 최신순
 
+    def test_us_stocks_grouped_by_ticker_despite_name_variants(self):
+        videos = [
+            _video("v1", "A", "2026-06-10T00:00:00+00:00", [
+                {"stock": "엔비디아", "ticker": "nvda", "market": "US",
+                 "stance": "매수", "reasoning": "r", "confidence": "high"},
+            ]),
+            _video("v2", "B", "2026-06-11T00:00:00+00:00", [
+                {"stock": "NVIDIA", "ticker": "NVDA", "market": "US",
+                 "stance": "매도", "reasoning": "r", "confidence": "high"},
+            ]),
+        ]
+        stocks = build_stocks(videos)
+        self.assertEqual(len(stocks), 1)
+
+    def test_kr_stocks_grouped_by_name_not_unreliable_ticker(self):
+        videos = [
+            _video("v1", "A", "2026-06-10T00:00:00+00:00", [
+                {"stock": "삼성전자", "ticker": "006400", "market": "KR",
+                 "stance": "매수", "reasoning": "r", "confidence": "high"},
+            ]),
+            _video("v2", "B", "2026-06-11T00:00:00+00:00", [
+                {"stock": "삼성 전자", "ticker": "005930", "market": "KR",
+                 "stance": "보유", "reasoning": "r", "confidence": "high"},
+            ]),
+        ]
+        stocks = build_stocks(videos)
+        self.assertEqual(len(stocks), 1)
+
     def test_sorted_by_latest_opinion(self):
         videos = [
             _video("v1", "A", "2026-06-11T00:00:00+00:00", [
