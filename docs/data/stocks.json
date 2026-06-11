@@ -1,23 +1,33 @@
 {
- "generated_at": "2026-06-11T01:05:14.805092+00:00",
+ "generated_at": "2026-06-11T01:12:53.683610+00:00",
  "stocks": [
   {
    "stock": "삼성전자",
-   "ticker": "006400",
+   "ticker": "005930",
    "market": "KR",
-   "buy": 0,
+   "buy": 1,
    "sell": 0,
    "hold": 1,
    "opinions": [
     {
      "channel": "삼프로TV",
-     "stance": "관망",
-     "reasoning": "현재 변동성이 높은 시장 상황에서 현금 보유 비중이 100%일 때만 소량(10~20%) 매수 권유. 급하게 팔지 말고 반등 시 주도주 순환에 집중할 것.",
+     "stance": "매수",
+     "reasoning": "현금 비중이 100%인 경우, 10-20% 정도 진입을 권유. 하강장에서 주도주로서 수익 기회가 있으며, 지난 5개월간 2,000대부터 7,000대까지 상승했던 주도주.",
      "confidence": "medium",
      "video_id": "WLZzm6hq5IE",
      "title": "지금은 급하게 던질 때가 아닙니다 | 장우진 작가 [더블 체크]",
      "published": "2026-06-11T00:46:47+00:00",
      "url": "https://www.youtube.com/watch?v=WLZzm6hq5IE"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "현재의 높은 영업이익을 AI 데이터센터 등 지속성 있는 신사업에 투자한다면 TSMC 수준의 높은 평가를 받을 수 있으나, 수익금의 용도가 매우 중요한 판단 요소",
+     "confidence": "medium",
+     "video_id": "RSOtKvknTKg",
+     "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+     "published": "2026-06-11T00:27:28+00:00",
+     "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
     }
    ]
   },
@@ -27,32 +37,22 @@
    "market": "KR",
    "buy": 1,
    "sell": 0,
-   "hold": 1,
+   "hold": 0,
    "opinions": [
     {
      "channel": "삼프로TV",
-     "stance": "관망",
-     "reasoning": "현금 비중이 높을 때 소량 진입 권유. 기판 쇼티지 등 반도체 업계 병목 현상에 주의하고 향후 메모리 반도체 수급 개선 신호 대기.",
+     "stance": "매수",
+     "reasoning": "현금 비중이 100%인 경우 삼성전자와 함께 10-20% 진입 권유. 메모리 반도체의 중장기 구조적 가치에 대한 확신 유지, 캐시우드도 메모리 반도체에 컨빅션 있다고 언급.",
      "confidence": "medium",
      "video_id": "WLZzm6hq5IE",
      "title": "지금은 급하게 던질 때가 아닙니다 | 장우진 작가 [더블 체크]",
      "published": "2026-06-11T00:46:47+00:00",
      "url": "https://www.youtube.com/watch?v=WLZzm6hq5IE"
-    },
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "젠슨 황이 7개월 내 7회 SK그룹 회장과 회동했으며, 컴퓨텍스에서 SK 하이닉스 부스를 방문해 웨이퍼에 '더 많이 만들어 달라'고 사인. 메모리 부족이 극심한 상황에서 가장 중요한 공급처로 지목.",
-     "confidence": "high",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
     }
    ]
   },
   {
-   "stock": "DWBI",
+   "stock": "두빌",
    "ticker": null,
    "market": "KR",
    "buy": 0,
@@ -62,27 +62,7 @@
     {
      "channel": "삼프로TV",
      "stance": "보유",
-     "reasoning": "원전 관련 주도주로 현재 조정을 받고 있으나 이 자리에서 팔면 안 됨. 향후 정부의 원전 정책 모멘텀 가능성을 고려하여 지켜보기.",
-     "confidence": "high",
-     "video_id": "WLZzm6hq5IE",
-     "title": "지금은 급하게 던질 때가 아닙니다 | 장우진 작가 [더블 체크]",
-     "published": "2026-06-11T00:46:47+00:00",
-     "url": "https://www.youtube.com/watch?v=WLZzm6hq5IE"
-    }
-   ]
-  },
-  {
-   "stock": "SK이터닉스",
-   "ticker": "096770",
-   "market": "KR",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "삼프로TV",
-     "stance": "관망",
-     "reasoning": "KKR의 인수로 글로벌 펀드의 신재생 에너지 평가가 긍정적이나, 실적 확인 전 이슈 주도로 오르는 중이므로 조심 필요. 신재생 섹터 장기 전망은 긍정적.",
+     "reasoning": "전저점 수준까지 하락했으며, 정부의 원전 정책(마누 또는 마스터플랜) 발표 가능성으로 향후 모멘텀 기대. 거래량 패턴을 확인하며 지켜봐야 할 시점.",
      "confidence": "medium",
      "video_id": "WLZzm6hq5IE",
      "title": "지금은 급하게 던질 때가 아닙니다 | 장우진 작가 [더블 체크]",
@@ -92,8 +72,118 @@
    ]
   },
   {
-   "stock": "HD 현대중공업",
-   "ticker": "051600",
+   "stock": "SK 이토닉스",
+   "ticker": "011810",
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "KKR의 인수로 신재생에너지에 대한 긍정적 신호 있으나, 실적 확인 전 이슈 드리븐 상승이므로 주의. 호재 대비 밸류에이션 이미 반영된 상태에서 조심스러운 상황.",
+     "confidence": "low",
+     "video_id": "WLZzm6hq5IE",
+     "title": "지금은 급하게 던질 때가 아닙니다 | 장우진 작가 [더블 체크]",
+     "published": "2026-06-11T00:46:47+00:00",
+     "url": "https://www.youtube.com/watch?v=WLZzm6hq5IE"
+    }
+   ]
+  },
+  {
+   "stock": "TSMC",
+   "ticker": "TSM",
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "5월 누적 매출 약 100조원(연간 220조원대)으로 삼성전자의 영업이익 수준에 미치지 않지만, 지속적인 고수익성을 유지하는 우수한 회사로 평가",
+     "confidence": "medium",
+     "video_id": "RSOtKvknTKg",
+     "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+     "published": "2026-06-11T00:27:28+00:00",
+     "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
+    }
+   ]
+  },
+  {
+   "stock": "Oracle",
+   "ticker": "ORCL",
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "호실적 발표에도 불구하고 추가 200억 달러 자금 조달 계획 발표로 자본 조달의 어려움을 시사하며, 이는 자금 조달이 쉬웠다면 유상증자를 하지 않았을 것이라는 우려",
+     "confidence": "medium",
+     "video_id": "RSOtKvknTKg",
+     "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+     "published": "2026-06-11T00:27:28+00:00",
+     "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
+    }
+   ]
+  },
+  {
+   "stock": "Supermicro Computer",
+   "ticker": "SMCI",
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "70억 달러 자금 조달 계획 발표 후 28% 폭락, AI 자본 조달 관련 우려와 자본 조달 어려움의 신호로 작용",
+     "confidence": "low",
+     "video_id": "RSOtKvknTKg",
+     "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+     "published": "2026-06-11T00:27:28+00:00",
+     "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
+    }
+   ]
+  },
+  {
+   "stock": "SK하이닉스",
+   "ticker": "000660",
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "엔비디아와 협력하여 일본의 AI 팩토리 구축 계획 및 한국 광주 지역 공장 검토, 협력사 납품가 인상 등으로 지속적인 수익 사업 확대 추진 중",
+     "confidence": "medium",
+     "video_id": "RSOtKvknTKg",
+     "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+     "published": "2026-06-11T00:27:28+00:00",
+     "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "한국 메모리 대장으로 젠슨이 직접 여러 번 방문해 추가 생산을 요청했다. 마이크론과 거의 동일하게 움직이며 메모리 사이클의 주도주다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "HD현대중공업",
+   "ticker": "010620",
    "market": "KR",
    "buy": 1,
    "sell": 0,
@@ -102,7 +192,7 @@
     {
      "channel": "토마토증권통",
      "stance": "매수",
-     "reasoning": "삼성상선에 대한 마진이 15%에 달해 수익성이 우수하며, 데이터센터형 발전 엔진이라는 새로운 수익 모델 등장. 기술적으로 60일선(약 60만원) 근처에서 지지할 가능성이 높고 수급 약세로 저평가된 상태.",
+     "reasoning": "삼성 상선 마진 약 15%의 높은 수익성과 데이터센터 발전 엔진 신사업으로 실적 개선 중이나 수급 요인으로 주가 하락. 차트상 60일선 지지 가능성 높고 투자 가격 매력적.",
      "confidence": "high",
      "video_id": "ACMR1ciGqwE",
      "title": "높은 변동성 장세 속 반도체 말고' 이주식'에 주목하라! #트럼프 #이란 #반도체 #삼성전자 #SK하이닉스 #환율 #수급 #2차전지 #금융",
@@ -112,7 +202,7 @@
    ]
   },
   {
-   "stock": "LG 에너지 솔루션",
+   "stock": "LG에너지솔루션",
    "ticker": "373220",
    "market": "KR",
    "buy": 1,
@@ -122,7 +212,7 @@
     {
      "channel": "토마토증권통",
      "stance": "매수",
-     "reasoning": "ESS 수요 급증 모멘텀(최소 5년 이상 지속 예상)으로 매출 성장 확실. 유럽 전기차 수요 회복 및 미국 시장 고정비 부담 완화로 1분기 이후 실적 개선 기대. 미국 IRA·유럽 재생에너지 정책으로 수요 공고.",
+     "reasoning": "ESS 중심으로 최소 5년 이상 성장 모멘텀 확보. 1분기 고정비 부담 후 2분기부터 실적 개선 예상되며, 유럽 전기차와 미국 ESS 시장 모두 호조.",
      "confidence": "high",
      "video_id": "ACMR1ciGqwE",
      "title": "높은 변동성 장세 속 반도체 말고' 이주식'에 주목하라! #트럼프 #이란 #반도체 #삼성전자 #SK하이닉스 #환율 #수급 #2차전지 #금융",
@@ -132,7 +222,7 @@
    ]
   },
   {
-   "stock": "NH 투자 증권",
+   "stock": "NH투자증권",
    "ticker": "005940",
    "market": "KR",
    "buy": 1,
@@ -142,7 +232,7 @@
     {
      "channel": "토마토증권통",
      "stance": "매수",
-     "reasoning": "높은 거래대금(40조원대)에도 불구하고 브로커리지 중심으로 실적이 우수하며, IMA 등 자금조달 수단으로 추가 수익 창출. 주가가 지지선까지 하락해 배당 매력 부각, 포트폴리오 변동성 감소 효과.",
+     "reasoning": "금융·증권주 실적 우수하고 높은 거래대금으로 브로커리지 수익 양호. 수급 요인으로 주가가 지지선까지 하락하면서 실적 대비 저평가 상태이며 배당 매력 부각.",
      "confidence": "high",
      "video_id": "ACMR1ciGqwE",
      "title": "높은 변동성 장세 속 반도체 말고' 이주식'에 주목하라! #트럼프 #이란 #반도체 #삼성전자 #SK하이닉스 #환율 #수급 #2차전지 #금융",
@@ -155,36 +245,6 @@
    "stock": "인텔",
    "ticker": "INTC",
    "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 2,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "보유",
-     "reasoning": "발화자가 인텔 투자로 6~7배의 수익을 얻었으며, 트럼프 대통령도 인텔에 대해 주기적으로 긍정적으로 언급합니다. AI 인프라 투자 사이클에서 반도체 기업들의 수혜를 기대할 수 있습니다.",
-     "confidence": "medium",
-     "video_id": "5sp8xisMihc",
-     "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
-     "published": "2026-06-09T11:58:23+00:00",
-     "url": "https://www.youtube.com/watch?v=5sp8xisMihc"
-    },
-    {
-     "channel": "소수몽키",
-     "stance": "보유",
-     "reasoning": "AI 에이전트 시대 CPU의 중요성이 강조되었으며, CEO들이 직접 연락할 정도로 CPU 공급 수요가 높다고 언급. 다만 명시적 추천보다는 긍정적 평가 수준.",
-     "confidence": "medium",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "반도체 ETF",
-   "ticker": null,
-   "market": "US",
    "buy": 2,
    "sell": 0,
    "hold": 0,
@@ -192,7 +252,7 @@
     {
      "channel": "소수몽키",
      "stance": "매수",
-     "reasoning": "AI 인프라 투자 사이클에서 반도체는 핵심 수혜 분야이며, 발화자가 명시적으로 추가 매수를 계획 중입니다.",
+     "reasoning": "트럼프 대통령이 인텔에 투자해 6-7배 수익을 얻은 성공 사례를 직접 언급하며, AI 인프라 투자 사이클에서 계속 언급하는 핵심 종목으로 평가.",
      "confidence": "high",
      "video_id": "5sp8xisMihc",
      "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
@@ -202,7 +262,7 @@
     {
      "channel": "소수몽키",
      "stance": "매수",
-     "reasoning": "고점 대비 13% 하락했으며, AI 인프라 사이클의 주요 수혜 자산. 6월 조정 이후 회복될 것으로 기대.",
+     "reasoning": "AI 에이전트 시대의 CPU 공급사로 CEO들이 직접 공급 확보를 요청할 정도다. 메모리와 함께 가는 AI 인프라 사이클의 주도주다.",
      "confidence": "high",
      "video_id": "pkVOkS2Rs-c",
      "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
@@ -212,37 +272,7 @@
    ]
   },
   {
-   "stock": "메모리 ETF",
-   "ticker": null,
-   "market": "US",
-   "buy": 2,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "AI 데이터 센터 투자로 인한 메모리 반도체 수요 증가가 예상되며, 발화자가 명시적으로 투자를 권장합니다.",
-     "confidence": "high",
-     "video_id": "5sp8xisMihc",
-     "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
-     "published": "2026-06-09T11:58:23+00:00",
-     "url": "https://www.youtube.com/watch?v=5sp8xisMihc"
-    },
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "고점 대비 20.5% 하락. 메모리가 이번 사이클 최고 주도주이며, 발화자가 개인적으로 분할 매수할 계획이라 언급.",
-     "confidence": "high",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "전력 인프라 ETF",
+   "stock": "오픈 AI",
    "ticker": null,
    "market": "US",
    "buy": 1,
@@ -252,7 +282,7 @@
     {
      "channel": "소수몽키",
      "stance": "매수",
-     "reasoning": "AI 데이터 센터 운영에 필수적인 전력 인프라 투자가 트럼프 행정부의 우선순위이며, 발화자가 명시적으로 투자를 권장합니다.",
+     "reasoning": "트럼프 행정부가 지분 투자를 직접 검토 중이며, 공공 펀드 구성을 주도하는 AI 인프라 투자의 최상위 대상 기업으로 위치.",
      "confidence": "high",
      "video_id": "5sp8xisMihc",
      "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
@@ -262,7 +292,7 @@
    ]
   },
   {
-   "stock": "나스닥 ETF",
+   "stock": "앤트로픽",
    "ticker": null,
    "market": "US",
    "buy": 1,
@@ -272,8 +302,8 @@
     {
      "channel": "소수몽키",
      "stance": "매수",
-     "reasoning": "AI 관련 기업들에 종합적으로 투자할 수 있는 수단으로, 발화자가 투자 옵션으로 제시합니다.",
-     "confidence": "medium",
+     "reasoning": "트럼프 행정부가 주요 AI 리더로 지정해 지분 투자를 검토 중이며, 공공 펀드의 핵심 투자 대상으로 평가.",
+     "confidence": "high",
      "video_id": "5sp8xisMihc",
      "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
      "published": "2026-06-09T11:58:23+00:00",
@@ -282,42 +312,62 @@
    ]
   },
   {
-   "stock": "증권사",
+   "stock": "스페이스 X",
    "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "전인구경제연구소",
-     "stance": "매수",
-     "reasoning": "고령층의 금융자산 유동화 과정에서 증권사가 수혜를 입을 것으로 명시적으로 언급. 부동산에서 주식시장으로의 자산 이동으로 투자 수요가 증가할 것으로 전망.",
-     "confidence": "high",
-     "video_id": "QVwUECYfmPs",
-     "title": "인구 감소의 시대, 돈은 여기로 몰립니다(ft. 고우림 저자 2부)",
-     "published": "2026-06-09T03:28:19+00:00",
-     "url": "https://www.youtube.com/watch?v=QVwUECYfmPs"
-    }
-   ]
-  },
-  {
-   "stock": "Tesla",
-   "ticker": "TSLA",
    "market": "US",
    "buy": 1,
    "sell": 0,
    "hold": 0,
    "opinions": [
     {
-     "channel": "전인구경제연구소",
+     "channel": "소수몽키",
      "stance": "매수",
-     "reasoning": "고령층의 대면 서비스 수요 증가 속에서 휴먼노이드 로봇 기술의 필요성 강조. 자동화된 개인 비서 역할로 항공권 예약 등 서비스 제공 가능성 언급.",
-     "confidence": "medium",
-     "video_id": "QVwUECYfmPs",
-     "title": "인구 감소의 시대, 돈은 여기로 몰립니다(ft. 고우림 저자 2부)",
-     "published": "2026-06-09T03:28:19+00:00",
-     "url": "https://www.youtube.com/watch?v=QVwUECYfmPs"
+     "reasoning": "트럼프 행정부의 AI 기업 지분 투자 대상에 포함되었으며, 구글 및 앤트로픽과의 대규모 AI 컴퓨팅 임대 계약(월 1.4조원)으로 AI 인프라 수익성을 입증한 기업으로 재평가.",
+     "confidence": "high",
+     "video_id": "5sp8xisMihc",
+     "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
+     "published": "2026-06-09T11:58:23+00:00",
+     "url": "https://www.youtube.com/watch?v=5sp8xisMihc"
+    }
+   ]
+  },
+  {
+   "stock": "반도체 ETF / 메모리 ETF",
+   "ticker": null,
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "AI 인프라 투자 사이클의 핵심 수혜주로, 발화자가 직접 추가 매수를 계획하겠다고 명시한 자산군.",
+     "confidence": "high",
+     "video_id": "5sp8xisMihc",
+     "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
+     "published": "2026-06-09T11:58:23+00:00",
+     "url": "https://www.youtube.com/watch?v=5sp8xisMihc"
+    }
+   ]
+  },
+  {
+   "stock": "전력 인프라 관련 ETF",
+   "ticker": null,
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "오픈 AI가 공공 펀드 제안서에서 전력 인프라 투자를 최우선 과제로 강조했으며, AI 데이터 센터 운영에 필수 요소로 평가되어 발화자가 추가 매수 대상으로 제시.",
+     "confidence": "high",
+     "video_id": "5sp8xisMihc",
+     "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
+     "published": "2026-06-09T11:58:23+00:00",
+     "url": "https://www.youtube.com/watch?v=5sp8xisMihc"
     }
    ]
   },
@@ -332,7 +382,87 @@
     {
      "channel": "소수몽키",
      "stance": "매수",
-     "reasoning": "머스크가 미국의 고성능 메모리 칩이 제로라고 강조했으며, 마이크론이 2028년부터 생산 예정이라 언급. 메모리 부족이 극심한 상황에서 주요 수혜주로 평가.",
+     "reasoning": "메모리 주도주로 젠슨과 머스크 모두 메모리 부족을 강조했다. 고점 대비 20% 이상 조정받은 상황에서 분할 매수를 개인적으로 좋다고 평가했다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "샌디스크",
+   "ticker": "SNDK",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "마이크론과 함께 메모리 주도주로 언급됐으며 고점 대비 20% 내 하락했다. 메모리 부족 심화 속에서 주도주 분할 매수 대상이다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "AMD",
+   "ticker": "AMD",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "인텔과 함께 AI 에이전트 시대의 CPU 수혜주로 평가된다. 메모리, CPU 함께 가는 사이클의 주도주로 상승 시 강하게 오를 수 있다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "ARM",
+   "ticker": "ARM",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "인간 PC 10억 개에서 AI 에이전트 수십억 대 시대로의 전환에서 ARM CPU 수요가 폭증할 것으로 예상된다. 에이전트는 계속 작동해야 하기 때문이다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "퀄컴",
+   "ticker": "QCOM",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "스마트폰 60억대, 디바이스 20억대, PC 20억대, 자동차 5억대 등 100억대 기기의 AI 에이전트 탑재 업그레이드 사이클의 수혜사다.",
      "confidence": "high",
      "video_id": "pkVOkS2Rs-c",
      "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
@@ -352,7 +482,7 @@
     {
      "channel": "소수몽키",
      "stance": "매수",
-     "reasoning": "젠슨 황이 기조연설에서 명시적으로 '다음 1조 달러 회사'라고 추천. AI 에이전트 시대의 핵심은 연결성(광통신)이며 마벨이 중심 역할. S&P 500 편입 예정으로 추가 상승 기대.",
+     "reasoning": "젠슨이 \"다음 1조 달러 회사\"라고 직접 공개적으로 선언했다. 광통신이 AI 인프라 다음 사이클을 주도할 것으로 예상되며 엔비디아가 지분 투자했다.",
      "confidence": "high",
      "video_id": "pkVOkS2Rs-c",
      "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
@@ -372,7 +502,87 @@
     {
      "channel": "소수몽키",
      "stance": "매수",
-     "reasoning": "머스크가 '유럽에서 가장 위대한 회사'라고 평가하며, 최첨단 반도체 생산에 필수적인 반도체 장비 업체. 머스크의 테라 반도체 공장 건설과 협업 논의 중이라 언급.",
+     "reasoning": "머스크가 \"유럽에서 가장 위대한 회사\"라 극찬했다. 최첨단 반도체 생산에 필수적인 반도체 장비 1등 업체로 AI 인프라 확대에 수혜를 본다.",
+     "confidence": "medium",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "루멘텀",
+   "ticker": "LUMN",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "젠슨이 지분 투자 중인 광통신주다. AI 에이전트 시대 수만 개 칩이 단일 컴퓨터처럼 작동하려면 광통신을 통한 끊김없는 연결이 핵심이다.",
+     "confidence": "medium",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "코히런트",
+   "ticker": "COHR",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "젠슨이 지분 투자 중인 광통신 관련주다. AI 인프라의 다음 성장 사이클인 광통신 시대의 수혜 회사다.",
+     "confidence": "medium",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "코닝",
+   "ticker": "GLW",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "젠슨이 지분 투자 중인 광통신주다. 데이터센터의 고대역폭 연결에 필수적인 광학 소재 공급사로 AI 인프라 확대에 직접 수혜를 본다.",
+     "confidence": "medium",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "메모리 ETF",
+   "ticker": null,
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "메모리 주도주들을 포함한 상품이다. 최근 20% 이상 하락했을 때 분할 매수하면 유리하다고 평가했다.",
      "confidence": "high",
      "video_id": "pkVOkS2Rs-c",
      "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
@@ -382,18 +592,18 @@
    ]
   },
   {
-   "stock": "AMD",
-   "ticker": "AMD",
+   "stock": "반도체 ETF",
+   "ticker": null,
    "market": "US",
-   "buy": 0,
+   "buy": 1,
    "sell": 0,
-   "hold": 1,
+   "hold": 0,
    "opinions": [
     {
      "channel": "소수몽키",
-     "stance": "보유",
-     "reasoning": "AI 에이전트 시대 CPU 주도주로 언급되었으며, 마벨에 지분 투자를 시작해 주목받음. 메모리, CPU 함께 가는 사이클의 주도주 중 하나.",
-     "confidence": "medium",
+     "stance": "매수",
+     "reasoning": "반도체 전반의 주도주들을 포함한 사이클 투자 상품이다. 메모리, CPU, 광통신 등 AI 인프라 전반의 강세 수혜를 받을 수 있다.",
+     "confidence": "high",
      "video_id": "pkVOkS2Rs-c",
      "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
      "published": "2026-06-08T12:55:26+00:00",
@@ -402,107 +612,7 @@
    ]
   },
   {
-   "stock": "ARM",
-   "ticker": "ARM",
-   "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "보유",
-     "reasoning": "AI 에이전트 10억 대에서 수십억 대로 확대되면서 CPU 수요 폭증이 예상되며, 그 수요를 ARM이 담당할 것이라 언급. 다만 명시적 추천보다는 수혜 예상 수준.",
-     "confidence": "medium",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "Qualcomm",
-   "ticker": "QCOM",
-   "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "보유",
-     "reasoning": "AI 에이전트 시대에 스마트폰(60억 대), 디바이스(20억 대), PC(20억 대), 자동차(5억 대) 등 100억 대 디바이스가 업그레이드되면서 사상 최대 규모 업그레이드 사이클 예상.",
-     "confidence": "medium",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "Lumentum",
-   "ticker": "LITE",
-   "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "보유",
-     "reasoning": "엔비디아-젠슨이 광통신주들에 지분 투자 중이며, AI 데이터센터 시대 구리 케이블을 광통신으로 전환하면서 수요 증가 예상.",
-     "confidence": "medium",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "Coherent",
-   "ticker": "COHR",
-   "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "보유",
-     "reasoning": "엔비디아가 지분 투자 및 협업 발표. AI 인프라 시대 광통신 연결성의 중요성 강조로 인한 수혜주.",
-     "confidence": "medium",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "Corning",
-   "ticker": "GLW",
-   "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "보유",
-     "reasoning": "엔비디아가 광통신주로 지분 투자 및 협업 발표. AI 데이터센터 광통신 케이블 수요 증가 수혜.",
-     "confidence": "medium",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "Google (알파벳)",
+   "stock": "구글(알파벳)",
    "ticker": "GOOGL",
    "market": "US",
    "buy": 0,
@@ -511,28 +621,8 @@
    "opinions": [
     {
      "channel": "소수몽키",
-     "stance": "관망",
-     "reasoning": "역대 최대 유상 증자(800-850억 달러) 발표로 AI 투자 의지는 강하나, 단기적으로 유동성 흡수 우려와 자금 조달 부담으로 악재 가능. 다만 AI 인프라 투자는 계속될 것으로 평가.",
-     "confidence": "medium",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "Meta",
-   "ticker": "META",
-   "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "관망",
-     "reasoning": "유상 증자 논의 중이며 AI 관련 자본 지출이 1450억 달러로 증가. 단기적으로 유동성 우려로 악재 가능하나, AI 투자는 계속될 것으로 예상.",
+     "stance": "보유",
+     "reasoning": "역대 최대 규모 유상증자로 단기적으로 주가 압력이 있을 것으로 예상된다. 다만 조달 자금이 AI 인프라 투자로 흘러들어가므로 장기적으로는 호재다.",
      "confidence": "medium",
      "video_id": "pkVOkS2Rs-c",
      "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
