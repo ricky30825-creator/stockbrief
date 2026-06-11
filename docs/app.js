@@ -304,13 +304,19 @@ searchInput.addEventListener("input", () => {
   render();
 });
 
-// iOS: 키보드가 닫힌 뒤 뷰포트 높이가 복원되지 않아 탭바가 떠 보이는 버그 보정
-searchInput.addEventListener("blur", () => {
-  setTimeout(() => window.scrollTo(0, 0), 50);
-});
+// iOS에서 vh/dvh가 실제 화면 높이와 어긋나는 문제(탭바가 떠 보임) 보정:
+// 실제 창 높이를 측정해 CSS 변수로 넣고, 키보드 개폐·회전 때마다 다시 맞춘다.
+function setAppHeight() {
+  document.documentElement.style.setProperty("--app-h", `${window.innerHeight}px`);
+  window.scrollTo(0, 0);
+}
+setAppHeight();
+window.addEventListener("resize", setAppHeight);
+window.addEventListener("orientationchange", () => setTimeout(setAppHeight, 200));
+searchInput.addEventListener("blur", () => setTimeout(setAppHeight, 50));
 if (window.visualViewport) {
   window.visualViewport.addEventListener("resize", () => {
-    if (document.activeElement?.tagName !== "INPUT") window.scrollTo(0, 0);
+    if (document.activeElement?.tagName !== "INPUT") setAppHeight();
   });
 }
 

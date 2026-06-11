@@ -14,13 +14,16 @@
 
 /* 앱 프레임: 헤더·탭바는 고정, 내용(#scroll-area)만 내부 스크롤.
    Safari 툴바 유무와 무관하게 탭바가 항상 화면 바닥에 붙는다. */
+html { height: 100%; }
+
 body {
   background: var(--bg);
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
   -webkit-tap-highlight-color: transparent;
-  height: 100vh;
-  height: 100dvh;
+  /* iOS에서 vh/dvh가 실제 화면과 어긋나는 문제 회피: JS가 실측값(--app-h)을 채운다 */
+  height: 100%;
+  height: var(--app-h, 100%);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -30,8 +33,6 @@ body {
   flex: 1;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  /* 고정 탭바에 내용이 가려지지 않도록 */
-  padding-bottom: calc(58px + env(safe-area-inset-bottom));
 }
 
 header {
@@ -213,11 +214,7 @@ main { padding: 12px 12px 24px; max-width: 640px; margin: 0 auto; }
 }
 
 #tabs {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 20;
+  flex: none;
   display: flex;
   background: #11141a;
   border-top: 1px solid #262a33;
