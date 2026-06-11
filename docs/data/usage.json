@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-11T06:39:35.022746+00:00",
+ "generated_at": "2026-06-11T11:01:15.540959+00:00",
  "entries": [
   {
    "ts": "2026-06-11T06:19:40.883765+00:00",
@@ -10,6 +10,286 @@
    "cache_read_input_tokens": 11929,
    "output_tokens": 2530,
    "cost_usd": 0.0659689
+  },
+  {
+   "ts": "2026-06-11T10:36:16.067309+00:00",
+   "video_id": "bzAGN6qSIEQ",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 38259,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 8247,
+   "cost_usd": 0.11895590000000002
+  },
+  {
+   "ts": "2026-06-11T10:36:39.130597+00:00",
+   "video_id": "H9FXlUts2CU",
+   "channel": "전인구경제연구소",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 24921,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 1427,
+   "cost_usd": 0.0581799
+  },
+  {
+   "ts": "2026-06-11T10:37:18.254286+00:00",
+   "video_id": "g390jTAHOko",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 24629,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 3683,
+   "cost_usd": 0.0688759
+  },
+  {
+   "ts": "2026-06-11T10:37:35.753762+00:00",
+   "video_id": "7P2sHC6Z3sI",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10651,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 1146,
+   "cost_usd": 0.0282349
+  },
+  {
+   "ts": "2026-06-11T10:38:32.901613+00:00",
+   "video_id": "AhCSdJ-11io",
+   "channel": "미국주식으로은퇴하기",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 46920,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 6631,
+   "cost_usd": 0.1281979
+  },
+  {
+   "ts": "2026-06-11T10:39:07.877986+00:00",
+   "video_id": "zqdwYq4WoZc",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 32339,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 3848,
+   "cost_usd": 0.0851209
+  },
+  {
+   "ts": "2026-06-11T10:40:30.475524+00:00",
+   "video_id": "ypYW7nwn3v0",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 49922,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 9700,
+   "cost_usd": 0.1495469
+  },
+  {
+   "ts": "2026-06-11T10:41:44.283316+00:00",
+   "video_id": "RHQeJ1CrLmc",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 39639,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 7606,
+   "cost_usd": 0.1185109
+  },
+  {
+   "ts": "2026-06-11T10:42:22.279291+00:00",
+   "video_id": "99hesW7PY5c",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10737,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 4476,
+   "cost_usd": 0.0450569
+  },
+  {
+   "ts": "2026-06-11T10:42:51.368966+00:00",
+   "video_id": "jlKh26fxC3Q",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10832,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 1928,
+   "cost_usd": 0.0325069
+  },
+  {
+   "ts": "2026-06-11T10:43:50.173627+00:00",
+   "video_id": "w6_izneR7aQ",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 16944,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 7242,
+   "cost_usd": 0.0713009
+  },
+  {
+   "ts": "2026-06-11T10:45:23.935923+00:00",
+   "video_id": "x3RqjW5qZag",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 19264,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 13371,
+   "cost_usd": 0.10658589999999998
+  },
+  {
+   "ts": "2026-06-11T10:46:23.181577+00:00",
+   "video_id": "ZnBGA4FYMPA",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 17733,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 6705,
+   "cost_usd": 0.0701939
+  },
+  {
+   "ts": "2026-06-11T10:46:52.569800+00:00",
+   "video_id": "onr-XSRe3PI",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 23815,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 1732,
+   "cost_usd": 0.0574929
+  },
+  {
+   "ts": "2026-06-11T10:48:33.993997+00:00",
+   "video_id": "7GlDQFkMZ8Y",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 35351,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 10318,
+   "cost_usd": 0.1234949
+  },
+  {
+   "ts": "2026-06-11T10:49:20.392232+00:00",
+   "video_id": "lLRomqo5jCc",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 26308,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 4666,
+   "cost_usd": 0.0771489
+  },
+  {
+   "ts": "2026-06-11T10:51:17.841772+00:00",
+   "video_id": "S0br-u6oFnk",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 19769,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 16709,
+   "cost_usd": 0.1242859
+  },
+  {
+   "ts": "2026-06-11T10:52:15.005819+00:00",
+   "video_id": "kz_LIgOm26M",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 22599,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 6144,
+   "cost_usd": 0.0771209
+  },
+  {
+   "ts": "2026-06-11T10:53:17.387631+00:00",
+   "video_id": "bVbctmrmIDk",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 72931,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 5859,
+   "cost_usd": 0.17635989999999999
+  },
+  {
+   "ts": "2026-06-11T10:53:38.681658+00:00",
+   "video_id": "F3_Xn_TPDjk",
+   "channel": "전인구경제연구소",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 28979,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 1076,
+   "cost_usd": 0.0645409
+  },
+  {
+   "ts": "2026-06-11T10:54:14.018321+00:00",
+   "video_id": "IgN0d7XQfwo",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 18495,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 3269,
+   "cost_usd": 0.0545379
+  },
+  {
+   "ts": "2026-06-11T10:55:04.438551+00:00",
+   "video_id": "6WKeKSOdTNo",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 24471,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 5761,
+   "cost_usd": 0.07894989999999999
+  },
+  {
+   "ts": "2026-06-11T10:57:06.525638+00:00",
+   "video_id": "jLSMCeCPacQ",
+   "channel": "토마토증권",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 12794,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 17977,
+   "cost_usd": 0.11667589999999999
+  },
+  {
+   "ts": "2026-06-11T10:57:47.693175+00:00",
+   "video_id": "y7wUcmIh-aw",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 38342,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 3508,
+   "cost_usd": 0.09542690000000001
+  },
+  {
+   "ts": "2026-06-11T10:58:34.374444+00:00",
+   "video_id": "UUMUD5VEmJ8",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 18711,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 5299,
+   "cost_usd": 0.0651199
+  },
+  {
+   "ts": "2026-06-11T10:59:18.347523+00:00",
+   "video_id": "5eeAOpJPBvk",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 19915,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 4205,
+   "cost_usd": 0.0620579
+  },
+  {
+   "ts": "2026-06-11T11:00:13.404126+00:00",
+   "video_id": "LbYdx__750U",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 27249,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 6585,
+   "cost_usd": 0.08862590000000001
+  },
+  {
+   "ts": "2026-06-11T11:01:15.536653+00:00",
+   "video_id": "a-A6tmNBPBI",
+   "channel": "삼프로TV",
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 23938,
+   "cache_read_input_tokens": 11929,
+   "output_tokens": 7431,
+   "cost_usd": 0.0862339
   }
  ]
 }
