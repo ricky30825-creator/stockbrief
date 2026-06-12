@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).parents[1]))
 from datetime import datetime, timezone
 
 from aggregate import build_stocks
-from main import should_run_daily, transcript_wait_expired
+from main import build_question, parse_yn, should_run_daily, transcript_wait_expired
 from analyze import _parse_result, extract_json, parse_cli_envelope
 from feeds import parse_channel_page, parse_feed, parse_relative_time
 from notify import format_video_message
@@ -211,6 +211,29 @@ class TestTranscriptWait(unittest.TestCase):
 
     def test_bad_date_expired(self):
         self.assertTrue(transcript_wait_expired("invalid", self.NOW))
+
+
+class TestApprovalFlow(unittest.TestCase):
+    def test_parse_yn_basic(self):
+        self.assertEqual(parse_yn(["y"]), "y")
+        self.assertEqual(parse_yn(["N"]), "n")
+        self.assertEqual(parse_yn([" Y "]), "y")
+
+    def test_parse_yn_ignores_chatter_and_takes_last(self):
+        self.assertEqual(parse_yn(["오늘 어때?", "y", "아니다", "n"]), "n")
+        self.assertIsNone(parse_yn(["ㅇㅇ", "분석해"]))
+        self.assertIsNone(parse_yn([]))
+
+    def test_build_question_ends_with_yn(self):
+        videos = [
+            {"channel": "소수몽키", "title": "아주 긴 제목" * 10},
+            {"channel": "소수몽키", "title": "두번째"},
+            {"channel": "삼프로TV", "title": "셋째"},
+        ]
+        q = build_question(videos)
+        self.assertTrue(q.endswith("(y/n)"))
+        self.assertIn("새 영상 3개", q)
+        self.assertIn("소수몽키 2개", q)
 
 
 class TestDailyRunGuard(unittest.TestCase):

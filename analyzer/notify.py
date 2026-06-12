@@ -1,11 +1,13 @@
-"""텔레그램 봇으로 분석 결과 알림을 보낸다. .env 미설정 시 조용히 건너뛴다."""
+"""텔레그램 봇으로 알림을 보내고 사용자의 답장(y/n)을 읽는다. .env 미설정 시 조용히 건너뛴다."""
 
+import json
 import os
 from pathlib import Path
 
 import requests
 
 ENV_PATH = Path(__file__).parent / ".env"
+OFFSET_PATH = Path(__file__).parent / "state" / "telegram_offset.json"
 
 
 def load_env() -> dict:
@@ -33,6 +35,40 @@ def send_notification(text: str) -> bool:
     )
     resp.raise_for_status()
     return True
+
+
+def fetch_replies(after_ts: float) -> list[str]:
+    """after_ts(unix 초) 이후 사용자가 봇 대화방에 보낸 텍스트 메시지를 시간순으로 반환.
+
+    getUpdates의 offset을 state에 저장해 같은 메시지를 두 번 처리하지 않는다.
+    """
+    env = load_env()
+    token = env.get("TELEGRAM_BOT_TOKEN")
+    chat_id = env.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        return []
+    offset = 0
+    if OFFSET_PATH.exists():
+        offset = json.loads(OFFSET_PATH.read_text()).get("offset", 0)
+    resp = requests.get(
+        f"https://api.telegram.org/bot{token}/getUpdates",
+        params={"offset": offset + 1, "timeout": 0},
+        timeout=20,
+    )
+    resp.raise_for_status()
+    texts = []
+    for update in resp.json().get("result", []):
+        offset = max(offset, update["update_id"])
+        msg = update.get("message") or {}
+        if str(msg.get("chat", {}).get("id")) != str(chat_id):
+            continue
+        if msg.get("date", 0) < after_ts:
+            continue
+        if msg.get("text"):
+            texts.append(msg["text"])
+    OFFSET_PATH.parent.mkdir(exist_ok=True)
+    OFFSET_PATH.write_text(json.dumps({"offset": offset}))
+    return texts
 
 
 def format_video_message(video: dict, app_url: str | None = None) -> str:
