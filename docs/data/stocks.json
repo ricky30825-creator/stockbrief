@@ -1,394 +1,154 @@
 {
- "generated_at": "2026-06-13T01:12:52.171751+00:00",
+ "generated_at": "2026-06-13T04:45:42.115514+00:00",
  "stocks": [
-  {
-   "stock": "주성 엔지니어링",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 1,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "반도체 전공정 대장주로서 이미 34% 상승했으나 고점을 뚫면 추가 상승이 예상되며, 코스닥 시총 1위까지 갈 수 있다고 평가했습니다. 1차 매도가 나오지 않았습니다.",
-     "confidence": "high",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매도",
-     "reasoning": "외국인과 기관의 수급 악화 중. 장비주 실적은 하반기 나올 예정이지만 현재 수급 불리. 26만원과 28만원에서 단계적 매도 권고, 17만원 이하에서만 재진입.",
-     "confidence": "high",
-     "video_id": "RHQeJ1CrLmc",
-     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
-     "published": "2026-06-11T08:27:36+00:00",
-     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "반도체 소부장 기업으로 업종 로테이션에서 우선도가 높으며 코스닥 랠리의 주요 참여자이다.",
-     "confidence": "medium",
-     "video_id": "x3RqjW5qZag",
-     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
-     "published": "2026-06-11T06:57:19+00:00",
-     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
-    }
-   ]
-  },
-  {
-   "stock": "이수화학",
-   "ticker": null,
-   "market": "KR",
-   "buy": 2,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "억울하게 눌렸다가 이평선 돌파하며 양봉을 형성한 패턴으로 13,000원 이하에서 진입 시 28% 수익을 기록했습니다.",
-     "confidence": "high",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "중동 사태로 인해 타이타늄 수급이 지속되면서 수익성이 대폭 상승할 것으로 전망되고 있다. 기관에서 나흘 연속 매수로 대응 중이다.",
-     "confidence": "high",
-     "video_id": "jLSMCeCPacQ",
-     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
-     "published": "2026-06-11T02:55:45+00:00",
-     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
-    }
-   ]
-  },
-  {
-   "stock": "후성",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "반도체와 2차전지 더블 복합재료주로서 히든주 5연승을 기록했으며 22% 이틀 만에 상승했습니다. 앞으로 폭발적 상승이 예정되어 있습니다.",
-     "confidence": "medium",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    }
-   ]
-  },
-  {
-   "stock": "스피어",
-   "ticker": null,
-   "market": "KR",
-   "buy": 2,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "스페이스 X 상장 관련주로서 장기 공급 계약이 체결되어 있습니다. 상한가로 안착했으며 4만 원 이하에서 매수 시 30% 이상 수익을 기대할 수 있습니다.",
-     "confidence": "high",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "미국 우주항공 발사업체와 201억원 규모의 특수합금 공급 계약 체결. SpaceX 관련 핵심 공급망 역할로 우주산업 성장세에 따른 수혜 기대. 상한가 기록.",
-     "confidence": "high",
-     "video_id": "RHQeJ1CrLmc",
-     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
-     "published": "2026-06-11T08:27:36+00:00",
-     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "스페이스X와 직접 거래하며 누적 수주 2억 2,800만 달러 달성. 향후 우주 분야 투자 확대로 부품 수요 증가 기대. 다만 현재 영업이익 개선이 미흡하므로, 이전 하락 전 수준까지 반등 가능으로 평가.",
-     "confidence": "medium",
-     "video_id": "7GlDQFkMZ8Y",
-     "title": "심텍 VS 미래에셋증권, 오늘의 우승 종목은? #심텍 #미래에셋증권 #HMM #한화오션 #주식월드컵",
-     "published": "2026-06-11T05:17:10+00:00",
-     "url": "https://www.youtube.com/watch?v=7GlDQFkMZ8Y"
-    }
-   ]
-  },
-  {
-   "stock": "현대 모벡스",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "현대차 그룹 피지컬 AI 로봇 대표주로서 42,000원 이하 매수를 권장했습니다. 고환율 속에서도 외국인이 지속 매수 중입니다.",
-     "confidence": "high",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    }
-   ]
-  },
-  {
-   "stock": "원익",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "반도체 소부장주로서 주성 엔지니어링 대안으로 제시되었으며, 억울하게 눌렸다가 반등하며 21% 상승했습니다.",
-     "confidence": "medium",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "반도체 소부장 종목으로 밸류에이션이 저평가되어 있으며 두 자리 수 상승률을 보이고 있다.",
-     "confidence": "low",
-     "video_id": "S0br-u6oFnk",
-     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
-     "published": "2026-06-11T04:32:26+00:00",
-     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
-    }
-   ]
-  },
-  {
-   "stock": "IPS",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "반도체 소부장주로서 반도체 수출 역대 최대 기록과 반도체 투톱의 상승에 따라 소부장주들이 일제히 상승했습니다.",
-     "confidence": "medium",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "반도체 소부장 중 밸류에이션이 저평가된 종목으로 두 자리 수 급등을 보이고 있다.",
-     "confidence": "low",
-     "video_id": "S0br-u6oFnk",
-     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
-     "published": "2026-06-11T04:32:26+00:00",
-     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
-    }
-   ]
-  },
-  {
-   "stock": "삼성전기",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 1,
-   "hold": 3,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매도",
-     "reasoning": "시총 150조원에 PER 100배를 넘어 극도로 과열된 상태입니다. 고점실로 판단되므로 피하고 시선을 다른 곳으로 돌려야 합니다.",
-     "confidence": "high",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "견조한 조정 수준으로 LG 이노텍보다 상대적으로 양호한 상태. AI 관련 비중이 상대적으로 낮아 하방 압력 덜함.",
-     "confidence": "low",
-     "video_id": "g390jTAHOko",
-     "title": "반대매매 폭증에도 반도체 소부장 강세! 삼성전자보다 주목할 종목은?#반도체 #소부장 #코스닥 #주식전망 #증시분석 #김정수 #명인들의복기",
-     "published": "2026-06-11T09:08:48+00:00",
-     "url": "https://www.youtube.com/watch?v=g390jTAHOko"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "올 여름~9월 사이에 고점에서 변동성이 크게 나타날 것으로 예상되며, ETF 펀드들의 비중 축소(30%→20~10%)로 인해 추가 상승 여력이 제한될 가능성이 높다.",
-     "confidence": "medium",
-     "video_id": "99hesW7PY5c",
-     "title": "여름 변동성과 K-증시의 리스크!",
-     "published": "2026-06-11T08:15:09+00:00",
-     "url": "https://www.youtube.com/watch?v=99hesW7PY5c"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "올 여름에서 9월 사이 고점에서 변동성이 제법 클 것으로 예상. ETF 펀드의 비중 조정에 따른 시장 영향 가능성을 지적.",
-     "confidence": "medium",
-     "video_id": "ZnBGA4FYMPA",
-     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
-     "published": "2026-06-11T06:23:49+00:00",
-     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "AI 칩 확대로 기판(FC BGA) 수요가 폭증하고 있으며 2028년까지 공급 부족이 지속될 것으로 예상됩니다. 글로벌 AI 서버 MLCC 시장에서 40~50% 점유율을 차지하고 있으며, 공급 부족으로 가격도 점진적으로 상승 중입니다.",
-     "confidence": "high",
-     "video_id": "6WKeKSOdTNo",
-     "title": "북중미 월드컵 개막 임박, 시장 조정 속 수혜주 찾기? #월드컵 #북중미 #이슈딥다이브",
-     "published": "2026-06-11T02:58:13+00:00",
-     "url": "https://www.youtube.com/watch?v=6WKeKSOdTNo"
-    }
-   ]
-  },
-  {
-   "stock": "SK 하이닉스",
-   "ticker": null,
-   "market": "KR",
-   "buy": 4,
-   "sell": 0,
-   "hold": 6,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "외국인이 24거래일 만에 매수로 전환했고 2.59% 상승했으나, 더 이상 큰 상승을 기대하기 어렵고 반도체 소부장주로의 관심 이동이 필요합니다.",
-     "confidence": "medium",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "삼성전자보다 강한 추세 유지 중이며 주도권을 계속 이어가는 상황. 다만 속도 조절 신호가 보여 현재는 보유 관점에서 모니터링 필요.",
-     "confidence": "medium",
-     "video_id": "g390jTAHOko",
-     "title": "반대매매 폭증에도 반도체 소부장 강세! 삼성전자보다 주목할 종목은?#반도체 #소부장 #코스닥 #주식전망 #증시분석 #김정수 #명인들의복기",
-     "published": "2026-06-11T09:08:48+00:00",
-     "url": "https://www.youtube.com/watch?v=g390jTAHOko"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "삼성전자와 함께 현재 시장의 중심을 담당하는 핵심 종목으로, 이들의 연속성이 시장 전체 방향을 좌우함.",
-     "confidence": "medium",
-     "video_id": "w6_izneR7aQ",
-     "title": "코스피는 여전히 반도체 투톱이 주도!/오늘 코스닥 주인공은 반도체 소부장 #코스피 #코스닥 #반도체소부장 #삼성전자 #SK하이닉스 #김정수",
-     "published": "2026-06-11T07:02:53+00:00",
-     "url": "https://www.youtube.com/watch?v=w6_izneR7aQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "SK하이닉스의 유즈 트리거가 작동하면서 반도체 투심의 선두 역할을 하고 있다. 코스피의 안정성 유지에 중요한 역할을 한다.",
-     "confidence": "medium",
-     "video_id": "S0br-u6oFnk",
-     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
-     "published": "2026-06-11T04:32:26+00:00",
-     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
-    },
-    {
-     "channel": "삼프로TV",
-     "stance": "매수",
-     "reasoning": "현금 비중이 100%인 경우 10~20% 정도를 진입하여 추가 하락 시 재매수 여유를 확보할 수 있다는 조건부 조언",
-     "confidence": "low",
-     "video_id": "bVbctmrmIDk",
-     "title": "[26.06.11 오전 방송 전체보기] 전쟁·물가 우려 속 뉴욕증시 하락 마감",
-     "published": "2026-06-11T03:22:42+00:00",
-     "url": "https://www.youtube.com/watch?v=bVbctmrmIDk"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "삼성전자와 함께 메모리 반도체 양대 주자. 추세적 훼손 확인 시까지 여유 있게 보유 유지 권고. 상승 추세로 복귀할 것으로 판단.",
-     "confidence": "high",
-     "video_id": "IgN0d7XQfwo",
-     "title": "주도주는 여전히 반도체! 지금 봐야 할 소부장 종목! (ft.금산) #반도체 #삼성전자 #SK하이닉스 #소부장 #GST #케이씨텍 #피에스케이 #실적",
-     "published": "2026-06-11T03:09:07+00:00",
-     "url": "https://www.youtube.com/watch?v=IgN0d7XQfwo"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "6월 10일까지 DM 수액이 5조 2천억으로 월 20% 성장률을 유지하고 있으며, 이 추세가 계속되면 2분기 영업이익이 시장 예상 64조를 상향 돌파할 가능성이 높습니다. 시장 조정을 주도한 종목이 회복 시 다시 상승을 주도할 가능성이 있습니다.",
-     "confidence": "high",
-     "video_id": "6WKeKSOdTNo",
-     "title": "북중미 월드컵 개막 임박, 시장 조정 속 수혜주 찾기? #월드컵 #북중미 #이슈딥다이브",
-     "published": "2026-06-11T02:58:13+00:00",
-     "url": "https://www.youtube.com/watch?v=6WKeKSOdTNo"
-    },
-    {
-     "channel": "삼프로TV",
-     "stance": "매수",
-     "reasoning": "SpaceX의 밸류 체인에 포함되어 현재 엔진 소재 파트를 공급 중이며, 최근 수주를 통해 실적 증명 단계. SpaceX의 발사 가속화에 따른 직접적 수혜 기대",
-     "confidence": "medium",
-     "video_id": "UUMUD5VEmJ8",
-     "title": "스페이스X 상장이 한국 증시에 미칠 영향 | 한유건 하나증권 리서치센터 팀장 [더블 업]",
-     "published": "2026-06-11T01:45:01+00:00",
-     "url": "https://www.youtube.com/watch?v=UUMUD5VEmJ8"
-    },
-    {
-     "channel": "삼프로TV",
-     "stance": "보유",
-     "reasoning": "엔비디아와 협력하여 일본의 AI 팩토리 구축 계획 및 한국 광주 지역 공장 검토, 협력사 납품가 인상 등으로 지속적인 수익 사업 확대 추진 중",
-     "confidence": "medium",
-     "video_id": "RSOtKvknTKg",
-     "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-     "published": "2026-06-11T00:27:28+00:00",
-     "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
-    },
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "한국 메모리 대장으로 젠슨이 직접 여러 번 방문해 추가 생산을 요청했다. 마이크론과 거의 동일하게 움직이며 메모리 사이클의 주도주다.",
-     "confidence": "high",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
   {
    "stock": "삼성전자",
    "ticker": null,
    "market": "KR",
-   "buy": 3,
+   "buy": 8,
    "sell": 0,
-   "hold": 7,
+   "hold": 16,
    "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "AI 인프라 투자 사이클의 핵심 수혜주이며, 장기 계약(LTA) 비율 30% 수준으로 실적 지속성이 확보됨. 충분한 유동성으로 대량 거래가 용이하고, 모멘텀 플레이에 최적화되어 있음.",
+     "confidence": "high",
+     "video_id": "FWGnN8h0iWo",
+     "title": "\"미친듯한 변동성 장\" 그들의 숨겨진 생각이 쏟아진다...!ㅣ이선엽 윤지호 이권희 박병창 김프로 [심야 투자 회담 1부]",
+     "published": "2026-06-13T04:00:06+00:00",
+     "url": "https://www.youtube.com/watch?v=FWGnN8h0iWo"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "올해 DRAM 수요 28.9% 증가 예상으로 공급 부족 상태 지속, 올해와 내년까지 업황 호조 전망. ROE 약 45% 수준으로 높고 HBM 이익률 개선 진행 중. 다만 6월 약세 예상, 7월 실적 발표 후 반등 가능.",
+     "confidence": "medium",
+     "video_id": "U5C4L6RjiD4",
+     "title": "반도체 무한질주 '이 때' 조심하셔야 합니다ㅣ송명섭 feat.김장열 [칩썰]",
+     "published": "2026-06-13T02:00:20+00:00",
+     "url": "https://www.youtube.com/watch?v=U5C4L6RjiD4"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "6월 8일 시장 급락 시 30만원 이하에서 추가 매수 기회 제시. AI 관련 장기 투자 섹터로, 기존 보유자에게는 '팔지 말고 들고 가라'고 당부.",
+     "confidence": "high",
+     "video_id": "TLHHGaFOkmc",
+     "title": "지금부터 할 일은 이 섹터 매집 [토마토 증권통 live] ★이재필 전문가★",
+     "published": "2026-06-12T20:28:57+00:00",
+     "url": "https://www.youtube.com/watch?v=TLHHGaFOkmc"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "구글의 TPU 핵심 부품 메모리 탑재를 파운드리에 맡기는 논의 중이며, 메모리 점유율이 다시 1위를 등극했습니다. 하이퍼스케일러의 설비투자가 2028년까지 4배 증가 예정으로 반도체 실적 피크 우려가 완화되었습니다.",
+     "confidence": "high",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "직전 고점(37만 원) 돌파 가능성이 높으며, 실적 기반의 강한 가이던스와 외국인 매수로 추가 상승 여력이 있다. 비중이 낮다면 보유 권고.",
+     "confidence": "high",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "현재 고평가 상태에서 신규 매수는 피할 것. 목표가 43만원 대비 안전마진(0.8) 적용 시 약 34만원이 적절한 진입가. 매크로 변수와 실적 발표(7월)를 지켜본 후 저가에서 매수할 것을 권고.",
+     "confidence": "high",
+     "video_id": "WHRwsile884",
+     "title": "삼성전자·SK하이닉스 보유자, 지금은 매수보다 이것이 중요합니다ㅣ김장열 유니스토리자산운용 리서치센터장 [집중 오늘의 주식]",
+     "published": "2026-06-12T12:00:20+00:00",
+     "url": "https://www.youtube.com/watch?v=WHRwsile884"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "AI 데이터센터 기반 반도체 사이클 시작. 전 세계 반도체 국가들의 증시가 최고치 기록 중이며 삼성전자는 필수 편입. 펀더멘탈 믿고 매수 및 추가 매수 권장.",
+     "confidence": "high",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "구글 TPU 파운드리 협력으로 반도체 수요 증대. HBM 자체 생산 경쟁력. 목표가 43만 원 대비 상승 여력 존재. 단기 조정 가능성 인지하되 중장기 긍정적.",
+     "confidence": "high",
+     "video_id": "_jvGsk8fhgY",
+     "title": "[26.06.12 오후 방송 전체보기] 팔천피·천스닥 단숨에 회복했다…오늘의 마지막 시선은 스페이스X에 집중! [클로징벨 라이브]",
+     "published": "2026-06-12T11:01:15+00:00",
+     "url": "https://www.youtube.com/watch?v=_jvGsk8fhgY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "코스피 주도주로, 종가 매매를 통한 순환 매매 공략이 가능합니다. 저점 잡기는 어렵지만 상승 추세 속에서 타점이 중요합니다.",
+     "confidence": "medium",
+     "video_id": "zMo9AasZ_4Q",
+     "title": "380조 뭉칫돈 폭발! 스페이스X 상장 임박, 역사적 기회 잡을 1차 벤더 독점 수혜주 공개 #매매의정석",
+     "published": "2026-06-12T10:57:50+00:00",
+     "url": "https://www.youtube.com/watch?v=zMo9AasZ_4Q"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "구글과 AI 칩 공급 협력 지속 중이고 스타게이트 프로젝트의 핵심 수혜. 현금 보유량(150조) 기반 AI 기업(Cleaner 등) 투자 진행. 다만 명시적 매수 신호는 없음.",
+     "confidence": "medium",
+     "video_id": "wy0fVVnZoWA",
+     "title": "다시 돌아온 외국인...반도체 슈퍼사이클 재시동?",
+     "published": "2026-06-12T10:14:02+00:00",
+     "url": "https://www.youtube.com/watch?v=wy0fVVnZoWA"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "구글 TPU 10세대 파운더리 수주 예정 및 HBM 패키징 수주 가능성으로 경쟁력 강화. 글로벌 증권사들의 긍정적 리포트와 호재 누적.",
+     "confidence": "high",
+     "video_id": "h2kNDERLBWA",
+     "title": "골드만삭스·노무라 공통 전망! AI 투자 확대, 반도체 슈퍼사이클 온다!#삼성전자 #SK하이닉스 #반도체 #AI반도체 #슈퍼사이클 #신기수 #명인들의복기",
+     "published": "2026-06-12T08:41:58+00:00",
+     "url": "https://www.youtube.com/watch?v=h2kNDERLBWA"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "파운드리(TPU) 관련 긍정 뉴스로 기대감이 유지되고 있으나, 이미 상당히 올라온 상태다. 추가 상승을 위해서는 신규 실적이 필요하며, 현재는 천천히 상승할 것으로 예상된다.",
+     "confidence": "medium",
+     "video_id": "STyV3jTik_Y",
+     "title": "[6월 12일 마감시황] 반도체 상승 논리는 살아있다. 하지만 지금 따라붙으면 위험한 이유ㅣ홍선애, 이권희, 김장열 [클로징벨 라이브]",
+     "published": "2026-06-12T08:33:25+00:00",
+     "url": "https://www.youtube.com/watch?v=STyV3jTik_Y"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "하이닉스와 함께 중기 매매 대상으로 언급되며, 지속적으로 포지션을 유지하는 좋은 주식의 사례",
+     "confidence": "medium",
+     "video_id": "kps4YUE8FmU",
+     "title": "📌3년째 손절 안 했습니다. 노후 자금 지키는 '진짜' 주식 투자법",
+     "published": "2026-06-12T06:35:52+00:00",
+     "url": "https://www.youtube.com/watch?v=kps4YUE8FmU"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "반도체가 여전히 주도주이며 가격 매력이 있으나, 현재 상승장에서 추가 매수는 지양",
+     "confidence": "medium",
+     "video_id": "V9BynwKoKQE",
+     "title": "트럼프에 오르고 네타냐후에 내리고, 혼란스러운 장 실적주 집중! (f. 반도체, 바이오, 증권, 조선, 로봇) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-12T06:26:21+00:00",
+     "url": "https://www.youtube.com/watch?v=V9BynwKoKQE"
+    },
     {
      "channel": "토마토증권",
      "stance": "관망",
@@ -492,6 +252,3736 @@
    ]
   },
   {
+   "stock": "SK하이닉스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 7,
+   "sell": 0,
+   "hold": 10,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "삼성전자와 함께 AI 반도체 수혜주로, 충분한 유동성과 작은 호가 폭으로 거래 용이. 중소형 종목의 극단적 변동성을 피하면서도 반도체 섹터 모멘텀에 참여 가능.",
+     "confidence": "high",
+     "video_id": "FWGnN8h0iWo",
+     "title": "\"미친듯한 변동성 장\" 그들의 숨겨진 생각이 쏟아진다...!ㅣ이선엽 윤지호 이권희 박병창 김프로 [심야 투자 회담 1부]",
+     "published": "2026-06-13T04:00:06+00:00",
+     "url": "https://www.youtube.com/watch?v=FWGnN8h0iWo"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "목표 주가 400만 원대로 불리고 있으며, 185만 원 가격대에 메리트가 있다고 평가. 외국인의 비중 조절로 인한 추가 매수 가능성이 높다.",
+     "confidence": "high",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "현재 고평가이나 ADR 상장(8월) 예정으로 긍정 요인 존재. 안전마진(0.8) 적용 시 약 224만원, 0.7 적용 시 약 196만원이 합리적 진입가. 매크로 개선 시 상승 가능성 평가.",
+     "confidence": "high",
+     "video_id": "WHRwsile884",
+     "title": "삼성전자·SK하이닉스 보유자, 지금은 매수보다 이것이 중요합니다ㅣ김장열 유니스토리자산운용 리서치센터장 [집중 오늘의 주식]",
+     "published": "2026-06-12T12:00:20+00:00",
+     "url": "https://www.youtube.com/watch?v=WHRwsile884"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 대장주로 삼성전자와 함께 AI 데이터센터 수요 증가에서 수혜. 둘 중 하나 선택 집중 매매 권장.",
+     "confidence": "high",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "반도체 대표주로, 코스피 상승과 동행하는 종목입니다. 종가 매매 전략으로 여러 번 대응 사례가 제시되었습니다.",
+     "confidence": "medium",
+     "video_id": "zMo9AasZ_4Q",
+     "title": "380조 뭉칫돈 폭발! 스페이스X 상장 임박, 역사적 기회 잡을 1차 벤더 독점 수혜주 공개 #매매의정석",
+     "published": "2026-06-12T10:57:50+00:00",
+     "url": "https://www.youtube.com/watch?v=zMo9AasZ_4Q"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "HBM 공급 및 미국 ADR 상장 모멘텀 지속. 반도체 대장주로서 수급 우위. 다만 스타게이트 프로젝트에서 명시적 수혜 언급 없음.",
+     "confidence": "medium",
+     "video_id": "wy0fVVnZoWA",
+     "title": "다시 돌아온 외국인...반도체 슈퍼사이클 재시동?",
+     "published": "2026-06-12T10:14:02+00:00",
+     "url": "https://www.youtube.com/watch?v=wy0fVVnZoWA"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 투톱으로서 현재 시장 주도. 노무라 등 글로벌 증권사의 강세 리포트 전환. 메모리 수요가 향후 2만 배 수준까지 증가 전망.",
+     "confidence": "high",
+     "video_id": "h2kNDERLBWA",
+     "title": "골드만삭스·노무라 공통 전망! AI 투자 확대, 반도체 슈퍼사이클 온다!#삼성전자 #SK하이닉스 #반도체 #AI반도체 #슈퍼사이클 #신기수 #명인들의복기",
+     "published": "2026-06-12T08:41:58+00:00",
+     "url": "https://www.youtube.com/watch?v=h2kNDERLBWA"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "외국인이 24거래일 만에 매수로 전환했고 2.59% 상승했으나, 더 이상 큰 상승을 기대하기 어렵고 반도체 소부장주로의 관심 이동이 필요합니다.",
+     "confidence": "medium",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "삼성전자보다 강한 추세 유지 중이며 주도권을 계속 이어가는 상황. 다만 속도 조절 신호가 보여 현재는 보유 관점에서 모니터링 필요.",
+     "confidence": "medium",
+     "video_id": "g390jTAHOko",
+     "title": "반대매매 폭증에도 반도체 소부장 강세! 삼성전자보다 주목할 종목은?#반도체 #소부장 #코스닥 #주식전망 #증시분석 #김정수 #명인들의복기",
+     "published": "2026-06-11T09:08:48+00:00",
+     "url": "https://www.youtube.com/watch?v=g390jTAHOko"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "삼성전자와 함께 현재 시장의 중심을 담당하는 핵심 종목으로, 이들의 연속성이 시장 전체 방향을 좌우함.",
+     "confidence": "medium",
+     "video_id": "w6_izneR7aQ",
+     "title": "코스피는 여전히 반도체 투톱이 주도!/오늘 코스닥 주인공은 반도체 소부장 #코스피 #코스닥 #반도체소부장 #삼성전자 #SK하이닉스 #김정수",
+     "published": "2026-06-11T07:02:53+00:00",
+     "url": "https://www.youtube.com/watch?v=w6_izneR7aQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "SK하이닉스의 유즈 트리거가 작동하면서 반도체 투심의 선두 역할을 하고 있다. 코스피의 안정성 유지에 중요한 역할을 한다.",
+     "confidence": "medium",
+     "video_id": "S0br-u6oFnk",
+     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
+     "published": "2026-06-11T04:32:26+00:00",
+     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "현금 비중이 100%인 경우 10~20% 정도를 진입하여 추가 하락 시 재매수 여유를 확보할 수 있다는 조건부 조언",
+     "confidence": "low",
+     "video_id": "bVbctmrmIDk",
+     "title": "[26.06.11 오전 방송 전체보기] 전쟁·물가 우려 속 뉴욕증시 하락 마감",
+     "published": "2026-06-11T03:22:42+00:00",
+     "url": "https://www.youtube.com/watch?v=bVbctmrmIDk"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "삼성전자와 함께 메모리 반도체 양대 주자. 추세적 훼손 확인 시까지 여유 있게 보유 유지 권고. 상승 추세로 복귀할 것으로 판단.",
+     "confidence": "high",
+     "video_id": "IgN0d7XQfwo",
+     "title": "주도주는 여전히 반도체! 지금 봐야 할 소부장 종목! (ft.금산) #반도체 #삼성전자 #SK하이닉스 #소부장 #GST #케이씨텍 #피에스케이 #실적",
+     "published": "2026-06-11T03:09:07+00:00",
+     "url": "https://www.youtube.com/watch?v=IgN0d7XQfwo"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "6월 10일까지 DM 수액이 5조 2천억으로 월 20% 성장률을 유지하고 있으며, 이 추세가 계속되면 2분기 영업이익이 시장 예상 64조를 상향 돌파할 가능성이 높습니다. 시장 조정을 주도한 종목이 회복 시 다시 상승을 주도할 가능성이 있습니다.",
+     "confidence": "high",
+     "video_id": "6WKeKSOdTNo",
+     "title": "북중미 월드컵 개막 임박, 시장 조정 속 수혜주 찾기? #월드컵 #북중미 #이슈딥다이브",
+     "published": "2026-06-11T02:58:13+00:00",
+     "url": "https://www.youtube.com/watch?v=6WKeKSOdTNo"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "SpaceX의 밸류 체인에 포함되어 현재 엔진 소재 파트를 공급 중이며, 최근 수주를 통해 실적 증명 단계. SpaceX의 발사 가속화에 따른 직접적 수혜 기대",
+     "confidence": "medium",
+     "video_id": "UUMUD5VEmJ8",
+     "title": "스페이스X 상장이 한국 증시에 미칠 영향 | 한유건 하나증권 리서치센터 팀장 [더블 업]",
+     "published": "2026-06-11T01:45:01+00:00",
+     "url": "https://www.youtube.com/watch?v=UUMUD5VEmJ8"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "엔비디아와 협력하여 일본의 AI 팩토리 구축 계획 및 한국 광주 지역 공장 검토, 협력사 납품가 인상 등으로 지속적인 수익 사업 확대 추진 중",
+     "confidence": "medium",
+     "video_id": "RSOtKvknTKg",
+     "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+     "published": "2026-06-11T00:27:28+00:00",
+     "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "한국 메모리 대장으로 젠슨이 직접 여러 번 방문해 추가 생산을 요청했다. 마이크론과 거의 동일하게 움직이며 메모리 사이클의 주도주다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "하이닉스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 3,
+   "sell": 0,
+   "hold": 4,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "올해 DRAM 수요 28.9% 증가로 공급 부족, 올해와 내년까지 업황 호조. ROE 94% 이상으로 마이크론(71%)보다 높으며 PBR 7배 이상 할당 가능. 6월 약세 예상, 저가 시점에 매수 고려.",
+     "confidence": "medium",
+     "video_id": "U5C4L6RjiD4",
+     "title": "반도체 무한질주 '이 때' 조심하셔야 합니다ㅣ송명섭 feat.김장열 [칩썰]",
+     "published": "2026-06-13T02:00:20+00:00",
+     "url": "https://www.youtube.com/watch?v=U5C4L6RjiD4"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "5년간 생산능력 3배 확대 계획으로 27~28년 영업이익 개선 예상. ADR 상장(8월) 추가 수요. 안전마진 0.8배 기준(약 224만 원) 이하에서의 매수 권장.",
+     "confidence": "high",
+     "video_id": "_jvGsk8fhgY",
+     "title": "[26.06.12 오후 방송 전체보기] 팔천피·천스닥 단숨에 회복했다…오늘의 마지막 시선은 스페이스X에 집중! [클로징벨 라이브]",
+     "published": "2026-06-12T11:01:15+00:00",
+     "url": "https://www.youtube.com/watch?v=_jvGsk8fhgY"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "5년간 생산 능력 2배, 2034년까지 3배 확대 계획에 대한 긍정적 기대가 있으며, 미증시 ADR 상장 가능성도 있다. 다만 현재는 레버리지 규제 영향으로 조정 과정 중이므로, 천천히 우상할 가능성이 높다.",
+     "confidence": "medium",
+     "video_id": "STyV3jTik_Y",
+     "title": "[6월 12일 마감시황] 반도체 상승 논리는 살아있다. 하지만 지금 따라붙으면 위험한 이유ㅣ홍선애, 이권희, 김장열 [클로징벨 라이브]",
+     "published": "2026-06-12T08:33:25+00:00",
+     "url": "https://www.youtube.com/watch?v=STyV3jTik_Y"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "발화자의 지인이 300% 수익을 기록하며 중기 매매로 보유 중인 우수한 투자 사례로 제시됨",
+     "confidence": "medium",
+     "video_id": "kps4YUE8FmU",
+     "title": "📌3년째 손절 안 했습니다. 노후 자금 지키는 '진짜' 주식 투자법",
+     "published": "2026-06-12T06:35:52+00:00",
+     "url": "https://www.youtube.com/watch?v=kps4YUE8FmU"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "6월 SEC 승인과 8월 상장 예정, 2037년까지 메모리 용량 3배 확대 계획이 발표됐다. 소부장에 3% 단가 인상으로 생태계 전반에 긍정 영향을 미칠 것으로 예상되며, 필라델피아 반도체지수 편입도 기대된다.",
+     "confidence": "medium",
+     "video_id": "ypYW7nwn3v0",
+     "title": "[6월 11일 마감시황] 수익 줄었다고 팔면 안 됩니다. 주도주 매도 기준?ㅣ홍선애, 이권희, 김장열 [클로징벨 라이브]",
+     "published": "2026-06-11T08:32:18+00:00",
+     "url": "https://www.youtube.com/watch?v=ypYW7nwn3v0"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "현금 비중이 100%인 경우 삼성전자와 함께 10-20% 진입 권유. 메모리 반도체의 중장기 구조적 가치에 대한 확신 유지, 캐시우드도 메모리 반도체에 컨빅션 있다고 언급.",
+     "confidence": "medium",
+     "video_id": "WLZzm6hq5IE",
+     "title": "지금은 급하게 던질 때가 아닙니다 | 장우진 작가 [더블 체크]",
+     "published": "2026-06-11T00:46:47+00:00",
+     "url": "https://www.youtube.com/watch?v=WLZzm6hq5IE"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "삼성전자와 동일 업황 영향. 200만 원 이하로 내려가면 기관 매수 예상. 펀더멘탈은 문제없으며 실적 호전 가능성.",
+     "confidence": "high",
+     "video_id": "LbYdx__750U",
+     "title": "투자자들 눈물 흘리는 장세...그래도 팔지 말라는 이유 | 이권희 위즈웨이브 대표 [글로벌 인터뷰]",
+     "published": "2026-06-10T23:25:21+00:00",
+     "url": "https://www.youtube.com/watch?v=LbYdx__750U"
+    }
+   ]
+  },
+  {
+   "stock": "네이버",
+   "ticker": "NAVER",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "젠슨 황의 방문으로 AI 밸류체인에 공식적으로 합류했으며, 글로벌 메이저 기업과의 협력을 통해 장기적 가치 상승이 가능하다. 현재는 실적이 나오지 않지만 시간이 지나면 그 역할이 분명해질 것이다.",
+     "confidence": "medium",
+     "video_id": "LftR5VVB10c",
+     "title": "\"팔았던 사람들 후회합니다...\" 지금 시장의 진실 | 이선엽 AFW파트너스 대표 [주말인터뷰]",
+     "published": "2026-06-12T23:00:17+00:00",
+     "url": "https://www.youtube.com/watch?v=LftR5VVB10c"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "AI 데이터센터 인프라 임대 사업의 방향성은 맞으나, 자금 조달 방안과 구체적인 투자 계획의 청사진이 부족해 실행 가능성에 대한 의구심이 있음.",
+     "confidence": "medium",
+     "video_id": "HZMoZmDJ90E",
+     "title": "\"근데 삼전닉스가 더 궁금하시죠?\"...S-1 보고서가 밝힌 스페이스X 상장의 진실ㅣ홍선애, 정의훈 유진투자증권 선임연구원 [여의도 인사이트]",
+     "published": "2026-06-12T08:54:35+00:00",
+     "url": "https://www.youtube.com/watch?v=HZMoZmDJ90E"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "한 분석가가 20만원대에서의 매수를 권장했으며, 현재 반등 모멘텀을 보이고 있다는 점을 언급했습니다.",
+     "confidence": "medium",
+     "video_id": "e_FF2UNkWCw",
+     "title": "[26.06.12 오전 방송 전체보기] 트럼프 \"이란과 합의\", 뉴욕증시 급반등...코스피 야간선물 '급등'",
+     "published": "2026-06-12T03:15:26+00:00",
+     "url": "https://www.youtube.com/watch?v=e_FF2UNkWCw"
+    }
+   ]
+  },
+  {
+   "stock": "LG CNS",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "6월 1일 AI 및 6G 관련 통신 장비주로 매수. 13만9,000원에서 원금 회수 목표로 수익 실현 매도 예정. 급등하여 상한가를 기록.",
+     "confidence": "high",
+     "video_id": "TLHHGaFOkmc",
+     "title": "지금부터 할 일은 이 섹터 매집 [토마토 증권통 live] ★이재필 전문가★",
+     "published": "2026-06-12T20:28:57+00:00",
+     "url": "https://www.youtube.com/watch?v=TLHHGaFOkmc"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "AI/로봇 관련 기업으로 LG 그룹 로봇주들과 연동 움직임.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "LG 그룹주로, 최근 LG 그룹주 강세 속에서 130% 이상의 상승을 기록했습니다. 종가 매매 전략으로 여러 번 언급되었습니다.",
+     "confidence": "medium",
+     "video_id": "zMo9AasZ_4Q",
+     "title": "380조 뭉칫돈 폭발! 스페이스X 상장 임박, 역사적 기회 잡을 1차 벤더 독점 수혜주 공개 #매매의정석",
+     "published": "2026-06-12T10:57:50+00:00",
+     "url": "https://www.youtube.com/watch?v=zMo9AasZ_4Q"
+    }
+   ]
+  },
+  {
+   "stock": "한양엔지",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "6월 1일 LG CNS의 매도 수익으로 신규 매수. 발화자가 '이번 주에 진짜 효자 종목'으로 평가하며 3만원대에서 진입하여 상승세 보임.",
+     "confidence": "high",
+     "video_id": "TLHHGaFOkmc",
+     "title": "지금부터 할 일은 이 섹터 매집 [토마토 증권통 live] ★이재필 전문가★",
+     "published": "2026-06-12T20:28:57+00:00",
+     "url": "https://www.youtube.com/watch?v=TLHHGaFOkmc"
+    }
+   ]
+  },
+  {
+   "stock": "현대 모비스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "지난 공개 방송 때부터 42만원대에서 매수를 권고했으며, 신규 가입자들도 계속 매수하도록 안내.",
+     "confidence": "medium",
+     "video_id": "TLHHGaFOkmc",
+     "title": "지금부터 할 일은 이 섹터 매집 [토마토 증권통 live] ★이재필 전문가★",
+     "published": "2026-06-12T20:28:57+00:00",
+     "url": "https://www.youtube.com/watch?v=TLHHGaFOkmc"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "아틀라스 부품 공급 업체로 선정되었으며, 보스턴 다이내믹스 IPO 시점인 연말 여초까지 고수익을 기대할 수 있습니다.",
+     "confidence": "high",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "중장기 목표 신고가이나 지수가 높아 단기 조정 가능. 단기 저항은 67~70만원, 조정 후 신고가 목표. 보유 추천.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "제조업 평균 대비 낮은 부채 비율(47%)로 안정적 현금창출. 피지컬 AI/로봇 중심 테마의 본 부품 제조사로 실적 뒷받침. 60만원 지지 확인 후 65만원 저항 돌파 시 추가 상승 기대.",
+     "confidence": "high",
+     "video_id": "wy0fVVnZoWA",
+     "title": "다시 돌아온 외국인...반도체 슈퍼사이클 재시동?",
+     "published": "2026-06-12T10:14:02+00:00",
+     "url": "https://www.youtube.com/watch?v=wy0fVVnZoWA"
+    }
+   ]
+  },
+  {
+   "stock": "KMW",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 1,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "과거 5G 투자 사이클에서 3000원에서 89000원으로 30배 상승했으나, 현재는 회피. 누적 적자(238억~620억)와 유상증자 위험이 불확실성 요인으로 작용.",
+     "confidence": "medium",
+     "video_id": "TLHHGaFOkmc",
+     "title": "지금부터 할 일은 이 섹터 매집 [토마토 증권통 live] ★이재필 전문가★",
+     "published": "2026-06-12T20:28:57+00:00",
+     "url": "https://www.youtube.com/watch?v=TLHHGaFOkmc"
+    }
+   ]
+  },
+  {
+   "stock": "현대차그룹",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "피지컬 AI의 독보적인 경쟁력을 보유하고 있으며 앞으로 40% 이상 상승 여력이 남아 있습니다. 보스턴 다이내믹스와의 관계로 로봇 섹터의 주요 수혜주로 평가됩니다.",
+     "confidence": "high",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    }
+   ]
+  },
+  {
+   "stock": "HL만도",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "보스턴 다이내믹스 스팟에 제품을 공급하던 종목으로 새롭게 부각되면서 강력한 상승력을 만들어냈으며, 7만원 돌파가 예상됩니다.",
+     "confidence": "medium",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "현대모비스와 달리 추세 패턴이 강하며, 최근 상한가를 기록하고 신고가 돌파 가능. 전문가는 8만 5천원대까지 욕심 낼 수 있다고 평가.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "휴머노이드 로봇 관련 액추에이터 및 조향 장치 공급으로 미래 성장성 평가. 분석가 목표가 8-10.9만원. 현재 상한가 수준으로 고평가이나, 안전마진(0.8) 적용 시 약 8만원대에서 진입 기회 있음.",
+     "confidence": "medium",
+     "video_id": "WHRwsile884",
+     "title": "삼성전자·SK하이닉스 보유자, 지금은 매수보다 이것이 중요합니다ㅣ김장열 유니스토리자산운용 리서치센터장 [집중 오늘의 주식]",
+     "published": "2026-06-12T12:00:20+00:00",
+     "url": "https://www.youtube.com/watch?v=WHRwsile884"
+    }
+   ]
+  },
+  {
+   "stock": "LG전자",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 1,
+   "hold": 3,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "국내 최초 로봇 데이터 팩토리를 구축하며 로봇 사업에서 패권을 확보하려는 인프라 투자를 진행 중입니다.",
+     "confidence": "medium",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "LG 그룹 로봇 관련주로 최근 단기 수익 가능. 이미 상당히 올라있어 30만 원대 유지력이 중요.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "로봇 모멘텀 핵심주. 베어로보틱스 60% 지분 보유, 액추에이터 생산 착수. 현재 조정국면이나 25만원 이상 회복 시 재반등 가능성 높음.",
+     "confidence": "medium",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "젠슨 효과 이후 급격하게 돈이 빠져나간 상태. 삼성전기의 견조한 조정과 달리 급진적인 하락세를 보이고 있음.",
+     "confidence": "medium",
+     "video_id": "g390jTAHOko",
+     "title": "반대매매 폭증에도 반도체 소부장 강세! 삼성전자보다 주목할 종목은?#반도체 #소부장 #코스닥 #주식전망 #증시분석 #김정수 #명인들의복기",
+     "published": "2026-06-11T09:08:48+00:00",
+     "url": "https://www.youtube.com/watch?v=g390jTAHOko"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "종합 로봇 솔루션 업체로 평가되며 피지컬 AI를 효과적으로 흡수할 것이라는 전망이 나오고 있다. 현재까지 134%의 수익률을 기록했다.",
+     "confidence": "high",
+     "video_id": "jLSMCeCPacQ",
+     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
+     "published": "2026-06-11T02:55:45+00:00",
+     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
+    }
+   ]
+  },
+  {
+   "stock": "삼성SDI",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "실적 턴어라운드 시기가 4분기에서 3분기로 앞당겨질 것으로 예상되며, ESS 마진 개선과 소형전지 데이터센터향 판매 호조가 기대됩니다.",
+     "confidence": "medium",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "전문가가 143번 언급하며 단 한 번도 나쁜 의견을 제시하지 않은 2차전지 핵심주. 70만원 아래에서는 절대 매도 금지.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    }
+   ]
+  },
+  {
+   "stock": "LG에너지솔루션",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "중국 배터리 업체와의 특허권 분쟁에서 완승을 거두며 리스크를 제거하고 사업 확대에 집중할 수 있게 되었습니다.",
+     "confidence": "medium",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "ESS 중심으로 최소 5년 이상 성장 모멘텀 확보. 1분기 고정비 부담 후 2분기부터 실적 개선 예상되며, 유럽 전기차와 미국 ESS 시장 모두 호조.",
+     "confidence": "high",
+     "video_id": "ACMR1ciGqwE",
+     "title": "높은 변동성 장세 속 반도체 말고' 이주식'에 주목하라! #트럼프 #이란 #반도체 #삼성전자 #SK하이닉스 #환율 #수급 #2차전지 #금융",
+     "published": "2026-06-10T23:55:20+00:00",
+     "url": "https://www.youtube.com/watch?v=ACMR1ciGqwE"
+    }
+   ]
+  },
+  {
+   "stock": "한솔아이원스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "6월 10일 공개 추천 종목으로 목표가 15,500원 달성 후 25% 수익률을 기록했습니다. 반도체 소부장 중 덜 올라간 측면이 있어 다음 목표가 2만원으로 상향 조정되었습니다.",
+     "confidence": "high",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    }
+   ]
+  },
+  {
+   "stock": "롯데쇼핑",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 1,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "1월부터 158% 수익률을 기록한 효자 종목으로, 주가를 견인하던 기관이 빠져나가기 시작해 수익 실현 시점으로 판단됩니다.",
+     "confidence": "high",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "외국인 관광객 증가의 수혜를 입고 있으며, 주가가 11만 원에서 19만5천 원으로 80~90% 상승했다. 원화 약세 기조 지속 시 백화점 수출 대체 역할을 할 수 있다.",
+     "confidence": "medium",
+     "video_id": "a-A6tmNBPBI",
+     "title": "모델Y 국내 판매 1위에 머스크 '엄지척'…\"중국산 전기차 몰려온다” | 류종은 삼프로TV 기자 [뉴스3]",
+     "published": "2026-06-10T23:18:44+00:00",
+     "url": "https://www.youtube.com/watch?v=a-A6tmNBPBI"
+    }
+   ]
+  },
+  {
+   "stock": "이수화학",
+   "ticker": null,
+   "market": "KR",
+   "buy": 3,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "6월 10일 블라인드 종목으로 목표가 14,500원 달성 후 31% 수익률을 기록했습니다. 수급이 강하게 들어오고 있어 추가 수익 기대가 가능합니다.",
+     "confidence": "high",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "억울하게 눌렸다가 이평선 돌파하며 양봉을 형성한 패턴으로 13,000원 이하에서 진입 시 28% 수익을 기록했습니다.",
+     "confidence": "high",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "중동 사태로 인해 타이타늄 수급이 지속되면서 수익성이 대폭 상승할 것으로 전망되고 있다. 기관에서 나흘 연속 매수로 대응 중이다.",
+     "confidence": "high",
+     "video_id": "jLSMCeCPacQ",
+     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
+     "published": "2026-06-11T02:55:45+00:00",
+     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
+    }
+   ]
+  },
+  {
+   "stock": "태웅",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "원자력, 풍력, 조선 부품 제조업체로 소형 모듈 원전(SMR) 관련 제품에 500억원 투자해 생산능력을 확대했습니다. 2026년 실적 모멘텀까지 존재하며 바닥권에서의 접근이 권장됩니다.",
+     "confidence": "high",
+     "video_id": "dmuCIrP4LHY",
+     "title": "반도체·로봇·2차전지, 지금 가장 유망한 섹터는?",
+     "published": "2026-06-12T15:15:22+00:00",
+     "url": "https://www.youtube.com/watch?v=dmuCIrP4LHY"
+    }
+   ]
+  },
+  {
+   "stock": "한화시스템",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "스페이스X 호재에 과도하게 몰린 우주항공 섹터에서 전문가는 긍정적이지 않으며, '빠져나오시는게 좋다'고 명시. 추가 매수 시에도 큰 수익을 기대하기 어렵다는 입장.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    }
+   ]
+  },
+  {
+   "stock": "스피어",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 1,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "작년 12월부터 3월간 10배 상승했다가 반토막 난 주식이 단기간에 따라가는 것은 위험. 전문가는 신규 매수를 명확히 반대하고 '빠져나오시는게 좋다'고 권고.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "스페이스 X 상장 관련주로서 장기 공급 계약이 체결되어 있습니다. 상한가로 안착했으며 4만 원 이하에서 매수 시 30% 이상 수익을 기대할 수 있습니다.",
+     "confidence": "high",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "미국 우주항공 발사업체와 201억원 규모의 특수합금 공급 계약 체결. SpaceX 관련 핵심 공급망 역할로 우주산업 성장세에 따른 수혜 기대. 상한가 기록.",
+     "confidence": "high",
+     "video_id": "RHQeJ1CrLmc",
+     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
+     "published": "2026-06-11T08:27:36+00:00",
+     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "스페이스X와 직접 거래하며 누적 수주 2억 2,800만 달러 달성. 향후 우주 분야 투자 확대로 부품 수요 증가 기대. 다만 현재 영업이익 개선이 미흡하므로, 이전 하락 전 수준까지 반등 가능으로 평가.",
+     "confidence": "medium",
+     "video_id": "7GlDQFkMZ8Y",
+     "title": "심텍 VS 미래에셋증권, 오늘의 우승 종목은? #심텍 #미래에셋증권 #HMM #한화오션 #주식월드컵",
+     "published": "2026-06-11T05:17:10+00:00",
+     "url": "https://www.youtube.com/watch?v=7GlDQFkMZ8Y"
+    }
+   ]
+  },
+  {
+   "stock": "비트론 에스택",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 1,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "신규 상장 종목(공모가 6,900원)의 매력이 떨어진 상태. 기술적 반등은 있을 수 있으나 전문가는 15,000원 목표 후 '매도 권장'을 명시.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    }
+   ]
+  },
+  {
+   "stock": "현대차",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 5,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "현 시점에서는 80~85만원이 목표이나 당장 도달 불가. 60만원 아래 추가 매수 기회, 80만원 이상이 중장기 목표.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "피지컬 AI, 자율주행, 휴먼노이드 로봇 시장 성장의 핵심 수혜자. 로봇 시장 본격 진입은 2-3년 내 예상. 향후 삼성전자처럼 시장 주도 가능성.",
+     "confidence": "medium",
+     "video_id": "h2kNDERLBWA",
+     "title": "골드만삭스·노무라 공통 전망! AI 투자 확대, 반도체 슈퍼사이클 온다!#삼성전자 #SK하이닉스 #반도체 #AI반도체 #슈퍼사이클 #신기수 #명인들의복기",
+     "published": "2026-06-12T08:41:58+00:00",
+     "url": "https://www.youtube.com/watch?v=h2kNDERLBWA"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "장기적으로 충분한 상승 여력이 있으므로, 단기 변동성에 흔들리지 말고 목표가 달성까지 인내심 있게 보유할 것을 권장한다.",
+     "confidence": "low",
+     "video_id": "STyV3jTik_Y",
+     "title": "[6월 12일 마감시황] 반도체 상승 논리는 살아있다. 하지만 지금 따라붙으면 위험한 이유ㅣ홍선애, 이권희, 김장열 [클로징벨 라이브]",
+     "published": "2026-06-12T08:33:25+00:00",
+     "url": "https://www.youtube.com/watch?v=STyV3jTik_Y"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "피지컬 AI 관련 종목, 이중 바닥 형성 후 회복 시점에 관심 검토",
+     "confidence": "medium",
+     "video_id": "V9BynwKoKQE",
+     "title": "트럼프에 오르고 네타냐후에 내리고, 혼란스러운 장 실적주 집중! (f. 반도체, 바이오, 증권, 조선, 로봇) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-12T06:26:21+00:00",
+     "url": "https://www.youtube.com/watch?v=V9BynwKoKQE"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "자동차 제조사로서의 밸류는 충분하며 물리 AI와 로봇 섹터로의 전환 가치 있음. Boston Dynamics 상장 연기에 단기 실망감 있으나 장기 관점에서는 70-80만원 목표 타당.",
+     "confidence": "medium",
+     "video_id": "RHQeJ1CrLmc",
+     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
+     "published": "2026-06-11T08:27:36+00:00",
+     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "2주 전 75만원에서 50만원대 중반(56만원 수준)으로 하락한 것에 가격 매력이 있다고 평가. 조정시 매수 기회로 제시.",
+     "confidence": "medium",
+     "video_id": "ZnBGA4FYMPA",
+     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-11T06:23:49+00:00",
+     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
+    }
+   ]
+  },
+  {
+   "stock": "동진세미캠",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 70개 종목 대부분이 5배 이상 올랐는데 이 종목은 3배 수준으로 아직 상승여력 충분. 포토 레지스트 수혜로 장기 강세 예상.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "포토레지스트 소재 국산화 성공. 삼성전자/SK하이닉스 납품(HBM, CMP 슬러리 등). 파운드리 공장 가동으로 수요 증가. 2차전지 도전제도 공급.",
+     "confidence": "high",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    }
+   ]
+  },
+  {
+   "stock": "HPSP",
+   "ticker": null,
+   "market": "KR",
+   "buy": 3,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "한미 반도체 지분 투자로 차별화. 현재 5만원 아래에서 8만 5천원대 목표 가능. 일부 익절 후 나머지는 추가 상승 기대.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 소부장 종목으로 오늘 상한가 기록하며 71,500원 종가 형성.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "반도체 장비 종목으로, 종가 매매 전략을 통해 여러 번 50% 이상의 상승을 기록했습니다. 시가총액 5조 8천억원 규모의 중대형주입니다.",
+     "confidence": "medium",
+     "video_id": "zMo9AasZ_4Q",
+     "title": "380조 뭉칫돈 폭발! 스페이스X 상장 임박, 역사적 기회 잡을 1차 벤더 독점 수혜주 공개 #매매의정석",
+     "published": "2026-06-12T10:57:50+00:00",
+     "url": "https://www.youtube.com/watch?v=zMo9AasZ_4Q"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "언일링 장비 분야에서 분량률 관리에 핵심적 역할 수행. 시장 점유율 50% 이상을 보유하며 삼성, 하이닉스, 마이크론 등 주요 반도체 업체에 공급 중.",
+     "confidence": "high",
+     "video_id": "kz_LIgOm26M",
+     "title": "본격적인 반도체 증설 초입 구간, 미리 수혜주를 선점하라! 전공정 1등 종목은 '여기'!(F. 유진테크, 피에스케이, 이오테크닉스) #유창희 #투자스쿨 #토마토TV",
+     "published": "2026-06-11T04:19:15+00:00",
+     "url": "https://www.youtube.com/watch?v=kz_LIgOm26M"
+    }
+   ]
+  },
+  {
+   "stock": "원익 QNC",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "원익 IP를 따라가는 주식으로 기본 특성 양호. 3만원대에서 4~5만원대까지 상승 가능하며 과도한 욕심 금지.",
+     "confidence": "medium",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    }
+   ]
+  },
+  {
+   "stock": "롯데에너지머티리얼즈",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "5월 초 바닥에서 매수 후 물타기한 종목. 8만원 이상으로의 상승이 목표이며, 그 전까지는 한 주도 팔지 말 것.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    }
+   ]
+  },
+  {
+   "stock": "에코프로BM",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "2차전지 선봉장. 현재 20%에서 30% 이상으로 추가 매수 권고. 24만원 아래에서는 절대 매도 금지.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    }
+   ]
+  },
+  {
+   "stock": "에코프로머티리얼즈",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "보호예수 해제로 인한 조정이나 구조는 건강함. 현 비중 27%에서 40%로 추가 매수. 7~7.5만원이 단기 저항.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    }
+   ]
+  },
+  {
+   "stock": "나노신소재",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "전문가가 '단 한 번도 의심하지 않은' 성장주 최고 추천. 매수가 65천원에 17% 비중은 아름답다고 평가. 13% 추가 매수 권고.",
+     "confidence": "high",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    }
+   ]
+  },
+  {
+   "stock": "PNT",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "2차전지 소재주로 단기 저항은 5~5.2만원. 6만원 이상으로의 상승까지 보유. 초보자는 신중한 추가 매수 권고.",
+     "confidence": "medium",
+     "video_id": "V9bQKwq5_Lo",
+     "title": "한화시스템/스피어/HL만도/현대모비스/현대차/동진쎄미켐/HPSP/삼성SDI/롯데에너지머티리얼즈/나노신소재/피엔티_종목진단[이종복 전문가_미스터진단 2부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:17:22+00:00",
+     "url": "https://www.youtube.com/watch?v=V9bQKwq5_Lo"
+    }
+   ]
+  },
+  {
+   "stock": "와이씨",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 종목으로 저점 근처에서 추가 매수를 권함. 발화자는 매수가 근처까지 올라가면 일부 매도할 것을 제시하면서도, 장기적으로는 24,000원대까지 올라갈 수 있는 우량주로 평가.",
+     "confidence": "high",
+     "video_id": "2Ah71InS9n0",
+     "title": "와이씨/HD현대마린엔진/티엘비/미래에셋증권/SGC에너지/SK바이오팜/SKC/두산로보틱스 [이종복 전문가_미스터 진단 1부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:00:26+00:00",
+     "url": "https://www.youtube.com/watch?v=2Ah71InS9n0"
+    }
+   ]
+  },
+  {
+   "stock": "HD현대마린엔진",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "조선 관련주로 고점에서 크게 하락했지만 저점 근처에서 추가 매수를 권함. 향후 지수가 13,500을 갈 때 매수가 근처까지 올라갈 수 있다고 전망.",
+     "confidence": "high",
+     "video_id": "2Ah71InS9n0",
+     "title": "와이씨/HD현대마린엔진/티엘비/미래에셋증권/SGC에너지/SK바이오팜/SKC/두산로보틱스 [이종복 전문가_미스터 진단 1부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:00:26+00:00",
+     "url": "https://www.youtube.com/watch?v=2Ah71InS9n0"
+    }
+   ]
+  },
+  {
+   "stock": "TLB",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 1,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "반도체 기판주로 이미 열배 이상 상승한 종목. 발화자는 익절을 권장하고 앞으로 수익을 낼 수 있는 다른 반도체 종목으로의 교체를 제시.",
+     "confidence": "high",
+     "video_id": "2Ah71InS9n0",
+     "title": "와이씨/HD현대마린엔진/티엘비/미래에셋증권/SGC에너지/SK바이오팜/SKC/두산로보틱스 [이종복 전문가_미스터 진단 1부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:00:26+00:00",
+     "url": "https://www.youtube.com/watch?v=2Ah71InS9n0"
+    }
+   ]
+  },
+  {
+   "stock": "미래에셋증권",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 1,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "증권주로 스페이스X 관련 호재를 이미 충분히 반영하여 크게 올라온 상태. 65,000원 근처에서 익절하고 본업을 잘하는 삼성증권 등 다른 증권주로의 교체를 권장.",
+     "confidence": "high",
+     "video_id": "2Ah71InS9n0",
+     "title": "와이씨/HD현대마린엔진/티엘비/미래에셋증권/SGC에너지/SK바이오팜/SKC/두산로보틱스 [이종복 전문가_미스터 진단 1부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:00:26+00:00",
+     "url": "https://www.youtube.com/watch?v=2Ah71InS9n0"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "스페이스X IPO 참가로 단기 상승했으나 공모주청약 종료로 재료 소진. 올해 영업이익 피크로 내년부터 30% 감소 예상. 현재 6만5,000원 부근에서 비중 축소 권장.",
+     "confidence": "high",
+     "video_id": "7GlDQFkMZ8Y",
+     "title": "심텍 VS 미래에셋증권, 오늘의 우승 종목은? #심텍 #미래에셋증권 #HMM #한화오션 #주식월드컵",
+     "published": "2026-06-11T05:17:10+00:00",
+     "url": "https://www.youtube.com/watch?v=7GlDQFkMZ8Y"
+    }
+   ]
+  },
+  {
+   "stock": "SGC에너지",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "에너지 관련주로 유가가 결국 하락할 것으로 예상하는 발화자는 현재 매력이 떨어진다고 평가. 5만 원대 초중반 저점에서는 장기 투자 가능성을 열어두고, 현재는 반도체·2차전지·로봇·AI 등이 더 유리하다고 판단.",
+     "confidence": "medium",
+     "video_id": "2Ah71InS9n0",
+     "title": "와이씨/HD현대마린엔진/티엘비/미래에셋증권/SGC에너지/SK바이오팜/SKC/두산로보틱스 [이종복 전문가_미스터 진단 1부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:00:26+00:00",
+     "url": "https://www.youtube.com/watch?v=2Ah71InS9n0"
+    }
+   ]
+  },
+  {
+   "stock": "SK바이오팜",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "제약·바이오주 중 상대적으로 강한 실적을 유지하는 종목. 현재 투자심리가 약한 상황이지만, 발화자는 추가 매수를 권장하며 연말 12만 원에서 13만 원대까지의 상승을 전망.",
+     "confidence": "high",
+     "video_id": "2Ah71InS9n0",
+     "title": "와이씨/HD현대마린엔진/티엘비/미래에셋증권/SGC에너지/SK바이오팜/SKC/두산로보틱스 [이종복 전문가_미스터 진단 1부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:00:26+00:00",
+     "url": "https://www.youtube.com/watch?v=2Ah71InS9n0"
+    }
+   ]
+  },
+  {
+   "stock": "SKC",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "화학주로 유상증자 호재가 있음. 발화자는 15~16만 원대에서 익절 후 13~12만 원대 저점에서 재매수해 장기 투자할 것을 제시하며, 최종 목표가 20만 원대라고 전망.",
+     "confidence": "high",
+     "video_id": "2Ah71InS9n0",
+     "title": "와이씨/HD현대마린엔진/티엘비/미래에셋증권/SGC에너지/SK바이오팜/SKC/두산로보틱스 [이종복 전문가_미스터 진단 1부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:00:26+00:00",
+     "url": "https://www.youtube.com/watch?v=2Ah71InS9n0"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "유리기판 분야 퍼스트무버로 조지아 공장에서 세계 최초 양산 준비 중. AMD 협력으로 검증 가능성 확보. 발열 해결의 핵심으로 앞으로 수요 증가 확실.",
+     "confidence": "high",
+     "video_id": "RHQeJ1CrLmc",
+     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
+     "published": "2026-06-11T08:27:36+00:00",
+     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
+    }
+   ]
+  },
+  {
+   "stock": "두산로보틱스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "로봇주로 본업 실적이 우수한 종목으로 평가. 발화자는 10만 원대 초반의 저점에서 매수를 강력히 권장하며, 단기 변동성에 흔들리지 말고 장기 투자할 것을 강조.",
+     "confidence": "high",
+     "video_id": "2Ah71InS9n0",
+     "title": "와이씨/HD현대마린엔진/티엘비/미래에셋증권/SGC에너지/SK바이오팜/SKC/두산로보틱스 [이종복 전문가_미스터 진단 1부] #미스터진단 #이종복",
+     "published": "2026-06-12T14:00:26+00:00",
+     "url": "https://www.youtube.com/watch?v=2Ah71InS9n0"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "두산 그룹이 엔비디아와 협력하여 피지컬 AI, 로보틱스, AI 팩토리 분야에서 함께 추진하기로 했다는 소식에 기대감이 높아지고 있다. 현재까지 61%의 수익률을 기록했다.",
+     "confidence": "medium",
+     "video_id": "jLSMCeCPacQ",
+     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
+     "published": "2026-06-11T02:55:45+00:00",
+     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
+    }
+   ]
+  },
+  {
+   "stock": "프로텍",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "중소형 반도체 관련 종목으로 추천 이틀 만에 25% 상승했으며, 시초가부터 강조 추천했을 정도로 강한 확신을 가지고 있습니다. 목표가 9만 원 이상을 제시하고 있습니다.",
+     "confidence": "high",
+     "video_id": "eH4atsdHu3s",
+     "title": "[모닝토마토] 전쟁 종전 합의한 임박! 한선호 폭발 임박! ★한선호 전문가★",
+     "published": "2026-06-12T14:00:00+00:00",
+     "url": "https://www.youtube.com/watch?v=eH4atsdHu3s"
+    }
+   ]
+  },
+  {
+   "stock": "PSK",
+   "ticker": null,
+   "market": "KR",
+   "buy": 3,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "중소형 반도체 대장주로 최근 74% 급등했으며, 지속적 상승을 강조하며 현재 시세의 강세를 확인하고 있습니다.",
+     "confidence": "high",
+     "video_id": "eH4atsdHu3s",
+     "title": "[모닝토마토] 전쟁 종전 합의한 임박! 한선호 폭발 임박! ★한선호 전문가★",
+     "published": "2026-06-12T14:00:00+00:00",
+     "url": "https://www.youtube.com/watch?v=eH4atsdHu3s"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "포토 레지스트 분야에서 60~70% 이상의 시장 점유율 보유하며 영업이익률이 40~55%로 반도체 소부장 기업 중 최고 수준. 그러나 최근 1주일 간 약 60~70% 급등으로 단기 오버슈팅 상태이므로 속도 조절이 필요.",
+     "confidence": "high",
+     "video_id": "kz_LIgOm26M",
+     "title": "본격적인 반도체 증설 초입 구간, 미리 수혜주를 선점하라! 전공정 1등 종목은 '여기'!(F. 유진테크, 피에스케이, 이오테크닉스) #유창희 #투자스쿨 #토마토TV",
+     "published": "2026-06-11T04:19:15+00:00",
+     "url": "https://www.youtube.com/watch?v=kz_LIgOm26M"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 정공정 장비업 3등 기업. 드라이 클리닝 핵심 장비 공급으로 메모리 반도체 업체의 생산 라인 투자 확대 시 최대 수혜. 지난해 영업이익 885억에서 올해 약 1,600억으로 예상되며 작년 10월 4만원대에서 16만원대로 급등.",
+     "confidence": "high",
+     "video_id": "IgN0d7XQfwo",
+     "title": "주도주는 여전히 반도체! 지금 봐야 할 소부장 종목! (ft.금산) #반도체 #삼성전자 #SK하이닉스 #소부장 #GST #케이씨텍 #피에스케이 #실적",
+     "published": "2026-06-11T03:09:07+00:00",
+     "url": "https://www.youtube.com/watch?v=IgN0d7XQfwo"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "최근 3거래일 연속 강세를 보이고 있으며, 소부장 종목 강세 속에서 신고가를 기록했다. 현재까지 52%의 수익률을 기록했다.",
+     "confidence": "high",
+     "video_id": "jLSMCeCPacQ",
+     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
+     "published": "2026-06-11T02:55:45+00:00",
+     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
+    }
+   ]
+  },
+  {
+   "stock": "PS 일렉트로닉스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "어제 TV 방송에서 추천한 데이터센터·AI 인프라 관련 종목으로, 고점 대비 충분히 밀려 있는 저점 구간에서의 진입을 강조했습니다. 목표가 11,000원, 손절가 6,000원을 제시했습니다.",
+     "confidence": "high",
+     "video_id": "eH4atsdHu3s",
+     "title": "[모닝토마토] 전쟁 종전 합의한 임박! 한선호 폭발 임박! ★한선호 전문가★",
+     "published": "2026-06-12T14:00:00+00:00",
+     "url": "https://www.youtube.com/watch?v=eH4atsdHu3s"
+    }
+   ]
+  },
+  {
+   "stock": "테크윙",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "중소형 반도체 종목으로 상한가 터치하며 강한 시세 분출을 보이고 있으며, 최근 추천 종목 중에서도 주목할 만한 수익률을 기록하고 있습니다.",
+     "confidence": "medium",
+     "video_id": "eH4atsdHu3s",
+     "title": "[모닝토마토] 전쟁 종전 합의한 임박! 한선호 폭발 임박! ★한선호 전문가★",
+     "published": "2026-06-12T14:00:00+00:00",
+     "url": "https://www.youtube.com/watch?v=eH4atsdHu3s"
+    }
+   ]
+  },
+  {
+   "stock": "로보티즈",
+   "ticker": null,
+   "market": "KR",
+   "buy": 3,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "로봇 종목으로 82% 급등한 실적이 있으며, LG 전자 반등에 따른 계열사 효과로 지속적 강세를 보이고 있습니다.",
+     "confidence": "medium",
+     "video_id": "eH4atsdHu3s",
+     "title": "[모닝토마토] 전쟁 종전 합의한 임박! 한선호 폭발 임박! ★한선호 전문가★",
+     "published": "2026-06-12T14:00:00+00:00",
+     "url": "https://www.youtube.com/watch?v=eH4atsdHu3s"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "로봇 액추에이터 국산화 대장주. LG 그룹과 함께 움직이며 35만 원 아래에서 과감한 매수 권장. 40만 원 목표.",
+     "confidence": "high",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "우즈베키스탄 공장 증설로 폭발적인 실적 성장이 예상되고 있으며 연간 흑자 기저를 유지할 것으로 전망된다. 여러 프로그램에서 추천받고 있으며 현재까지 67% 수익률에 육박하고 있다.",
+     "confidence": "high",
+     "video_id": "jLSMCeCPacQ",
+     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
+     "published": "2026-06-11T02:55:45+00:00",
+     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
+    }
+   ]
+  },
+  {
+   "stock": "IM 바이오로직스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "최근 추천했던 종목으로 5% 이상 상승률을 보이고 있으며, 바이오 업종의 차순환 상승 가능성을 제시했습니다.",
+     "confidence": "medium",
+     "video_id": "eH4atsdHu3s",
+     "title": "[모닝토마토] 전쟁 종전 합의한 임박! 한선호 폭발 임박! ★한선호 전문가★",
+     "published": "2026-06-12T14:00:00+00:00",
+     "url": "https://www.youtube.com/watch?v=eH4atsdHu3s"
+    }
+   ]
+  },
+  {
+   "stock": "두산 테스나",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "로봇 관련 종목으로 18% 상승 중이며, 로봇 업종 강세의 수혜 종목입니다.",
+     "confidence": "medium",
+     "video_id": "eH4atsdHu3s",
+     "title": "[모닝토마토] 전쟁 종전 합의한 임박! 한선호 폭발 임박! ★한선호 전문가★",
+     "published": "2026-06-12T14:00:00+00:00",
+     "url": "https://www.youtube.com/watch?v=eH4atsdHu3s"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "구조적인 성장 국면에 진입했다는 평가가 나오고 있으며, 하반기 이후에는 가동률 상승과 함께 실적이 본격화될 것으로 예상된다.",
+     "confidence": "high",
+     "video_id": "jLSMCeCPacQ",
+     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
+     "published": "2026-06-11T02:55:45+00:00",
+     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
+    }
+   ]
+  },
+  {
+   "stock": "오라클",
+   "ticker": "ORCL",
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 4,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "실적은 양호하지만 과도한 자본 투자(유상증자)로 인해 주주가치 평가에 우려를 제시했습니다.",
+     "confidence": "medium",
+     "video_id": "eH4atsdHu3s",
+     "title": "[모닝토마토] 전쟁 종전 합의한 임박! 한선호 폭발 임박! ★한선호 전문가★",
+     "published": "2026-06-12T14:00:00+00:00",
+     "url": "https://www.youtube.com/watch?v=eH4atsdHu3s"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "데이터센터 비용 부담으로 시장의 실망을 받았으나, 일부 애널리스트는 클라우드 인프라 강점과 미래 현금흐름을 긍정적으로 평가하여 매수 의견과 400달러 목표가를 제시했습니다. 발화자는 기회가 있을 수 있다는 뉘앙스를 보였습니다.",
+     "confidence": "medium",
+     "video_id": "e_FF2UNkWCw",
+     "title": "[26.06.12 오전 방송 전체보기] 트럼프 \"이란과 합의\", 뉴욕증시 급반등...코스피 야간선물 '급등'",
+     "published": "2026-06-12T03:15:26+00:00",
+     "url": "https://www.youtube.com/watch?v=e_FF2UNkWCw"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "실적이 좋았음에도 불구하고 시장의 기대치를 충족하지 못해 주가가 10% 하락했습니다. 이는 반도체 등 다른 기업들도 유사한 패턴을 보이고 있음을 시사합니다.",
+     "confidence": "high",
+     "video_id": "zqdwYq4WoZc",
+     "title": "사팔사팔이 아닙니다. 지금은 버는 것보다 잃지 않는 게 중요합니다.ㅣ홍선애, 장우진 금시공 대표 [여의도 인사이트]",
+     "published": "2026-06-11T08:58:03+00:00",
+     "url": "https://www.youtube.com/watch?v=zqdwYq4WoZc"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "호실적 발표에도 불구하고 추가 200억 달러 자금 조달 계획 발표로 자본 조달의 어려움을 시사하며, 이는 자금 조달이 쉬웠다면 유상증자를 하지 않았을 것이라는 우려",
+     "confidence": "medium",
+     "video_id": "RSOtKvknTKg",
+     "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
+     "published": "2026-06-11T00:27:28+00:00",
+     "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
+    }
+   ]
+  },
+  {
+   "stock": "삼성전기",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 1,
+   "hold": 7,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "MLCC, FCBJ 모멘텀과 실리콘 커패시터 수주(1조 6천억)로 긍정적이나, 2분기·3분기 실적 확인이 중요하며 현재 가파르게 올라와 조정 필요 가능성이 있다.",
+     "confidence": "medium",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "GPU 기판(BGA) 수요 증가 및 엔비디아로부터 선수금 수주 호재. 분석가 목표가 200-250만원. 현재 200만원 수준은 고평가이나 안전마진(0.7) 적용 시 약 170만원대에서 재진입 기회 예상.",
+     "confidence": "medium",
+     "video_id": "WHRwsile884",
+     "title": "삼성전자·SK하이닉스 보유자, 지금은 매수보다 이것이 중요합니다ㅣ김장열 유니스토리자산운용 리서치센터장 [집중 오늘의 주식]",
+     "published": "2026-06-12T12:00:20+00:00",
+     "url": "https://www.youtube.com/watch?v=WHRwsile884"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "이격도 벌어진 단기 과열 신호. 20일 이동평균선(160만 원) 하단 돌파 시 손절 권장. 차트상 가격 조정 위험.",
+     "confidence": "medium",
+     "video_id": "_jvGsk8fhgY",
+     "title": "[26.06.12 오후 방송 전체보기] 팔천피·천스닥 단숨에 회복했다…오늘의 마지막 시선은 스페이스X에 집중! [클로징벨 라이브]",
+     "published": "2026-06-12T11:01:15+00:00",
+     "url": "https://www.youtube.com/watch?v=_jvGsk8fhgY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "수급상 경고 메시지 발생, ETF 자금이 빠져나오고 있는 상황으로 충분한 가격 조정 필요",
+     "confidence": "medium",
+     "video_id": "V9BynwKoKQE",
+     "title": "트럼프에 오르고 네타냐후에 내리고, 혼란스러운 장 실적주 집중! (f. 반도체, 바이오, 증권, 조선, 로봇) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-12T06:26:21+00:00",
+     "url": "https://www.youtube.com/watch?v=V9BynwKoKQE"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "시총 150조원에 PER 100배를 넘어 극도로 과열된 상태입니다. 고점실로 판단되므로 피하고 시선을 다른 곳으로 돌려야 합니다.",
+     "confidence": "high",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "견조한 조정 수준으로 LG 이노텍보다 상대적으로 양호한 상태. AI 관련 비중이 상대적으로 낮아 하방 압력 덜함.",
+     "confidence": "low",
+     "video_id": "g390jTAHOko",
+     "title": "반대매매 폭증에도 반도체 소부장 강세! 삼성전자보다 주목할 종목은?#반도체 #소부장 #코스닥 #주식전망 #증시분석 #김정수 #명인들의복기",
+     "published": "2026-06-11T09:08:48+00:00",
+     "url": "https://www.youtube.com/watch?v=g390jTAHOko"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "올 여름~9월 사이에 고점에서 변동성이 크게 나타날 것으로 예상되며, ETF 펀드들의 비중 축소(30%→20~10%)로 인해 추가 상승 여력이 제한될 가능성이 높다.",
+     "confidence": "medium",
+     "video_id": "99hesW7PY5c",
+     "title": "여름 변동성과 K-증시의 리스크!",
+     "published": "2026-06-11T08:15:09+00:00",
+     "url": "https://www.youtube.com/watch?v=99hesW7PY5c"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "올 여름에서 9월 사이 고점에서 변동성이 제법 클 것으로 예상. ETF 펀드의 비중 조정에 따른 시장 영향 가능성을 지적.",
+     "confidence": "medium",
+     "video_id": "ZnBGA4FYMPA",
+     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-11T06:23:49+00:00",
+     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "AI 칩 확대로 기판(FC BGA) 수요가 폭증하고 있으며 2028년까지 공급 부족이 지속될 것으로 예상됩니다. 글로벌 AI 서버 MLCC 시장에서 40~50% 점유율을 차지하고 있으며, 공급 부족으로 가격도 점진적으로 상승 중입니다.",
+     "confidence": "high",
+     "video_id": "6WKeKSOdTNo",
+     "title": "북중미 월드컵 개막 임박, 시장 조정 속 수혜주 찾기? #월드컵 #북중미 #이슈딥다이브",
+     "published": "2026-06-11T02:58:13+00:00",
+     "url": "https://www.youtube.com/watch?v=6WKeKSOdTNo"
+    }
+   ]
+  },
+  {
+   "stock": "LG이노텍",
+   "ticker": null,
+   "market": "KR",
+   "buy": 3,
+   "sell": 1,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "FCBJ 가격 인상 초기 구간과 기판 쪽 수혜 가능성이 있으나, 빠르게 올라왔고 멀리 있는 미래 실적을 당겨오고 있어 2분기 이후 실적 확인 필요.",
+     "confidence": "medium",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "LG 그룹 로봇주로 로보티즈 상승과 연동. 최근 낙폭 활용하여 120만 원 아래 진입, 80만 원까지 여유 보유.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "5월 개인이 가장 많이 판 종목 중 최고 상승률(145%) 기록. 물리적 AI 기판 및 AI 슈퍼사이클 관련 수혜주. 100만원 이하(정확히 95만원) 진입 시 중기 상승 기대.",
+     "confidence": "high",
+     "video_id": "wy0fVVnZoWA",
+     "title": "다시 돌아온 외국인...반도체 슈퍼사이클 재시동?",
+     "published": "2026-06-12T10:14:02+00:00",
+     "url": "https://www.youtube.com/watch?v=wy0fVVnZoWA"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "브로드컴의 손 떼기로 인한 AI 데이터센터 펀딩 약화로 급격한 조정. 젠슨 효과 이후 자금이 빠져나간 상태로 당분간 회복 어려움.",
+     "confidence": "medium",
+     "video_id": "g390jTAHOko",
+     "title": "반대매매 폭증에도 반도체 소부장 강세! 삼성전자보다 주목할 종목은?#반도체 #소부장 #코스닥 #주식전망 #증시분석 #김정수 #명인들의복기",
+     "published": "2026-06-11T09:08:48+00:00",
+     "url": "https://www.youtube.com/watch?v=g390jTAHOko"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "유한타·현대차·메리츠 증권이 목표 주가를 상향하고 있으며, 선제적 APF 증설 사이클 진입으로 향후 기판 매출에 가파른 성장세를 전망하고 있다. 목표 주가 140만 원 기준으로 현재까지 155%의 수익률을 기록했다.",
+     "confidence": "high",
+     "video_id": "jLSMCeCPacQ",
+     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
+     "published": "2026-06-11T02:55:45+00:00",
+     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
+    }
+   ]
+  },
+  {
+   "stock": "현대건설",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "고점 198,000원에서 110,000원대까지 큰 폭으로 조정받았으며, 원전 모멘텀과 함께 반발 매수가 들어오는 상황이 적절하다.",
+     "confidence": "medium",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "종전 기대감으로 인한 재건주 강세. 트럼프 대통령의 이란과 합의 발표로 급등.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "지정학적 리스크 해소 기대감과 하반기 대미 투자 특별법 수혜로 28% 상승. 데이터센터 전력 공급을 위한 SMR(소형 원전) 프로젝트 혜택 기대.",
+     "confidence": "low",
+     "video_id": "wy0fVVnZoWA",
+     "title": "다시 돌아온 외국인...반도체 슈퍼사이클 재시동?",
+     "published": "2026-06-12T10:14:02+00:00",
+     "url": "https://www.youtube.com/watch?v=wy0fVVnZoWA"
+    }
+   ]
+  },
+  {
+   "stock": "대우건설",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "40,000원에서 20,000원대로 반토막이 난 정도로 많이 조정받았으며, 반발 매수가 들어오는 것이 자연스럽다.",
+     "confidence": "medium",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "종전 기대감 기반 재건주 강세.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    }
+   ]
+  },
+  {
+   "stock": "네이버",
+   "ticker": null,
+   "market": "KR",
+   "buy": 3,
+   "sell": 0,
+   "hold": 3,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "사업 구조 자체가 변할 가능성이 있으며, 30만 원에서 21만 원까지 큰 낙폭을 보인 상황을 담아갈 수 있는 시점으로 평가된다.",
+     "confidence": "medium",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "AI 데이터센터 투자 계획은 긍정적이나 자금 조달 부담 큼. 현재 28만원 이상 상승은 어려울 것으로 판단. 28만원 도달 시 일부 익절 권유.",
+     "confidence": "medium",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "AI 팩토리 인프라 임대 사업 방향성은 긍정적이나, 자금 조달 계획과 투자 청사진 부재로 신뢰 부족. 구체적 계획 공개 시 재평가 필요.",
+     "confidence": "medium",
+     "video_id": "_jvGsk8fhgY",
+     "title": "[26.06.12 오후 방송 전체보기] 팔천피·천스닥 단숨에 회복했다…오늘의 마지막 시선은 스페이스X에 집중! [클로징벨 라이브]",
+     "published": "2026-06-12T11:01:15+00:00",
+     "url": "https://www.youtube.com/watch?v=_jvGsk8fhgY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "AI 관련 고점에서 현금화 대상이었으나, 23만원 이하 조정시 매수 기회로 평가",
+     "confidence": "medium",
+     "video_id": "V9BynwKoKQE",
+     "title": "트럼프에 오르고 네타냐후에 내리고, 혼란스러운 장 실적주 집중! (f. 반도체, 바이오, 증권, 조선, 로봇) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-12T06:26:21+00:00",
+     "url": "https://www.youtube.com/watch?v=V9BynwKoKQE"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "21만원 수준은 가격 매력도가 높은 진입 시점이라고 평가. 조정시 기회를 활용하라는 조언.",
+     "confidence": "medium",
+     "video_id": "ZnBGA4FYMPA",
+     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-11T06:23:49+00:00",
+     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "시장이 신규 사업 투자를 근시안적으로 평가하고 있으나, 성장 기업으로서 잠재력 충분. 투자자들의 과도한 부정 평가 회복 가능.",
+     "confidence": "medium",
+     "video_id": "LbYdx__750U",
+     "title": "투자자들 눈물 흘리는 장세...그래도 팔지 말라는 이유 | 이권희 위즈웨이브 대표 [글로벌 인터뷰]",
+     "published": "2026-06-10T23:25:21+00:00",
+     "url": "https://www.youtube.com/watch?v=LbYdx__750U"
+    }
+   ]
+  },
+  {
+   "stock": "삼성SDS",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "고점 389,000원에서 210,000원대까지 단기에 큰 변동성을 보였으나, 구조적 변화에 들어갈 수 있는 기업으로 담아갈 수 있는 시점이다.",
+     "confidence": "medium",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    }
+   ]
+  },
+  {
+   "stock": "한미반도체",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 1,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "현재 PER이 약 94배로 고평가되어 있으나, 2분기·3분기 실적 반영 후 PER이 60배, 50배로 내려오면 가격적 메리트가 생길 수 있다.",
+     "confidence": "medium",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "스페이스X 500억 원 투자 공시로 투자 심리 개선. 거래대금 충분하며 고점 돌파 시 추가 상승 가능. 분할 매수로 30만 원대 단가 확보 권장.",
+     "confidence": "high",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "HBM 특화로 높은 밸류에이션(80배). 최근 급등으로 과열된 상태. 40만원 수준에서 조정 위험 높음.",
+     "confidence": "high",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "스페이스X 관련주라기보다는 반도체 장비주 전반의 기대심리 상승이 주요 원인. 장비주로서의 펀더멘털은 긍정적이나 스페이스X 직접 수혜는 제한적.",
+     "confidence": "medium",
+     "video_id": "QB-utanGmWM",
+     "title": "스페이스X IPO 기대감에도 관련주 왜 떨어졌나?/상장 이후 주목할 섹터는? #스페이스X #테마주 #IPO #내일장 가이던스",
+     "published": "2026-06-12T06:55:11+00:00",
+     "url": "https://www.youtube.com/watch?v=QB-utanGmWM"
+    }
+   ]
+  },
+  {
+   "stock": "원익IPS",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "상한가 등 강한 소부장 종목으로 긍정적인 움직임을 보이고 있다.",
+     "confidence": "low",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 소부장 종목으로 매물대 부재하고 고점 돌파. 조정 시 14만~16만 원에서 재진입 기회 예상.",
+     "confidence": "high",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "하이닉스 생산능력 확대에 따른 반도체 장비 수혜. 기존 목표가(18만 원) 대비 5~10% 업사이드 가능. 오늘 상한가 달성으로 단기 포모 반영된 상태.",
+     "confidence": "medium",
+     "video_id": "_jvGsk8fhgY",
+     "title": "[26.06.12 오후 방송 전체보기] 팔천피·천스닥 단숨에 회복했다…오늘의 마지막 시선은 스페이스X에 집중! [클로징벨 라이브]",
+     "published": "2026-06-12T11:01:15+00:00",
+     "url": "https://www.youtube.com/watch?v=_jvGsk8fhgY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "코스닥 반도체 소부장 중 신고가 달성 및 상한가 기록. 반도체 소부장 섹터 강세 반영. 다만 개별 분석 의견 없음.",
+     "confidence": "low",
+     "video_id": "wy0fVVnZoWA",
+     "title": "다시 돌아온 외국인...반도체 슈퍼사이클 재시동?",
+     "published": "2026-06-12T10:14:02+00:00",
+     "url": "https://www.youtube.com/watch?v=wy0fVVnZoWA"
+    }
+   ]
+  },
+  {
+   "stock": "두산에너빌리티",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 3,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "원전 모멘텀으로 자금 유입이 예상되고 있다.",
+     "confidence": "low",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "9만원 초반 가격 수준에서 관심, SMR 투자로 하반기 실적 개선 기대",
+     "confidence": "medium",
+     "video_id": "V9BynwKoKQE",
+     "title": "트럼프에 오르고 네타냐후에 내리고, 혼란스러운 장 실적주 집중! (f. 반도체, 바이오, 증권, 조선, 로봇) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-12T06:26:21+00:00",
+     "url": "https://www.youtube.com/watch?v=V9BynwKoKQE"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "기본재는 좋고 기대 이익도 높으나 시장의 수급 쏠림으로 주가가 8만 원대까지 내려와 있다.",
+     "confidence": "medium",
+     "video_id": "x3RqjW5qZag",
+     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
+     "published": "2026-06-11T06:57:19+00:00",
+     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
+    }
+   ]
+  },
+  {
+   "stock": "HD현대중공업",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "실적이 잘 나오고 있으며 AI 네러티브가 붙고 있다. PBR 기준으로 상승 여력이 있고 차기 사이클의 수남회 종목으로 평가된다.",
+     "confidence": "medium",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "이번 시장 쏠림에서 상대적으로 잘 버텼으며 조선 산업의 펀더멘탈이 양호하다.",
+     "confidence": "medium",
+     "video_id": "x3RqjW5qZag",
+     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
+     "published": "2026-06-11T06:57:19+00:00",
+     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "삼성 상선 마진 약 15%의 높은 수익성과 데이터센터 발전 엔진 신사업으로 실적 개선 중이나 수급 요인으로 주가 하락. 차트상 60일선 지지 가능성 높고 투자 가격 매력적.",
+     "confidence": "high",
+     "video_id": "ACMR1ciGqwE",
+     "title": "높은 변동성 장세 속 반도체 말고' 이주식'에 주목하라! #트럼프 #이란 #반도체 #삼성전자 #SK하이닉스 #환율 #수급 #2차전지 #금융",
+     "published": "2026-06-10T23:55:20+00:00",
+     "url": "https://www.youtube.com/watch?v=ACMR1ciGqwE"
+    }
+   ]
+  },
+  {
+   "stock": "삼성중공업",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "실적이 잘 나오고 있으며, 6월 대미 협력 관련 이벤트가 예정되어 있다. 차기 사이클의 수남회 종목으로 평가된다.",
+     "confidence": "medium",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "조선주로 펀더멘탈이 양호하나 시장 쏠림으로 가격이 많이 내려와 있다.",
+     "confidence": "medium",
+     "video_id": "x3RqjW5qZag",
+     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
+     "published": "2026-06-11T06:57:19+00:00",
+     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
+    }
+   ]
+  },
+  {
+   "stock": "SM엔터테인먼트",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "엔터 섹터로의 자금 순환이 일어나고 있으나, 단기 변동성이 크다.",
+     "confidence": "low",
+     "video_id": "N9nzuGuZRLM",
+     "title": "전기보다 반도체가 먼저 간다? 삼성전자·SK하이닉스 신고가 시동ㅣ명민준, 박가영, 이재규 [주린이 구조대]",
+     "published": "2026-06-12T13:00:11+00:00",
+     "url": "https://www.youtube.com/watch?v=N9nzuGuZRLM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "BTS 부산 콘서트로 인한 외국인 관광객 증가와 역사적 저평가 구간이 수급을 끌어올렸으며 21% 이상 상승했습니다.",
+     "confidence": "medium",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    }
+   ]
+  },
+  {
+   "stock": "Google",
+   "ticker": "GOOGL",
+   "market": "US",
+   "buy": 3,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "AI 산업의 핵심 기업으로 메모리 수요의 주요 지표. 모든 AI 기술 스택을 보유하고 있으며 경쟁사(OpenAI, Anthropic) 동향을 통해 AI 산업 건강성을 판단할 수 있음. 장기 관점에서 강력한 투자 대상.",
+     "confidence": "high",
+     "video_id": "WHRwsile884",
+     "title": "삼성전자·SK하이닉스 보유자, 지금은 매수보다 이것이 중요합니다ㅣ김장열 유니스토리자산운용 리서치센터장 [집중 오늘의 주식]",
+     "published": "2026-06-12T12:00:20+00:00",
+     "url": "https://www.youtube.com/watch?v=WHRwsile884"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "AI 인더스트리 핵심 플레이어로 메모리 수요 증대 수혜. 양대 축 투자처로 강조. 장기 관점에서 AI 시장 성장 혜택.",
+     "confidence": "medium",
+     "video_id": "_jvGsk8fhgY",
+     "title": "[26.06.12 오후 방송 전체보기] 팔천피·천스닥 단숨에 회복했다…오늘의 마지막 시선은 스페이스X에 집중! [클로징벨 라이브]",
+     "published": "2026-06-12T11:01:15+00:00",
+     "url": "https://www.youtube.com/watch?v=_jvGsk8fhgY"
+    },
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "AI를 경험에 자연스럽게 녹여냈으며, 클라우드와 검색 시장을 유지하면서 전체 스택을 효과적으로 수익화하고 있다. 1년 후에도 AI 분야 승자로 언급될 가능성이 높다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "보유",
+     "reasoning": "역대 최대 규모 유상증자로 단기적으로 주가 압력이 있을 것으로 예상된다. 다만 조달 자금이 AI 인프라 투자로 흘러들어가므로 장기적으로는 호재다.",
+     "confidence": "medium",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "Micron Technology",
+   "ticker": "MU",
+   "market": "US",
+   "buy": 2,
+   "sell": 0,
+   "hold": 3,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "25일(미국 시간 24일) 분기 실적 발표 예정. 삼성전자·SK하이닉스와 유사한 추세를 보이나 밸류에이션 비교 필요. PER 약 7-9배 수준이며 실적 발표 후 매크로 변수에 따른 움직임 주시 필요.",
+     "confidence": "medium",
+     "video_id": "WHRwsile884",
+     "title": "삼성전자·SK하이닉스 보유자, 지금은 매수보다 이것이 중요합니다ㅣ김장열 유니스토리자산운용 리서치센터장 [집중 오늘의 주식]",
+     "published": "2026-06-12T12:00:20+00:00",
+     "url": "https://www.youtube.com/watch?v=WHRwsile884"
+    },
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "선행 주가수익비율이 한 자리 수에 머물러 있으며, AI의 실제 유용성이 지난 두 분기에 발견되었다. 최근 15% 하락한 현재가 좋은 매수 기회다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "마이크론 실적이 시장의 하락 기점이 될 수 있다는 우려가 있으며, 기대치를 초과하기 어려울 수 있습니다. 실적 발표 후 시장이 어떻게 반응할지 지켜봐야 합니다.",
+     "confidence": "medium",
+     "video_id": "zqdwYq4WoZc",
+     "title": "사팔사팔이 아닙니다. 지금은 버는 것보다 잃지 않는 게 중요합니다.ㅣ홍선애, 장우진 금시공 대표 [여의도 인사이트]",
+     "published": "2026-06-11T08:58:03+00:00",
+     "url": "https://www.youtube.com/watch?v=zqdwYq4WoZc"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "하루에 4% 상승에서 10% 하락까지 14% 대의 극심한 변동성을 보이고 있다. 컨센서스 목표가 1000~1200달러이지만 명확한 매매 기준 없이 접근하면 손실 위험이 크다.",
+     "confidence": "low",
+     "video_id": "ypYW7nwn3v0",
+     "title": "[6월 11일 마감시황] 수익 줄었다고 팔면 안 됩니다. 주도주 매도 기준?ㅣ홍선애, 이권희, 김장열 [클로징벨 라이브]",
+     "published": "2026-06-11T08:32:18+00:00",
+     "url": "https://www.youtube.com/watch?v=ypYW7nwn3v0"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "메모리 주도주로 젠슨과 머스크 모두 메모리 부족을 강조했다. 고점 대비 20% 이상 조정받은 상황에서 분할 매수를 개인적으로 좋다고 평가했다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "SanDisk",
+   "ticker": null,
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "발화자의 선호 종목(구글, 메모리 랜드 관련)으로 역대 최고가 도달. 단기 트레이딩 관점에서는 매력 있지만 현재 고평가 상태. AI 수요에 따른 메모리 시장 동향의 중요한 지표.",
+     "confidence": "medium",
+     "video_id": "WHRwsile884",
+     "title": "삼성전자·SK하이닉스 보유자, 지금은 매수보다 이것이 중요합니다ㅣ김장열 유니스토리자산운용 리서치센터장 [집중 오늘의 주식]",
+     "published": "2026-06-12T12:00:20+00:00",
+     "url": "https://www.youtube.com/watch?v=WHRwsile884"
+    }
+   ]
+  },
+  {
+   "stock": "GST",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "데이터센터 반도체 발열 문제 해결 액침 냉각 기술 공급. 반도체 산업 필수 업체로 65,000원 아래 소액 진입 후 낙폭 활용 매수.",
+     "confidence": "high",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    }
+   ]
+  },
+  {
+   "stock": "고형",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "의료 로봇·스페이스X 위성 제조·반도체 검사 장비 등 다양한 미래 산업 포진. 템백거 가능 장투 종목. 4만 원 아래 분할 매수.",
+     "confidence": "high",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    }
+   ]
+  },
+  {
+   "stock": "주성 엔지니어링",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 1,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 장비주로 한미 반도체와 함께 수혜. 고점 이후 내려온 상황에서 박스권 형성 가능. 20만 원까지 열어두고 하락 시 매수.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 전공정 대장주로서 이미 34% 상승했으나 고점을 뚫면 추가 상승이 예상되며, 코스닥 시총 1위까지 갈 수 있다고 평가했습니다. 1차 매도가 나오지 않았습니다.",
+     "confidence": "high",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "외국인과 기관의 수급 악화 중. 장비주 실적은 하반기 나올 예정이지만 현재 수급 불리. 26만원과 28만원에서 단계적 매도 권고, 17만원 이하에서만 재진입.",
+     "confidence": "high",
+     "video_id": "RHQeJ1CrLmc",
+     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
+     "published": "2026-06-11T08:27:36+00:00",
+     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "반도체 소부장 기업으로 업종 로테이션에서 우선도가 높으며 코스닥 랠리의 주요 참여자이다.",
+     "confidence": "medium",
+     "video_id": "x3RqjW5qZag",
+     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
+     "published": "2026-06-11T06:57:19+00:00",
+     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
+    }
+   ]
+  },
+  {
+   "stock": "세미TS",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "코스닥 신규상장 반도체 관련주. 1분기 영업이익 전년 동기 대비 300% 이상 증가로 조정 후 반등 성공.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    }
+   ]
+  },
+  {
+   "stock": "GS 건설",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "종전 기대감 기반 재건주 강세 흐름.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    }
+   ]
+  },
+  {
+   "stock": "CMTX",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "TSMC 실리콘 파츠 공급업체. 소모품 성격으로 지속적 수요. 낙폭이 커서 12만 원 아래에서 모아가기 좋음.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    }
+   ]
+  },
+  {
+   "stock": "에코프로",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "2차전지 ESS가 데이터센터에 들어가며 관련 수요 증가 예상. 현재 많이 내렸으나 올라갈 것으로 전망.",
+     "confidence": "medium",
+     "video_id": "jqRm3UBfD7U",
+     "title": "일론 머스크가 선택한 최종 병기?! 테슬라 역대급 수주 기대감 터진 반도체 소부장 판도를 바꿀 원픽 대장주 #상한가매트릭스",
+     "published": "2026-06-12T11:35:28+00:00",
+     "url": "https://www.youtube.com/watch?v=jqRm3UBfD7U"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "헝가리 공장 2분기 양산 완료, 유럽 ESS 수요 증가로 하반기 실적 급증 가능성. 올해 초 19만원선은 시세 1단계이며 하반기 본격 시세 예상.",
+     "confidence": "high",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    }
+   ]
+  },
+  {
+   "stock": "우리기술",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "종전 기대감으로 원전 종목 강세. 비중 30%는 과다하므로 10% 수준으로 줄일 것 권유. 20일선 돌파와 60일선 돌파가 추세 전환의 중요 포인트.",
+     "confidence": "medium",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    }
+   ]
+  },
+  {
+   "stock": "비나텍",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "슈퍼패시터와 수소연료전지 에너지 저장 장치 제조. AI 사이클 모멘텀 수혜. 95,000원 지지선 확인 후 135,000원~180,000원 수익 구간 목표.",
+     "confidence": "medium",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    }
+   ]
+  },
+  {
+   "stock": "NHN",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "클라우드/AI 데이터센터 사업 중이나 현재 결손 상태. 실적 가시성 부족. 5만원 도달 시 비중 절반을 팔 것 권유, 나머지는 장기 관망.",
+     "confidence": "medium",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    }
+   ]
+  },
+  {
+   "stock": "LNC바이오",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "스킨부스터 시장 '리토라' 제품 차별화. 2024년부터 실적 개선 시작. 중국 GLP1 시장 진출 추가 모멘텀. 목표가 10만원.",
+     "confidence": "medium",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    }
+   ]
+  },
+  {
+   "stock": "이수페타시스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "고급 PCB(HBM 등) 전문. 삼성전자/SK하이닉스 주요 고객. 2분기 실적부터 반등 예상. 130,000원대 저항선 돌파 필요.",
+     "confidence": "medium",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    }
+   ]
+  },
+  {
+   "stock": "한중NCS",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "ESS 액침 냉각 장치 제조. 북미 ESS 수요 증가, 에너지 안보 이슈로 하반기 모멘텀 강화 예상. 38,000원 저가 기점, 55,000원 돌파 시 70,000원 목표.",
+     "confidence": "medium",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    }
+   ]
+  },
+  {
+   "stock": "인바디",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "해외 진출 안정화로 비용 개선 중. 실적 빠르게 개선 중. 중국 GLP1(비만약) 시장 진출, 미국 건강식품 매장 채널 확대로 성장성 높음.",
+     "confidence": "high",
+     "video_id": "9TXw18PWKwE",
+     "title": "이란 전쟁/FOMC VS TACO/금리인상 #우리기술 #한미반도체 #비나텍 #NHN #에코프로 #엘앤씨바이오 #LG전자 #이수페타시스 #한중엔시에스",
+     "published": "2026-06-12T11:33:56+00:00",
+     "url": "https://www.youtube.com/watch?v=9TXw18PWKwE"
+    }
+   ]
+  },
+  {
+   "stock": "스페이스X",
+   "ticker": null,
+   "market": "US",
+   "buy": 2,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "전인구경제연구소",
+     "stance": "매수",
+     "reasoning": "상장 첫날 지수 편입에 따른 대규모 수급 유입이 예상되며, 테슬라 등 과거 빅테크 IPO에서 공모가 대비 30~40% 상승했으므로 상승 가능성이 있다. 특히 교육적 목적으로 한 주 정도의 소액 투자를 통해 우주 산업을 이해하는 것이 중요하다고 강조.",
+     "confidence": "medium",
+     "video_id": "BWg2eUVflPs",
+     "title": "오늘 스페이스X 참교육 들어갑니다",
+     "published": "2026-06-12T11:06:42+00:00",
+     "url": "https://www.youtube.com/watch?v=BWg2eUVflPs"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "트럼프 행정부의 AI 기업 지분 투자 대상에 포함되었으며, 구글 및 앤트로픽과의 대규모 AI 컴퓨팅 임대 계약(월 1.4조원)으로 AI 인프라 수익성을 입증한 기업으로 재평가.",
+     "confidence": "high",
+     "video_id": "5sp8xisMihc",
+     "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
+     "published": "2026-06-09T11:58:23+00:00",
+     "url": "https://www.youtube.com/watch?v=5sp8xisMihc"
+    }
+   ]
+  },
+  {
+   "stock": "스페이스X",
+   "ticker": "SPACEX",
+   "market": "US",
+   "buy": 2,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "3분기·4분기 AI 부문 턴라운드, 스타링크·발사 매출 성장 전망. 중장기 사 모으기 권장. 상장 초기 변동성 크므로 한 달 뒤 조정 후 진입 권고.",
+     "confidence": "medium",
+     "video_id": "_jvGsk8fhgY",
+     "title": "[26.06.12 오후 방송 전체보기] 팔천피·천스닥 단숨에 회복했다…오늘의 마지막 시선은 스페이스X에 집중! [클로징벨 라이브]",
+     "published": "2026-06-12T11:01:15+00:00",
+     "url": "https://www.youtube.com/watch?v=_jvGsk8fhgY"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "중장기적으로 스타링크 매출 성장, 엔트로픽·구글과의 데이터센터 임대로 3분기부터 AI 부문 매출이 급증할 것으로 예상됨. 극단기 변동성이 크지만 성장성이 유망해 중장기 매수를 추천.",
+     "confidence": "high",
+     "video_id": "HZMoZmDJ90E",
+     "title": "\"근데 삼전닉스가 더 궁금하시죠?\"...S-1 보고서가 밝힌 스페이스X 상장의 진실ㅣ홍선애, 정의훈 유진투자증권 선임연구원 [여의도 인사이트]",
+     "published": "2026-06-12T08:54:35+00:00",
+     "url": "https://www.youtube.com/watch?v=HZMoZmDJ90E"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "기업의 수익 창출 메커니즘이 불명확하고 공모가가 실제 가치를 하회할 가능성이 제기되었다. 파생 상품 거래에서의 과도한 프리미엄이 거품 우려를 야기한다.",
+     "confidence": "medium",
+     "video_id": "EKj4g02onzQ",
+     "title": "트럼프 \"이란과 합의 끝\" 벌써 38번째, 회복하는 시장 과 상장 앞둔 'SpaceX'에 유동성 몰릴까? | 서동주, 김동환, 김제이 블록미디어 편집장 [크립토 PLUS]",
+     "published": "2026-06-12T04:18:30+00:00",
+     "url": "https://www.youtube.com/watch?v=EKj4g02onzQ"
+    }
+   ]
+  },
+  {
+   "stock": "유진테크",
+   "ticker": null,
+   "market": "KR",
+   "buy": 3,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "반도체 전공 소부장으로 하이닉스·삼성전자 생산능력 확대 직접 수혜. 기존 목표가 대비 5~10% 업사이드.",
+     "confidence": "medium",
+     "video_id": "_jvGsk8fhgY",
+     "title": "[26.06.12 오후 방송 전체보기] 팔천피·천스닥 단숨에 회복했다…오늘의 마지막 시선은 스페이스X에 집중! [클로징벨 라이브]",
+     "published": "2026-06-12T11:01:15+00:00",
+     "url": "https://www.youtube.com/watch?v=_jvGsk8fhgY"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 전공정 중 증착 부문의 핵심 기업으로, DRAM과 HBM에 강점을 보유. 삼성, 하이닉스, 마이크론 등 주요 반도체 업체에 공급 중이며, 현재 박스권 상단 돌파를 시도 중. 손절가 14만원 기준으로 분할 매수 가능하며, 18만원 돌파 시 20만원까지 상승 가능성.",
+     "confidence": "high",
+     "video_id": "kz_LIgOm26M",
+     "title": "본격적인 반도체 증설 초입 구간, 미리 수혜주를 선점하라! 전공정 1등 종목은 '여기'!(F. 유진테크, 피에스케이, 이오테크닉스) #유창희 #투자스쿨 #토마토TV",
+     "published": "2026-06-11T04:19:15+00:00",
+     "url": "https://www.youtube.com/watch?v=kz_LIgOm26M"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "고객사의 투자 확대가 실적에 반영되기 시작하고 있으며, 사흘째 강세를 보이며 신고가를 기록했다. 기관투자자의 연속 매수가 계속되고 있다.",
+     "confidence": "high",
+     "video_id": "jLSMCeCPacQ",
+     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
+     "published": "2026-06-11T02:55:45+00:00",
+     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
+    }
+   ]
+  },
+  {
+   "stock": "샌디스크",
+   "ticker": null,
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "NAND 플래시 메모리로 AI 데이터센터 수혜. 저가 선호 종목으로 강조. 구글과 함께 메모리 시장 수혜주.",
+     "confidence": "medium",
+     "video_id": "_jvGsk8fhgY",
+     "title": "[26.06.12 오후 방송 전체보기] 팔천피·천스닥 단숨에 회복했다…오늘의 마지막 시선은 스페이스X에 집중! [클로징벨 라이브]",
+     "published": "2026-06-12T11:01:15+00:00",
+     "url": "https://www.youtube.com/watch?v=_jvGsk8fhgY"
+    }
+   ]
+  },
+  {
+   "stock": "원익 아이패스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "시가총액 11조원 이상의 반도체 소부장 최강자로, 현재 시장이 선택한 종목입니다. 주봉 차트에서 36% 상승을 보이고 있으며, 종가 매매 전략으로 추가 수익 기회가 있습니다.",
+     "confidence": "high",
+     "video_id": "zMo9AasZ_4Q",
+     "title": "380조 뭉칫돈 폭발! 스페이스X 상장 임박, 역사적 기회 잡을 1차 벤더 독점 수혜주 공개 #매매의정석",
+     "published": "2026-06-12T10:57:50+00:00",
+     "url": "https://www.youtube.com/watch?v=zMo9AasZ_4Q"
+    }
+   ]
+  },
+  {
+   "stock": "필스키",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "반도체 장비 종목으로, 지난주 공략 기준 46% 상승을 기록했습니다. 애프터마켓 거래가 가능하며 종가 매매로 여러 번 대응되었습니다.",
+     "confidence": "medium",
+     "video_id": "zMo9AasZ_4Q",
+     "title": "380조 뭉칫돈 폭발! 스페이스X 상장 임박, 역사적 기회 잡을 1차 벤더 독점 수혜주 공개 #매매의정석",
+     "published": "2026-06-12T10:57:50+00:00",
+     "url": "https://www.youtube.com/watch?v=zMo9AasZ_4Q"
+    }
+   ]
+  },
+  {
+   "stock": "SK스퀘어",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "차트 사례를 통해 제시된 종목으로, 10% 이상의 수익이 가능한 것으로 예시되었습니다.",
+     "confidence": "medium",
+     "video_id": "zMo9AasZ_4Q",
+     "title": "380조 뭉칫돈 폭발! 스페이스X 상장 임박, 역사적 기회 잡을 1차 벤더 독점 수혜주 공개 #매매의정석",
+     "published": "2026-06-12T10:57:50+00:00",
+     "url": "https://www.youtube.com/watch?v=zMo9AasZ_4Q"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "과거 900만 원 매수에서 8천만 원까지 상승하여 750% 수익을 기록한 좋은 주식의 예시로 제시됨",
+     "confidence": "medium",
+     "video_id": "kps4YUE8FmU",
+     "title": "📌3년째 손절 안 했습니다. 노후 자금 지키는 '진짜' 주식 투자법",
+     "published": "2026-06-12T06:35:52+00:00",
+     "url": "https://www.youtube.com/watch?v=kps4YUE8FmU"
+    }
+   ]
+  },
+  {
+   "stock": "어드밴스드 오토일렉트로닉스",
+   "ticker": "AAOI",
+   "market": "US",
+   "buy": 0,
+   "sell": 1,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매도",
+     "reasoning": "수백%의 급등을 기록하며 밸루에이션이 과도하게 앞질러 갔다. 기업 기술력은 좋지만 현재 가격대에서는 투자를 피해야 한다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    }
+   ]
+  },
+  {
+   "stock": "마벨",
+   "ticker": "MRVL",
+   "market": "US",
+   "buy": 2,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "맞춤형 칩과 연결성 포트폴리오를 보유하고 있으며, 네트워킹 연결성이 다음 대세가 될 것으로 예상된다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    },
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "관망",
+     "reasoning": "Golden Cable 기술로 AC 케이블 영역에 진출하여 Credo의 경쟁사로 부상. 9m 케이블로 기존 7m 한계를 극복하는 기술을 선보였으며 현재 좋은 상승 모멘텀을 유지 중.",
+     "confidence": "medium",
+     "video_id": "AhCSdJ-11io",
+     "title": "[미국 주식 종목 배틀] 크레도 테크놀로지 vs 아스테라 랩스, 하나만 살 수 있다면?",
+     "published": "2026-06-11T09:00:30+00:00",
+     "url": "https://www.youtube.com/watch?v=AhCSdJ-11io"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "젠슨이 \"다음 1조 달러 회사\"라고 직접 공개적으로 선언했다. 광통신이 AI 인프라 다음 사이클을 주도할 것으로 예상되며 엔비디아가 지분 투자했다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "브로드컴",
+   "ticker": "AVGO",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "네트워킹 연결성이 다음 번 대세가 될 것이며, 현재 조정을 받았지만 여전히 흥미로운 기업이다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    },
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "관망",
+     "reasoning": "Switch 분야의 리더로 Retimer와 스위치를 통합하는 전략으로 시장 확대 중. Astera Labs와 겹치는 영역이 있으나 현재 직접적 경쟁 강도는 높지 않고, 시장 성장으로 인한 추가 진출 가능성 있음.",
+     "confidence": "medium",
+     "video_id": "AhCSdJ-11io",
+     "title": "[미국 주식 종목 배틀] 크레도 테크놀로지 vs 아스테라 랩스, 하나만 살 수 있다면?",
+     "published": "2026-06-11T09:00:30+00:00",
+     "url": "https://www.youtube.com/watch?v=AhCSdJ-11io"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "실적은 나쁘지 않았으나 기대치만큼만 나왔고 전망치가 약간 하락했으며, 이로 인해 여지없이 주가가 조정받았습니다.",
+     "confidence": "high",
+     "video_id": "zqdwYq4WoZc",
+     "title": "사팔사팔이 아닙니다. 지금은 버는 것보다 잃지 않는 게 중요합니다.ㅣ홍선애, 장우진 금시공 대표 [여의도 인사이트]",
+     "published": "2026-06-11T08:58:03+00:00",
+     "url": "https://www.youtube.com/watch?v=zqdwYq4WoZc"
+    }
+   ]
+  },
+  {
+   "stock": "메타",
+   "ticker": "META",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "30억 명의 사용자를 보유하고 있으며 장기 투자 대상으로 신뢰할 만하다.",
+     "confidence": "medium",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    }
+   ]
+  },
+  {
+   "stock": "엔비디아",
+   "ticker": "NVDA",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "여전히 저렴한 밸루에이션에서 거래되고 있으며, 인프라 구축 규모와 매출·이익을 시장이 과소평가했다. 조정 여부와 상관없이 매수 대상이다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    }
+   ]
+  },
+  {
+   "stock": "서비스나우",
+   "ticker": "NOW",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "기업용 소프트웨어는 AI에 완전히 대체되지 않을 것이며, 오히려 AI 덕분에 더욱 성장할 것으로 예상된다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    }
+   ]
+  },
+  {
+   "stock": "퀄컴",
+   "ticker": "QCOM",
+   "market": "US",
+   "buy": 2,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "CPU와 데이터 센터 AI 칩 분야에서 승리할 것으로 예상되며, 다음 달 투자자의 날에서 중요 발표가 있을 것으로 기대된다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "스마트폰 60억대, 디바이스 20억대, PC 20억대, 자동차 5억대 등 100억대 기기의 AI 에이전트 탑재 업그레이드 사이클의 수혜사다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "스노우플레이크",
+   "ticker": "SNOW",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "기업용 데이터 소프트웨어는 AI에 대체되지 않을 것이며, 핵심적인 위치에 있어 장기 성장이 예상된다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    }
+   ]
+  },
+  {
+   "stock": "데이터독",
+   "ticker": "DDOG",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "기업 인프라 모니터링의 핵심적 위치에 있으며, AI 활용 시대에 중요한 역할을 할 것으로 예상된다.",
+     "confidence": "medium",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    }
+   ]
+  },
+  {
+   "stock": "인텔",
+   "ticker": "INTC",
+   "market": "US",
+   "buy": 3,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "파운드리 비즈니스의 변곡점이 다가오고 있으며, 현재 가격대가 좋은 매수 타이밍이다.",
+     "confidence": "high",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "트럼프 대통령이 인텔에 투자해 6-7배 수익을 얻은 성공 사례를 직접 언급하며, AI 인프라 투자 사이클에서 계속 언급하는 핵심 종목으로 평가.",
+     "confidence": "high",
+     "video_id": "5sp8xisMihc",
+     "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
+     "published": "2026-06-09T11:58:23+00:00",
+     "url": "https://www.youtube.com/watch?v=5sp8xisMihc"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "AI 에이전트 시대의 CPU 공급사로 CEO들이 직접 공급 확보를 요청할 정도다. 메모리와 함께 가는 AI 인프라 사이클의 주도주다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "AMD",
+   "ticker": "AMD",
+   "market": "US",
+   "buy": 2,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "미국주식으로은퇴하기",
+     "stance": "매수",
+     "reasoning": "조정 여부와 상관없이 매수할 만한 기업으로 평가된다.",
+     "confidence": "medium",
+     "video_id": "p78vuLGbX3Y",
+     "title": "[오늘의 미국주식뉴스] 나스닥 지수 모멘텀 투자 가능? / 지금 매수해야 하는 AI 수혜주는? / AAII 설문 결과와 미국 증시 전망 / 투자 성공 확률을 극대화하는 유일한 방법",
+     "published": "2026-06-12T10:41:04+00:00",
+     "url": "https://www.youtube.com/watch?v=p78vuLGbX3Y"
+    },
+    {
+     "channel": "소수몽키",
+     "stance": "매수",
+     "reasoning": "인텔과 함께 AI 에이전트 시대의 CPU 수혜주로 평가된다. 메모리, CPU 함께 가는 사이클의 주도주로 상승 시 강하게 오를 수 있다.",
+     "confidence": "high",
+     "video_id": "pkVOkS2Rs-c",
+     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
+     "published": "2026-06-08T12:55:26+00:00",
+     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
+    }
+   ]
+  },
+  {
+   "stock": "코덱스 200 레버리지",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "코스피 200 지수 2배 추적으로 현재 상승장에서 높은 수익률(32% 실현). 반도체 투톱과 소부장 등 주도주들의 실질 수익 극대화 수단. 저점(15만원) 진입으로 단타 수익 가능.",
+     "confidence": "high",
+     "video_id": "wy0fVVnZoWA",
+     "title": "다시 돌아온 외국인...반도체 슈퍼사이클 재시동?",
+     "published": "2026-06-12T10:14:02+00:00",
+     "url": "https://www.youtube.com/watch?v=wy0fVVnZoWA"
+    }
+   ]
+  },
+  {
+   "stock": "이오테크닉스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "코스닥 반도체 소부장 업종으로 신고가 기록. 반도체 투톱 낙수 효과 수혜. 개별 의견 없음.",
+     "confidence": "low",
+     "video_id": "wy0fVVnZoWA",
+     "title": "다시 돌아온 외국인...반도체 슈퍼사이클 재시동?",
+     "published": "2026-06-12T10:14:02+00:00",
+     "url": "https://www.youtube.com/watch?v=wy0fVVnZoWA"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 소부장주로서 6월 반도체 수출 역대 최대 기록에 힘입어 일제 상승했습니다.",
+     "confidence": "low",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "레이저 가공 기술에서 강점을 보유하여 초미세 공정에 필수적인 기업. 기술력과 향후 매출 성장성은 우수하나 주가가 다소 무거운 수준에 있어 현 시점에서는 조정 필요.",
+     "confidence": "medium",
+     "video_id": "kz_LIgOm26M",
+     "title": "본격적인 반도체 증설 초입 구간, 미리 수혜주를 선점하라! 전공정 1등 종목은 '여기'!(F. 유진테크, 피에스케이, 이오테크닉스) #유창희 #투자스쿨 #토마토TV",
+     "published": "2026-06-11T04:19:15+00:00",
+     "url": "https://www.youtube.com/watch?v=kz_LIgOm26M"
+    }
+   ]
+  },
+  {
+   "stock": "레인보우 로보틱스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "로봇 시장 성장 시 핵심 수혜 기업. 삼성전자 후원 기업으로 장기 성장성 보유. 로봇 시장 본격화까지 지속적 관심 필요.",
+     "confidence": "medium",
+     "video_id": "h2kNDERLBWA",
+     "title": "골드만삭스·노무라 공통 전망! AI 투자 확대, 반도체 슈퍼사이클 온다!#삼성전자 #SK하이닉스 #반도체 #AI반도체 #슈퍼사이클 #신기수 #명인들의복기",
+     "published": "2026-06-12T08:41:58+00:00",
+     "url": "https://www.youtube.com/watch?v=h2kNDERLBWA"
+    }
+   ]
+  },
+  {
+   "stock": "한미약품",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 2,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "기술적 진전(기술 출원 등) 있으나 현재 바이오 섹터 투심 약해 주가 반응 미흡. 코스닥 반등 시 바이오의 순환매 상승 기대.",
+     "confidence": "low",
+     "video_id": "h2kNDERLBWA",
+     "title": "골드만삭스·노무라 공통 전망! AI 투자 확대, 반도체 슈퍼사이클 온다!#삼성전자 #SK하이닉스 #반도체 #AI반도체 #슈퍼사이클 #신기수 #명인들의복기",
+     "published": "2026-06-12T08:41:58+00:00",
+     "url": "https://www.youtube.com/watch?v=h2kNDERLBWA"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "바이오 섹터 바닥권에서 빅파마 기술이전 계약(130억 선수금), 4분기 비만 치료제 출시, 근육 보존 기전 임상 진행 등 다양한 파이프라인 보유. 제약바이오 지수의 역사적 저점에도 긍정적 변화가 예상되나, 바이오 섹터 전반의 부정적 흐름을 감안한 신중한 접근 필요.",
+     "confidence": "medium",
+     "video_id": "5eeAOpJPBvk",
+     "title": "살 빼도 근육은 지킨다고?…한미약품 직접 다녀왔습니다. | 조희진 하나증권 압구정금융센터 PB [더블 크루]",
+     "published": "2026-06-11T01:21:12+00:00",
+     "url": "https://www.youtube.com/watch?v=5eeAOpJPBvk"
+    }
+   ]
+  },
+  {
+   "stock": "하이브",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "2분기부터 BTS 월드투어 매출 진입으로 실적 '퀀텀 점프' 예상. BTS의 글로벌 인기 지속으로 매출 대폭 증가 명확.",
+     "confidence": "high",
+     "video_id": "h2kNDERLBWA",
+     "title": "골드만삭스·노무라 공통 전망! AI 투자 확대, 반도체 슈퍼사이클 온다!#삼성전자 #SK하이닉스 #반도체 #AI반도체 #슈퍼사이클 #신기수 #명인들의복기",
+     "published": "2026-06-12T08:41:58+00:00",
+     "url": "https://www.youtube.com/watch?v=h2kNDERLBWA"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "엔터주 저평가에 따른 수급 유입으로 상승했습니다.",
+     "confidence": "low",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "고점 25만원대에서 19만원대까지 하락한 가격에 매력이 있다고 판단. 조정시 매수 포인트로 제시.",
+     "confidence": "medium",
+     "video_id": "ZnBGA4FYMPA",
+     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-11T06:23:49+00:00",
+     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
+    }
+   ]
+  },
+  {
+   "stock": "반도체 장비주",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "1분기 실적 부진은 예견되어 있었으나 주가에 반영되지 않은 상태였고, 3~4분기에 매출 이연 효과로 나타날 예정. 2028년 신규 라인 증설 때 본격적인 매출 증가 기대.",
+     "confidence": "high",
+     "video_id": "QB-utanGmWM",
+     "title": "스페이스X IPO 기대감에도 관련주 왜 떨어졌나?/상장 이후 주목할 섹터는? #스페이스X #테마주 #IPO #내일장 가이던스",
+     "published": "2026-06-12T06:55:11+00:00",
+     "url": "https://www.youtube.com/watch?v=QB-utanGmWM"
+    }
+   ]
+  },
+  {
+   "stock": "한화오션",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "KDDX 사업 우선협상대상자로 선정되어 차기 구축함 건조 기회 확보. 캐나다 수주 성공 등 실적 호재 존재.",
+     "confidence": "medium",
+     "video_id": "QB-utanGmWM",
+     "title": "스페이스X IPO 기대감에도 관련주 왜 떨어졌나?/상장 이후 주목할 섹터는? #스페이스X #테마주 #IPO #내일장 가이던스",
+     "published": "2026-06-12T06:55:11+00:00",
+     "url": "https://www.youtube.com/watch?v=QB-utanGmWM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "올해 총 수주 38억 3천만 달러로 전년 대비 증가. VLCC, LNG 운반선 등 고부가가치선 중심 수주 지속. 캐나다 잠수함 산업과 마스카 프로젝트 추가 수주 기대. 올해 55%, 내년 27%, 내후년 20% 이상 영업이익 성장 전망.",
+     "confidence": "high",
+     "video_id": "7GlDQFkMZ8Y",
+     "title": "심텍 VS 미래에셋증권, 오늘의 우승 종목은? #심텍 #미래에셋증권 #HMM #한화오션 #주식월드컵",
+     "published": "2026-06-11T05:17:10+00:00",
+     "url": "https://www.youtube.com/watch?v=7GlDQFkMZ8Y"
+    }
+   ]
+  },
+  {
+   "stock": "현대중공업",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "기술력은 떨어지지 않으며 군수 지원함 등 별도의 수주 기회 존재. 외국인이 크게 빠져나가지 않는 수급이 긍정적 신호.",
+     "confidence": "medium",
+     "video_id": "QB-utanGmWM",
+     "title": "스페이스X IPO 기대감에도 관련주 왜 떨어졌나?/상장 이후 주목할 섹터는? #스페이스X #테마주 #IPO #내일장 가이던스",
+     "published": "2026-06-12T06:55:11+00:00",
+     "url": "https://www.youtube.com/watch?v=QB-utanGmWM"
+    }
+   ]
+  },
+  {
+   "stock": "미래에셋 벤처투자",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 1,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "스페이스X 직접 투자 기회가 있으나 상장이 임박한 현 시점에는 기대감이 대부분 반영되어 끝물 단계. 신규 진입은 부담스러움.",
+     "confidence": "medium",
+     "video_id": "QB-utanGmWM",
+     "title": "스페이스X IPO 기대감에도 관련주 왜 떨어졌나?/상장 이후 주목할 섹터는? #스페이스X #테마주 #IPO #내일장 가이던스",
+     "published": "2026-06-12T06:55:11+00:00",
+     "url": "https://www.youtube.com/watch?v=QB-utanGmWM"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매도",
+     "reasoning": "SpaceX IPO 불확실성으로 기관의 숨은 매도가 증가 중. 30% 고비중 보유로 인한 리스크 높음. 49,000원 부근에서 차익 실현 권고, 38,000원이 손절선.",
+     "confidence": "high",
+     "video_id": "RHQeJ1CrLmc",
+     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
+     "published": "2026-06-11T08:27:36+00:00",
+     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
+    }
+   ]
+  },
+  {
+   "stock": "인텔리안테크",
+   "ticker": "VSAT",
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "스페이스X IPO 이후 우주항공 산업 성장에 따른 통신 장비·안테나 수요 증가가 기대됨. 관련 인프라 기업으로서 장기 수혜 가능성 있음.",
+     "confidence": "low",
+     "video_id": "QB-utanGmWM",
+     "title": "스페이스X IPO 기대감에도 관련주 왜 떨어졌나?/상장 이후 주목할 섹터는? #스페이스X #테마주 #IPO #내일장 가이던스",
+     "published": "2026-06-12T06:55:11+00:00",
+     "url": "https://www.youtube.com/watch?v=QB-utanGmWM"
+    }
+   ]
+  },
+  {
+   "stock": "삼성전자 우선주",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "발화자의 지인이 300% 수익을 기록하며 현재 보유 중인 우수한 투자 사례로 제시됨",
+     "confidence": "medium",
+     "video_id": "kps4YUE8FmU",
+     "title": "📌3년째 손절 안 했습니다. 노후 자금 지키는 '진짜' 주식 투자법",
+     "published": "2026-06-12T06:35:52+00:00",
+     "url": "https://www.youtube.com/watch?v=kps4YUE8FmU"
+    }
+   ]
+  },
+  {
+   "stock": "알테오젠",
+   "ticker": null,
+   "market": "KR",
+   "buy": 2,
+   "sell": 0,
+   "hold": 4,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "바이오 강세 중이지만 저가에서만 관심, 단기 매매는 피할 것",
+     "confidence": "low",
+     "video_id": "V9BynwKoKQE",
+     "title": "트럼프에 오르고 네타냐후에 내리고, 혼란스러운 장 실적주 집중! (f. 반도체, 바이오, 증권, 조선, 로봇) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-12T06:26:21+00:00",
+     "url": "https://www.youtube.com/watch?v=V9BynwKoKQE"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "외국계 증권사 리포트에서 할로자임 특허 이슈 해결, 큐렉스 판매 확대(2분기부터 연 600억 규모 로열티), GSK와의 추가 계약 가능성 등 호재를 제시했고 외국인이 적극 매수했다.",
+     "confidence": "medium",
+     "video_id": "ypYW7nwn3v0",
+     "title": "[6월 11일 마감시황] 수익 줄었다고 팔면 안 됩니다. 주도주 매도 기준?ㅣ홍선애, 이권희, 김장열 [클로징벨 라이브]",
+     "published": "2026-06-11T08:32:18+00:00",
+     "url": "https://www.youtube.com/watch?v=ypYW7nwn3v0"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "바이오 섹터 내에서 유일하게 연속성이 있는 종목으로 상대적으로 평가됨.",
+     "confidence": "low",
+     "video_id": "w6_izneR7aQ",
+     "title": "코스피는 여전히 반도체 투톱이 주도!/오늘 코스닥 주인공은 반도체 소부장 #코스피 #코스닥 #반도체소부장 #삼성전자 #SK하이닉스 #김정수",
+     "published": "2026-06-11T07:02:53+00:00",
+     "url": "https://www.youtube.com/watch?v=w6_izneR7aQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "바이오 섹터 주요 모멘텀 기업으로 가격 조정 후 박스 레벨 회기 중이며, 좋은 가격에서의 홀딩이 유리하다.",
+     "confidence": "medium",
+     "video_id": "x3RqjW5qZag",
+     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
+     "published": "2026-06-11T06:57:19+00:00",
+     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "보유",
+     "reasoning": "바이오 시가총액 1위로 올라섰으며, 35대 수준에서의 매수는 좋은 결정이라고 평가. 다만 반도체 변동성에 연동될 수 있다고 지적.",
+     "confidence": "medium",
+     "video_id": "ZnBGA4FYMPA",
+     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-11T06:23:49+00:00",
+     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "바이오 섹터에서 실적으로 안전판 역할을 하고 있으며, 34~35만 원대의 진입 타점이 적절하다고 판단된다. 바이 앤 홀드 전략이 권장된다.",
+     "confidence": "high",
+     "video_id": "S0br-u6oFnk",
+     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
+     "published": "2026-06-11T04:32:26+00:00",
+     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
+    }
+   ]
+  },
+  {
+   "stock": "DND 파마",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "바이오 강세로 급등한 대표주 후보, 실적 게임 성격",
+     "confidence": "low",
+     "video_id": "V9BynwKoKQE",
+     "title": "트럼프에 오르고 네타냐후에 내리고, 혼란스러운 장 실적주 집중! (f. 반도체, 바이오, 증권, 조선, 로봇) #여인수 #선택과집중 #토마토TV",
+     "published": "2026-06-12T06:26:21+00:00",
+     "url": "https://www.youtube.com/watch?v=V9BynwKoKQE"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "임상 실험 관련 기대 요인이 남아있어 투자 포인트가 있다.",
+     "confidence": "medium",
+     "video_id": "S0br-u6oFnk",
+     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
+     "published": "2026-06-11T04:32:26+00:00",
+     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
+    }
+   ]
+  },
+  {
+   "stock": "Bitcoin",
+   "ticker": null,
+   "market": "US",
+   "buy": 2,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "2030년 베이스 시나리오 710,000달러 목표가 설정. AI 시대의 풍요 속에서 유일한 희소자산으로서 장기적 가치 상승 예상.",
+     "confidence": "high",
+     "video_id": "S-CrB9L1BaY",
+     "title": "비트코인, 달러, AI까지…미국의 진짜 설계 와 비트코인의 다음단계 | 서동주, 김동환 캐시우드, 프랭크 다우닝 [크립토 PLUS]",
+     "published": "2026-06-12T05:38:36+00:00",
+     "url": "https://www.youtube.com/watch?v=S-CrB9L1BaY"
+    },
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "ARK Invest는 비트코인의 기본 케이스 목표가를 710,000달러(현재 대비 10배 이상)로 설정했으며, AI의 풍요 시대에서 비트코인의 희소성 가치가 빛날 것으로 예상했습니다. 조정 시 진입 기회로 평가했습니다.",
+     "confidence": "high",
+     "video_id": "e_FF2UNkWCw",
+     "title": "[26.06.12 오전 방송 전체보기] 트럼프 \"이란과 합의\", 뉴욕증시 급반등...코스피 야간선물 '급등'",
+     "published": "2026-06-12T03:15:26+00:00",
+     "url": "https://www.youtube.com/watch?v=e_FF2UNkWCw"
+    }
+   ]
+  },
+  {
+   "stock": "Tesla",
+   "ticker": "TSLA",
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "로봇틱스·에너지 저장·AI의 수렴을 통해 지수적 성장 기대. Optimus와 추가 기술 도입으로 장기 성장 가능성 높음.",
+     "confidence": "high",
+     "video_id": "S-CrB9L1BaY",
+     "title": "비트코인, 달러, AI까지…미국의 진짜 설계 와 비트코인의 다음단계 | 서동주, 김동환 캐시우드, 프랭크 다우닝 [크립토 PLUS]",
+     "published": "2026-06-12T05:38:36+00:00",
+     "url": "https://www.youtube.com/watch?v=S-CrB9L1BaY"
+    }
+   ]
+  },
+  {
+   "stock": "Ethereum",
+   "ticker": null,
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "스마트 컨트랙트 네트워크로서 온체인 금융의 핵심 인프라. 다만 블록체인 증가로 평균 수수료 하락 추세 주목.",
+     "confidence": "medium",
+     "video_id": "S-CrB9L1BaY",
+     "title": "비트코인, 달러, AI까지…미국의 진짜 설계 와 비트코인의 다음단계 | 서동주, 김동환 캐시우드, 프랭크 다우닝 [크립토 PLUS]",
+     "published": "2026-06-12T05:38:36+00:00",
+     "url": "https://www.youtube.com/watch?v=S-CrB9L1BaY"
+    }
+   ]
+  },
+  {
+   "stock": "Circle",
+   "ticker": null,
+   "market": "US",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "현재 가장 강한 확신을 가진 크립토 투자 테마. Clarity 법안으로 규제 명확화 예상, 전통금융과 암호화폐 연결 역할.",
+     "confidence": "high",
+     "video_id": "S-CrB9L1BaY",
+     "title": "비트코인, 달러, AI까지…미국의 진짜 설계 와 비트코인의 다음단계 | 서동주, 김동환 캐시우드, 프랭크 다우닝 [크립토 PLUS]",
+     "published": "2026-06-12T05:38:36+00:00",
+     "url": "https://www.youtube.com/watch?v=S-CrB9L1BaY"
+    }
+   ]
+  },
+  {
+   "stock": "Coinbase",
+   "ticker": "COIN",
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "디지털 자산 인프라 기업으로서 기회 있으나, Bitcoin과 높은 상관관계 유지. 가중치는 Circle보다 낮음.",
+     "confidence": "medium",
+     "video_id": "S-CrB9L1BaY",
+     "title": "비트코인, 달러, AI까지…미국의 진짜 설계 와 비트코인의 다음단계 | 서동주, 김동환 캐시우드, 프랭크 다우닝 [크립토 PLUS]",
+     "published": "2026-06-12T05:38:36+00:00",
+     "url": "https://www.youtube.com/watch?v=S-CrB9L1BaY"
+    }
+   ]
+  },
+  {
+   "stock": "MicroStrategy",
+   "ticker": "MSTR",
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "관망",
+     "reasoning": "약 40% 레버리지로 상승장에서는 우수하나 하락장에서 언더퍼폼. 투자 시 레버리지 위험 고려 필요.",
+     "confidence": "medium",
+     "video_id": "S-CrB9L1BaY",
+     "title": "비트코인, 달러, AI까지…미국의 진짜 설계 와 비트코인의 다음단계 | 서동주, 김동환 캐시우드, 프랭크 다우닝 [크립토 PLUS]",
+     "published": "2026-06-12T05:38:36+00:00",
+     "url": "https://www.youtube.com/watch?v=S-CrB9L1BaY"
+    }
+   ]
+  },
+  {
+   "stock": "비트코인",
+   "ticker": null,
+   "market": "US",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "이란-미국 합의 소식으로 시장이 긍정적 반응을 보였고 비트코인 가격이 62,000달러에서 63,000달러로 상승했다. 한 발화자가 상승세에 매수를 진행했다.",
+     "confidence": "medium",
+     "video_id": "EKj4g02onzQ",
+     "title": "트럼프 \"이란과 합의 끝\" 벌써 38번째, 회복하는 시장 과 상장 앞둔 'SpaceX'에 유동성 몰릴까? | 서동주, 김동환, 김제이 블록미디어 편집장 [크립토 PLUS]",
+     "published": "2026-06-12T04:18:30+00:00",
+     "url": "https://www.youtube.com/watch?v=EKj4g02onzQ"
+    }
+   ]
+  },
+  {
+   "stock": "SK Hynix",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "ADR 상장을 앞두고 시기에 따라 재평가받을 가능성이 있다고 평가했으며, 미국 시장에서의 프리미엄 가격이 한국 가격으로 반영될 수 있다고 봤습니다.",
+     "confidence": "medium",
+     "video_id": "e_FF2UNkWCw",
+     "title": "[26.06.12 오전 방송 전체보기] 트럼프 \"이란과 합의\", 뉴욕증시 급반등...코스피 야간선물 '급등'",
+     "published": "2026-06-12T03:15:26+00:00",
+     "url": "https://www.youtube.com/watch?v=e_FF2UNkWCw"
+    }
+   ]
+  },
+  {
+   "stock": "Hyundai Motor",
+   "ticker": null,
+   "market": "KR",
+   "buy": 0,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "보유",
+     "reasoning": "현재 PER, PBR이 과거 평균을 초과한 오버슈팅 상태이며, 금리가 높은 구간에서는 신규 매수가 애매하다고 판단했습니다. 기존 보유자는 홀드, 신규 진입은 권장하지 않습니다.",
+     "confidence": "medium",
+     "video_id": "e_FF2UNkWCw",
+     "title": "[26.06.12 오전 방송 전체보기] 트럼프 \"이란과 합의\", 뉴욕증시 급반등...코스피 야간선물 '급등'",
+     "published": "2026-06-12T03:15:26+00:00",
+     "url": "https://www.youtube.com/watch?v=e_FF2UNkWCw"
+    }
+   ]
+  },
+  {
+   "stock": "LG Innotek",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "삼프로TV",
+     "stance": "매수",
+     "reasoning": "시장의 끝을 함께 볼 만한 종목으로, 시장이 대상승 국면으로 간다면 계속 상승할 가능성이 높다고 평가했습니다.",
+     "confidence": "medium",
+     "video_id": "e_FF2UNkWCw",
+     "title": "[26.06.12 오전 방송 전체보기] 트럼프 \"이란과 합의\", 뉴욕증시 급반등...코스피 야간선물 '급등'",
+     "published": "2026-06-12T03:15:26+00:00",
+     "url": "https://www.youtube.com/watch?v=e_FF2UNkWCw"
+    }
+   ]
+  },
+  {
+   "stock": "후성",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체와 2차전지 더블 복합재료주로서 히든주 5연승을 기록했으며 22% 이틀 만에 상승했습니다. 앞으로 폭발적 상승이 예정되어 있습니다.",
+     "confidence": "medium",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    }
+   ]
+  },
+  {
+   "stock": "현대 모벡스",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 0,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "현대차 그룹 피지컬 AI 로봇 대표주로서 42,000원 이하 매수를 권장했습니다. 고환율 속에서도 외국인이 지속 매수 중입니다.",
+     "confidence": "high",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    }
+   ]
+  },
+  {
+   "stock": "원익",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 소부장주로서 주성 엔지니어링 대안으로 제시되었으며, 억울하게 눌렸다가 반등하며 21% 상승했습니다.",
+     "confidence": "medium",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "반도체 소부장 종목으로 밸류에이션이 저평가되어 있으며 두 자리 수 상승률을 보이고 있다.",
+     "confidence": "low",
+     "video_id": "S0br-u6oFnk",
+     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
+     "published": "2026-06-11T04:32:26+00:00",
+     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
+    }
+   ]
+  },
+  {
+   "stock": "IPS",
+   "ticker": null,
+   "market": "KR",
+   "buy": 1,
+   "sell": 0,
+   "hold": 1,
+   "opinions": [
+    {
+     "channel": "토마토증권",
+     "stance": "매수",
+     "reasoning": "반도체 소부장주로서 반도체 수출 역대 최대 기록과 반도체 투톱의 상승에 따라 소부장주들이 일제히 상승했습니다.",
+     "confidence": "medium",
+     "video_id": "bzAGN6qSIEQ",
+     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
+     "published": "2026-06-11T10:04:50+00:00",
+     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
+    },
+    {
+     "channel": "토마토증권",
+     "stance": "관망",
+     "reasoning": "반도체 소부장 중 밸류에이션이 저평가된 종목으로 두 자리 수 급등을 보이고 있다.",
+     "confidence": "low",
+     "video_id": "S0br-u6oFnk",
+     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
+     "published": "2026-06-11T04:32:26+00:00",
+     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
+    }
+   ]
+  },
+  {
    "stock": "미래스탠처 투자",
    "ticker": null,
    "market": "KR",
@@ -538,56 +4028,6 @@
      "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
      "published": "2026-06-11T02:55:45+00:00",
      "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
-    }
-   ]
-  },
-  {
-   "stock": "SM엔터테인먼트",
-   "ticker": null,
-   "market": "KR",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "BTS 부산 콘서트로 인한 외국인 관광객 증가와 역사적 저평가 구간이 수급을 끌어올렸으며 21% 이상 상승했습니다.",
-     "confidence": "medium",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    }
-   ]
-  },
-  {
-   "stock": "이오테크닉스",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "반도체 소부장주로서 6월 반도체 수출 역대 최대 기록에 힘입어 일제 상승했습니다.",
-     "confidence": "low",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "레이저 가공 기술에서 강점을 보유하여 초미세 공정에 필수적인 기업. 기술력과 향후 매출 성장성은 우수하나 주가가 다소 무거운 수준에 있어 현 시점에서는 조정 필요.",
-     "confidence": "medium",
-     "video_id": "kz_LIgOm26M",
-     "title": "본격적인 반도체 증설 초입 구간, 미리 수혜주를 선점하라! 전공정 1등 종목은 '여기'!(F. 유진테크, 피에스케이, 이오테크닉스) #유창희 #투자스쿨 #토마토TV",
-     "published": "2026-06-11T04:19:15+00:00",
-     "url": "https://www.youtube.com/watch?v=kz_LIgOm26M"
     }
    ]
   },
@@ -672,36 +4112,6 @@
    ]
   },
   {
-   "stock": "하이브",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "엔터주 저평가에 따른 수급 유입으로 상승했습니다.",
-     "confidence": "low",
-     "video_id": "bzAGN6qSIEQ",
-     "title": "코스피 당분간 횡보세다.  코스닥 반도체 소부장으로 바통 터치",
-     "published": "2026-06-11T10:04:50+00:00",
-     "url": "https://www.youtube.com/watch?v=bzAGN6qSIEQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "고점 25만원대에서 19만원대까지 하락한 가격에 매력이 있다고 판단. 조정시 매수 포인트로 제시.",
-     "confidence": "medium",
-     "video_id": "ZnBGA4FYMPA",
-     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
-     "published": "2026-06-11T06:23:49+00:00",
-     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
-    }
-   ]
-  },
-  {
    "stock": "JYP 엔터테인먼트",
    "ticker": null,
    "market": "KR",
@@ -758,66 +4168,6 @@
      "title": "반대매매 폭증에도 반도체 소부장 강세! 삼성전자보다 주목할 종목은?#반도체 #소부장 #코스닥 #주식전망 #증시분석 #김정수 #명인들의복기",
      "published": "2026-06-11T09:08:48+00:00",
      "url": "https://www.youtube.com/watch?v=g390jTAHOko"
-    }
-   ]
-  },
-  {
-   "stock": "LG 이노텍",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 1,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매도",
-     "reasoning": "브로드컴의 손 떼기로 인한 AI 데이터센터 펀딩 약화로 급격한 조정. 젠슨 효과 이후 자금이 빠져나간 상태로 당분간 회복 어려움.",
-     "confidence": "medium",
-     "video_id": "g390jTAHOko",
-     "title": "반대매매 폭증에도 반도체 소부장 강세! 삼성전자보다 주목할 종목은?#반도체 #소부장 #코스닥 #주식전망 #증시분석 #김정수 #명인들의복기",
-     "published": "2026-06-11T09:08:48+00:00",
-     "url": "https://www.youtube.com/watch?v=g390jTAHOko"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "유한타·현대차·메리츠 증권이 목표 주가를 상향하고 있으며, 선제적 APF 증설 사이클 진입으로 향후 기판 매출에 가파른 성장세를 전망하고 있다. 목표 주가 140만 원 기준으로 현재까지 155%의 수익률을 기록했다.",
-     "confidence": "high",
-     "video_id": "jLSMCeCPacQ",
-     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
-     "published": "2026-06-11T02:55:45+00:00",
-     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
-    }
-   ]
-  },
-  {
-   "stock": "LG 전자",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 1,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매도",
-     "reasoning": "젠슨 효과 이후 급격하게 돈이 빠져나간 상태. 삼성전기의 견조한 조정과 달리 급진적인 하락세를 보이고 있음.",
-     "confidence": "medium",
-     "video_id": "g390jTAHOko",
-     "title": "반대매매 폭증에도 반도체 소부장 강세! 삼성전자보다 주목할 종목은?#반도체 #소부장 #코스닥 #주식전망 #증시분석 #김정수 #명인들의복기",
-     "published": "2026-06-11T09:08:48+00:00",
-     "url": "https://www.youtube.com/watch?v=g390jTAHOko"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "종합 로봇 솔루션 업체로 평가되며 피지컬 AI를 효과적으로 흡수할 것이라는 전망이 나오고 있다. 현재까지 134%의 수익률을 기록했다.",
-     "confidence": "high",
-     "video_id": "jLSMCeCPacQ",
-     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
-     "published": "2026-06-11T02:55:45+00:00",
-     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
     }
    ]
   },
@@ -962,136 +4312,6 @@
    ]
   },
   {
-   "stock": "Broadcom",
-   "ticker": "AVGO",
-   "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 2,
-   "opinions": [
-    {
-     "channel": "미국주식으로은퇴하기",
-     "stance": "관망",
-     "reasoning": "Switch 분야의 리더로 Retimer와 스위치를 통합하는 전략으로 시장 확대 중. Astera Labs와 겹치는 영역이 있으나 현재 직접적 경쟁 강도는 높지 않고, 시장 성장으로 인한 추가 진출 가능성 있음.",
-     "confidence": "medium",
-     "video_id": "AhCSdJ-11io",
-     "title": "[미국 주식 종목 배틀] 크레도 테크놀로지 vs 아스테라 랩스, 하나만 살 수 있다면?",
-     "published": "2026-06-11T09:00:30+00:00",
-     "url": "https://www.youtube.com/watch?v=AhCSdJ-11io"
-    },
-    {
-     "channel": "삼프로TV",
-     "stance": "관망",
-     "reasoning": "실적은 나쁘지 않았으나 기대치만큼만 나왔고 전망치가 약간 하락했으며, 이로 인해 여지없이 주가가 조정받았습니다.",
-     "confidence": "high",
-     "video_id": "zqdwYq4WoZc",
-     "title": "사팔사팔이 아닙니다. 지금은 버는 것보다 잃지 않는 게 중요합니다.ㅣ홍선애, 장우진 금시공 대표 [여의도 인사이트]",
-     "published": "2026-06-11T08:58:03+00:00",
-     "url": "https://www.youtube.com/watch?v=zqdwYq4WoZc"
-    }
-   ]
-  },
-  {
-   "stock": "Marvell Technology",
-   "ticker": "MRVL",
-   "market": "US",
-   "buy": 1,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "미국주식으로은퇴하기",
-     "stance": "관망",
-     "reasoning": "Golden Cable 기술로 AC 케이블 영역에 진출하여 Credo의 경쟁사로 부상. 9m 케이블로 기존 7m 한계를 극복하는 기술을 선보였으며 현재 좋은 상승 모멘텀을 유지 중.",
-     "confidence": "medium",
-     "video_id": "AhCSdJ-11io",
-     "title": "[미국 주식 종목 배틀] 크레도 테크놀로지 vs 아스테라 랩스, 하나만 살 수 있다면?",
-     "published": "2026-06-11T09:00:30+00:00",
-     "url": "https://www.youtube.com/watch?v=AhCSdJ-11io"
-    },
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "젠슨이 \"다음 1조 달러 회사\"라고 직접 공개적으로 선언했다. 광통신이 AI 인프라 다음 사이클을 주도할 것으로 예상되며 엔비디아가 지분 투자했다.",
-     "confidence": "high",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "오라클",
-   "ticker": "ORCL",
-   "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 2,
-   "opinions": [
-    {
-     "channel": "삼프로TV",
-     "stance": "관망",
-     "reasoning": "실적이 좋았음에도 불구하고 시장의 기대치를 충족하지 못해 주가가 10% 하락했습니다. 이는 반도체 등 다른 기업들도 유사한 패턴을 보이고 있음을 시사합니다.",
-     "confidence": "high",
-     "video_id": "zqdwYq4WoZc",
-     "title": "사팔사팔이 아닙니다. 지금은 버는 것보다 잃지 않는 게 중요합니다.ㅣ홍선애, 장우진 금시공 대표 [여의도 인사이트]",
-     "published": "2026-06-11T08:58:03+00:00",
-     "url": "https://www.youtube.com/watch?v=zqdwYq4WoZc"
-    },
-    {
-     "channel": "삼프로TV",
-     "stance": "관망",
-     "reasoning": "호실적 발표에도 불구하고 추가 200억 달러 자금 조달 계획 발표로 자본 조달의 어려움을 시사하며, 이는 자금 조달이 쉬웠다면 유상증자를 하지 않았을 것이라는 우려",
-     "confidence": "medium",
-     "video_id": "RSOtKvknTKg",
-     "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
-     "published": "2026-06-11T00:27:28+00:00",
-     "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
-    }
-   ]
-  },
-  {
-   "stock": "마이크론",
-   "ticker": "MU",
-   "market": "US",
-   "buy": 1,
-   "sell": 0,
-   "hold": 2,
-   "opinions": [
-    {
-     "channel": "삼프로TV",
-     "stance": "관망",
-     "reasoning": "마이크론 실적이 시장의 하락 기점이 될 수 있다는 우려가 있으며, 기대치를 초과하기 어려울 수 있습니다. 실적 발표 후 시장이 어떻게 반응할지 지켜봐야 합니다.",
-     "confidence": "medium",
-     "video_id": "zqdwYq4WoZc",
-     "title": "사팔사팔이 아닙니다. 지금은 버는 것보다 잃지 않는 게 중요합니다.ㅣ홍선애, 장우진 금시공 대표 [여의도 인사이트]",
-     "published": "2026-06-11T08:58:03+00:00",
-     "url": "https://www.youtube.com/watch?v=zqdwYq4WoZc"
-    },
-    {
-     "channel": "삼프로TV",
-     "stance": "관망",
-     "reasoning": "하루에 4% 상승에서 10% 하락까지 14% 대의 극심한 변동성을 보이고 있다. 컨센서스 목표가 1000~1200달러이지만 명확한 매매 기준 없이 접근하면 손실 위험이 크다.",
-     "confidence": "low",
-     "video_id": "ypYW7nwn3v0",
-     "title": "[6월 11일 마감시황] 수익 줄었다고 팔면 안 됩니다. 주도주 매도 기준?ㅣ홍선애, 이권희, 김장열 [클로징벨 라이브]",
-     "published": "2026-06-11T08:32:18+00:00",
-     "url": "https://www.youtube.com/watch?v=ypYW7nwn3v0"
-    },
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "메모리 주도주로 젠슨과 머스크 모두 메모리 부족을 강조했다. 고점 대비 20% 이상 조정받은 상황에서 분할 매수를 개인적으로 좋다고 평가했다.",
-     "confidence": "high",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
    "stock": "스페이스엑스",
    "ticker": null,
    "market": "US",
@@ -1128,106 +4348,6 @@
      "title": "사팔사팔이 아닙니다. 지금은 버는 것보다 잃지 않는 게 중요합니다.ㅣ홍선애, 장우진 금시공 대표 [여의도 인사이트]",
      "published": "2026-06-11T08:58:03+00:00",
      "url": "https://www.youtube.com/watch?v=zqdwYq4WoZc"
-    }
-   ]
-  },
-  {
-   "stock": "하이닉스",
-   "ticker": null,
-   "market": "KR",
-   "buy": 2,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "삼프로TV",
-     "stance": "매수",
-     "reasoning": "6월 SEC 승인과 8월 상장 예정, 2037년까지 메모리 용량 3배 확대 계획이 발표됐다. 소부장에 3% 단가 인상으로 생태계 전반에 긍정 영향을 미칠 것으로 예상되며, 필라델피아 반도체지수 편입도 기대된다.",
-     "confidence": "medium",
-     "video_id": "ypYW7nwn3v0",
-     "title": "[6월 11일 마감시황] 수익 줄었다고 팔면 안 됩니다. 주도주 매도 기준?ㅣ홍선애, 이권희, 김장열 [클로징벨 라이브]",
-     "published": "2026-06-11T08:32:18+00:00",
-     "url": "https://www.youtube.com/watch?v=ypYW7nwn3v0"
-    },
-    {
-     "channel": "삼프로TV",
-     "stance": "매수",
-     "reasoning": "현금 비중이 100%인 경우 삼성전자와 함께 10-20% 진입 권유. 메모리 반도체의 중장기 구조적 가치에 대한 확신 유지, 캐시우드도 메모리 반도체에 컨빅션 있다고 언급.",
-     "confidence": "medium",
-     "video_id": "WLZzm6hq5IE",
-     "title": "지금은 급하게 던질 때가 아닙니다 | 장우진 작가 [더블 체크]",
-     "published": "2026-06-11T00:46:47+00:00",
-     "url": "https://www.youtube.com/watch?v=WLZzm6hq5IE"
-    },
-    {
-     "channel": "삼프로TV",
-     "stance": "보유",
-     "reasoning": "삼성전자와 동일 업황 영향. 200만 원 이하로 내려가면 기관 매수 예상. 펀더멘탈은 문제없으며 실적 호전 가능성.",
-     "confidence": "high",
-     "video_id": "LbYdx__750U",
-     "title": "투자자들 눈물 흘리는 장세...그래도 팔지 말라는 이유 | 이권희 위즈웨이브 대표 [글로벌 인터뷰]",
-     "published": "2026-06-10T23:25:21+00:00",
-     "url": "https://www.youtube.com/watch?v=LbYdx__750U"
-    }
-   ]
-  },
-  {
-   "stock": "알테오젠",
-   "ticker": null,
-   "market": "KR",
-   "buy": 2,
-   "sell": 0,
-   "hold": 3,
-   "opinions": [
-    {
-     "channel": "삼프로TV",
-     "stance": "매수",
-     "reasoning": "외국계 증권사 리포트에서 할로자임 특허 이슈 해결, 큐렉스 판매 확대(2분기부터 연 600억 규모 로열티), GSK와의 추가 계약 가능성 등 호재를 제시했고 외국인이 적극 매수했다.",
-     "confidence": "medium",
-     "video_id": "ypYW7nwn3v0",
-     "title": "[6월 11일 마감시황] 수익 줄었다고 팔면 안 됩니다. 주도주 매도 기준?ㅣ홍선애, 이권희, 김장열 [클로징벨 라이브]",
-     "published": "2026-06-11T08:32:18+00:00",
-     "url": "https://www.youtube.com/watch?v=ypYW7nwn3v0"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "바이오 섹터 내에서 유일하게 연속성이 있는 종목으로 상대적으로 평가됨.",
-     "confidence": "low",
-     "video_id": "w6_izneR7aQ",
-     "title": "코스피는 여전히 반도체 투톱이 주도!/오늘 코스닥 주인공은 반도체 소부장 #코스피 #코스닥 #반도체소부장 #삼성전자 #SK하이닉스 #김정수",
-     "published": "2026-06-11T07:02:53+00:00",
-     "url": "https://www.youtube.com/watch?v=w6_izneR7aQ"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "바이오 섹터 주요 모멘텀 기업으로 가격 조정 후 박스 레벨 회기 중이며, 좋은 가격에서의 홀딩이 유리하다.",
-     "confidence": "medium",
-     "video_id": "x3RqjW5qZag",
-     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
-     "published": "2026-06-11T06:57:19+00:00",
-     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "바이오 시가총액 1위로 올라섰으며, 35대 수준에서의 매수는 좋은 결정이라고 평가. 다만 반도체 변동성에 연동될 수 있다고 지적.",
-     "confidence": "medium",
-     "video_id": "ZnBGA4FYMPA",
-     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
-     "published": "2026-06-11T06:23:49+00:00",
-     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "바이오 섹터에서 실적으로 안전판 역할을 하고 있으며, 34~35만 원대의 진입 타점이 적절하다고 판단된다. 바이 앤 홀드 전략이 권장된다.",
-     "confidence": "high",
-     "video_id": "S0br-u6oFnk",
-     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
-     "published": "2026-06-11T04:32:26+00:00",
-     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
     }
    ]
   },
@@ -1342,26 +4462,6 @@
    ]
   },
   {
-   "stock": "미래에셋벤처투자",
-   "ticker": null,
-   "market": "KR",
-   "buy": 0,
-   "sell": 1,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매도",
-     "reasoning": "SpaceX IPO 불확실성으로 기관의 숨은 매도가 증가 중. 30% 고비중 보유로 인한 리스크 높음. 49,000원 부근에서 차익 실현 권고, 38,000원이 손절선.",
-     "confidence": "high",
-     "video_id": "RHQeJ1CrLmc",
-     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
-     "published": "2026-06-11T08:27:36+00:00",
-     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
-    }
-   ]
-  },
-  {
    "stock": "삼성증권",
    "ticker": null,
    "market": "KR",
@@ -1382,36 +4482,6 @@
    ]
   },
   {
-   "stock": "현대차",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "자동차 제조사로서의 밸류는 충분하며 물리 AI와 로봇 섹터로의 전환 가치 있음. Boston Dynamics 상장 연기에 단기 실망감 있으나 장기 관점에서는 70-80만원 목표 타당.",
-     "confidence": "medium",
-     "video_id": "RHQeJ1CrLmc",
-     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
-     "published": "2026-06-11T08:27:36+00:00",
-     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "2주 전 75만원에서 50만원대 중반(56만원 수준)으로 하락한 것에 가격 매력이 있다고 평가. 조정시 매수 기회로 제시.",
-     "confidence": "medium",
-     "video_id": "ZnBGA4FYMPA",
-     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
-     "published": "2026-06-11T06:23:49+00:00",
-     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
-    }
-   ]
-  },
-  {
    "stock": "SOL",
    "ticker": null,
    "market": "KR",
@@ -1424,26 +4494,6 @@
      "stance": "매수",
      "reasoning": "중동 사태와 에너지 부족에 대비한 보험성 종목. 5-8% 소량 보유 권고. 액침냉각, 데이터센터 성장으로 장기 수혜. 유가 구조적 상승 여전히 유효.",
      "confidence": "medium",
-     "video_id": "RHQeJ1CrLmc",
-     "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
-     "published": "2026-06-11T08:27:36+00:00",
-     "url": "https://www.youtube.com/watch?v=RHQeJ1CrLmc"
-    }
-   ]
-  },
-  {
-   "stock": "SKC",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "유리기판 분야 퍼스트무버로 조지아 공장에서 세계 최초 양산 준비 중. AMD 협력으로 검증 가능성 확보. 발열 해결의 핵심으로 앞으로 수요 증가 확실.",
-     "confidence": "high",
      "video_id": "RHQeJ1CrLmc",
      "title": "서부전선 이상없다 / A특공대 VS SpaceX / PPI #비에이치아이 #선익시스템 #DB하이텍 #네패스 #미래에셋벤처투자 #삼성증권 #현대차 #당신의초이스",
      "published": "2026-06-11T08:27:36+00:00",
@@ -1472,56 +4522,6 @@
    ]
   },
   {
-   "stock": "두산 에너빌리티",
-   "ticker": null,
-   "market": "KR",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "기본재는 좋고 기대 이익도 높으나 시장의 수급 쏠림으로 주가가 8만 원대까지 내려와 있다.",
-     "confidence": "medium",
-     "video_id": "x3RqjW5qZag",
-     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
-     "published": "2026-06-11T06:57:19+00:00",
-     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
-    }
-   ]
-  },
-  {
-   "stock": "HD 현대중공업",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "이번 시장 쏠림에서 상대적으로 잘 버텼으며 조선 산업의 펀더멘탈이 양호하다.",
-     "confidence": "medium",
-     "video_id": "x3RqjW5qZag",
-     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
-     "published": "2026-06-11T06:57:19+00:00",
-     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "삼성 상선 마진 약 15%의 높은 수익성과 데이터센터 발전 엔진 신사업으로 실적 개선 중이나 수급 요인으로 주가 하락. 차트상 60일선 지지 가능성 높고 투자 가격 매력적.",
-     "confidence": "high",
-     "video_id": "ACMR1ciGqwE",
-     "title": "높은 변동성 장세 속 반도체 말고' 이주식'에 주목하라! #트럼프 #이란 #반도체 #삼성전자 #SK하이닉스 #환율 #수급 #2차전지 #금융",
-     "published": "2026-06-10T23:55:20+00:00",
-     "url": "https://www.youtube.com/watch?v=ACMR1ciGqwE"
-    }
-   ]
-  },
-  {
    "stock": "하나 오션",
    "ticker": null,
    "market": "KR",
@@ -1533,26 +4533,6 @@
      "channel": "토마토증권",
      "stance": "관망",
      "reasoning": "조선주로 펀더멘탈이 좋으나 수급 쏠림의 영향으로 가격이 상당히 내려와 있다.",
-     "confidence": "medium",
-     "video_id": "x3RqjW5qZag",
-     "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
-     "published": "2026-06-11T06:57:19+00:00",
-     "url": "https://www.youtube.com/watch?v=x3RqjW5qZag"
-    }
-   ]
-  },
-  {
-   "stock": "삼성 중공업",
-   "ticker": null,
-   "market": "KR",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "관망",
-     "reasoning": "조선주로 펀더멘탈이 양호하나 시장 쏠림으로 가격이 많이 내려와 있다.",
      "confidence": "medium",
      "video_id": "x3RqjW5qZag",
      "title": "과도한 쏠림 장세, 단일종목 레버리지 때문?/산업재 매수 기회 #국내증시 #코스피 #코스닥 #단일종목레버리지 #산업재 #내일장 가이던스",
@@ -1622,36 +4602,6 @@
    ]
   },
   {
-   "stock": "네이버",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "21만원 수준은 가격 매력도가 높은 진입 시점이라고 평가. 조정시 기회를 활용하라는 조언.",
-     "confidence": "medium",
-     "video_id": "ZnBGA4FYMPA",
-     "title": "코스닥 상승기 올까, 소부장·바이오·스페이스X로 모이는 시선(f. 반도체, 증권, 소부장, 바이오) #여인수 #선택과집중 #토마토TV",
-     "published": "2026-06-11T06:23:49+00:00",
-     "url": "https://www.youtube.com/watch?v=ZnBGA4FYMPA"
-    },
-    {
-     "channel": "삼프로TV",
-     "stance": "보유",
-     "reasoning": "시장이 신규 사업 투자를 근시안적으로 평가하고 있으나, 성장 기업으로서 잠재력 충분. 투자자들의 과도한 부정 평가 회복 가능.",
-     "confidence": "medium",
-     "video_id": "LbYdx__750U",
-     "title": "투자자들 눈물 흘리는 장세...그래도 팔지 말라는 이유 | 이권희 위즈웨이브 대표 [글로벌 인터뷰]",
-     "published": "2026-06-10T23:25:21+00:00",
-     "url": "https://www.youtube.com/watch?v=LbYdx__750U"
-    }
-   ]
-  },
-  {
    "stock": "한화솔루션",
    "ticker": null,
    "market": "KR",
@@ -1663,46 +4613,6 @@
      "channel": "토마토증권",
      "stance": "매수",
      "reasoning": "유상증자로 순채무 1조 9천억 감소하며 신용등급 개선 예상. 미국 내 유일한 수직 계열화 태양광 기업으로 AMPC 보조금을 올해 9천억 이상 수혜. 중국 배제 정책 속 미국 태양광 산업 성장에 직접 수혜.",
-     "confidence": "high",
-     "video_id": "7GlDQFkMZ8Y",
-     "title": "심텍 VS 미래에셋증권, 오늘의 우승 종목은? #심텍 #미래에셋증권 #HMM #한화오션 #주식월드컵",
-     "published": "2026-06-11T05:17:10+00:00",
-     "url": "https://www.youtube.com/watch?v=7GlDQFkMZ8Y"
-    }
-   ]
-  },
-  {
-   "stock": "한화오션",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "올해 총 수주 38억 3천만 달러로 전년 대비 증가. VLCC, LNG 운반선 등 고부가가치선 중심 수주 지속. 캐나다 잠수함 산업과 마스카 프로젝트 추가 수주 기대. 올해 55%, 내년 27%, 내후년 20% 이상 영업이익 성장 전망.",
-     "confidence": "high",
-     "video_id": "7GlDQFkMZ8Y",
-     "title": "심텍 VS 미래에셋증권, 오늘의 우승 종목은? #심텍 #미래에셋증권 #HMM #한화오션 #주식월드컵",
-     "published": "2026-06-11T05:17:10+00:00",
-     "url": "https://www.youtube.com/watch?v=7GlDQFkMZ8Y"
-    }
-   ]
-  },
-  {
-   "stock": "미래에셋증권",
-   "ticker": null,
-   "market": "KR",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "스페이스X IPO 참가로 단기 상승했으나 공모주청약 종료로 재료 소진. 올해 영업이익 피크로 내년부터 30% 감소 예상. 현재 6만5,000원 부근에서 비중 축소 권장.",
      "confidence": "high",
      "video_id": "7GlDQFkMZ8Y",
      "title": "심텍 VS 미래에셋증권, 오늘의 우승 종목은? #심텍 #미래에셋증권 #HMM #한화오션 #주식월드컵",
@@ -1902,26 +4812,6 @@
    ]
   },
   {
-   "stock": "DND파마",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "임상 실험 관련 기대 요인이 남아있어 투자 포인트가 있다.",
-     "confidence": "medium",
-     "video_id": "S0br-u6oFnk",
-     "title": "시장은 불안한데 반도체 소부장 투심 살아있다 #코스피 #코스닥 #반도체 #반도체소부장 #이코노미클럽",
-     "published": "2026-06-11T04:32:26+00:00",
-     "url": "https://www.youtube.com/watch?v=S0br-u6oFnk"
-    }
-   ]
-  },
-  {
    "stock": "GI이노베이션",
    "ticker": null,
    "market": "KR",
@@ -1962,76 +4852,6 @@
    ]
   },
   {
-   "stock": "유진테크",
-   "ticker": null,
-   "market": "KR",
-   "buy": 2,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "반도체 전공정 중 증착 부문의 핵심 기업으로, DRAM과 HBM에 강점을 보유. 삼성, 하이닉스, 마이크론 등 주요 반도체 업체에 공급 중이며, 현재 박스권 상단 돌파를 시도 중. 손절가 14만원 기준으로 분할 매수 가능하며, 18만원 돌파 시 20만원까지 상승 가능성.",
-     "confidence": "high",
-     "video_id": "kz_LIgOm26M",
-     "title": "본격적인 반도체 증설 초입 구간, 미리 수혜주를 선점하라! 전공정 1등 종목은 '여기'!(F. 유진테크, 피에스케이, 이오테크닉스) #유창희 #투자스쿨 #토마토TV",
-     "published": "2026-06-11T04:19:15+00:00",
-     "url": "https://www.youtube.com/watch?v=kz_LIgOm26M"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "고객사의 투자 확대가 실적에 반영되기 시작하고 있으며, 사흘째 강세를 보이며 신고가를 기록했다. 기관투자자의 연속 매수가 계속되고 있다.",
-     "confidence": "high",
-     "video_id": "jLSMCeCPacQ",
-     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
-     "published": "2026-06-11T02:55:45+00:00",
-     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
-    }
-   ]
-  },
-  {
-   "stock": "PSK",
-   "ticker": null,
-   "market": "KR",
-   "buy": 2,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "보유",
-     "reasoning": "포토 레지스트 분야에서 60~70% 이상의 시장 점유율 보유하며 영업이익률이 40~55%로 반도체 소부장 기업 중 최고 수준. 그러나 최근 1주일 간 약 60~70% 급등으로 단기 오버슈팅 상태이므로 속도 조절이 필요.",
-     "confidence": "high",
-     "video_id": "kz_LIgOm26M",
-     "title": "본격적인 반도체 증설 초입 구간, 미리 수혜주를 선점하라! 전공정 1등 종목은 '여기'!(F. 유진테크, 피에스케이, 이오테크닉스) #유창희 #투자스쿨 #토마토TV",
-     "published": "2026-06-11T04:19:15+00:00",
-     "url": "https://www.youtube.com/watch?v=kz_LIgOm26M"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "반도체 정공정 장비업 3등 기업. 드라이 클리닝 핵심 장비 공급으로 메모리 반도체 업체의 생산 라인 투자 확대 시 최대 수혜. 지난해 영업이익 885억에서 올해 약 1,600억으로 예상되며 작년 10월 4만원대에서 16만원대로 급등.",
-     "confidence": "high",
-     "video_id": "IgN0d7XQfwo",
-     "title": "주도주는 여전히 반도체! 지금 봐야 할 소부장 종목! (ft.금산) #반도체 #삼성전자 #SK하이닉스 #소부장 #GST #케이씨텍 #피에스케이 #실적",
-     "published": "2026-06-11T03:09:07+00:00",
-     "url": "https://www.youtube.com/watch?v=IgN0d7XQfwo"
-    },
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "최근 3거래일 연속 강세를 보이고 있으며, 소부장 종목 강세 속에서 신고가를 기록했다. 현재까지 52%의 수익률을 기록했다.",
-     "confidence": "high",
-     "video_id": "jLSMCeCPacQ",
-     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
-     "published": "2026-06-11T02:55:45+00:00",
-     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
-    }
-   ]
-  },
-  {
    "stock": "코미코",
    "ticker": null,
    "market": "KR",
@@ -2044,26 +4864,6 @@
      "stance": "관망",
      "reasoning": "장비에 들어가는 코팅과 세정 관련 사업을 영위. 반도체 장비 발주 증가 시 매출 증대가 기대되나, 현재 상한가로 인해 진입이 어려운 상황.",
      "confidence": "medium",
-     "video_id": "kz_LIgOm26M",
-     "title": "본격적인 반도체 증설 초입 구간, 미리 수혜주를 선점하라! 전공정 1등 종목은 '여기'!(F. 유진테크, 피에스케이, 이오테크닉스) #유창희 #투자스쿨 #토마토TV",
-     "published": "2026-06-11T04:19:15+00:00",
-     "url": "https://www.youtube.com/watch?v=kz_LIgOm26M"
-    }
-   ]
-  },
-  {
-   "stock": "HPSP",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "언일링 장비 분야에서 분량률 관리에 핵심적 역할 수행. 시장 점유율 50% 이상을 보유하며 삼성, 하이닉스, 마이크론 등 주요 반도체 업체에 공급 중.",
-     "confidence": "high",
      "video_id": "kz_LIgOm26M",
      "title": "본격적인 반도체 증설 초입 구간, 미리 수혜주를 선점하라! 전공정 1등 종목은 '여기'!(F. 유진테크, 피에스케이, 이오테크닉스) #유창희 #투자스쿨 #토마토TV",
      "published": "2026-06-11T04:19:15+00:00",
@@ -2148,66 +4948,6 @@
      "title": "북중미 월드컵 개막 임박, 시장 조정 속 수혜주 찾기? #월드컵 #북중미 #이슈딥다이브",
      "published": "2026-06-11T02:58:13+00:00",
      "url": "https://www.youtube.com/watch?v=6WKeKSOdTNo"
-    }
-   ]
-  },
-  {
-   "stock": "로보티즈",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "우즈베키스탄 공장 증설로 폭발적인 실적 성장이 예상되고 있으며 연간 흑자 기저를 유지할 것으로 전망된다. 여러 프로그램에서 추천받고 있으며 현재까지 67% 수익률에 육박하고 있다.",
-     "confidence": "high",
-     "video_id": "jLSMCeCPacQ",
-     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
-     "published": "2026-06-11T02:55:45+00:00",
-     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
-    }
-   ]
-  },
-  {
-   "stock": "두산 로보틱스",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "두산 그룹이 엔비디아와 협력하여 피지컬 AI, 로보틱스, AI 팩토리 분야에서 함께 추진하기로 했다는 소식에 기대감이 높아지고 있다. 현재까지 61%의 수익률을 기록했다.",
-     "confidence": "medium",
-     "video_id": "jLSMCeCPacQ",
-     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
-     "published": "2026-06-11T02:55:45+00:00",
-     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
-    }
-   ]
-  },
-  {
-   "stock": "두산 테스나",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "구조적인 성장 국면에 진입했다는 평가가 나오고 있으며, 하반기 이후에는 가동률 상승과 함께 실적이 본격화될 것으로 예상된다.",
-     "confidence": "high",
-     "video_id": "jLSMCeCPacQ",
-     "title": "토마토TV와 함께하는 만스피 프로젝트 : 코리아써키트 / 하나마이크론 / 유진테크 #만스피프로젝트",
-     "published": "2026-06-11T02:55:45+00:00",
-     "url": "https://www.youtube.com/watch?v=jLSMCeCPacQ"
     }
    ]
   },
@@ -2392,26 +5132,6 @@
    ]
   },
   {
-   "stock": "한미약품",
-   "ticker": null,
-   "market": "KR",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "삼프로TV",
-     "stance": "관망",
-     "reasoning": "바이오 섹터 바닥권에서 빅파마 기술이전 계약(130억 선수금), 4분기 비만 치료제 출시, 근육 보존 기전 임상 진행 등 다양한 파이프라인 보유. 제약바이오 지수의 역사적 저점에도 긍정적 변화가 예상되나, 바이오 섹터 전반의 부정적 흐름을 감안한 신중한 접근 필요.",
-     "confidence": "medium",
-     "video_id": "5eeAOpJPBvk",
-     "title": "살 빼도 근육은 지킨다고?…한미약품 직접 다녀왔습니다. | 조희진 하나증권 압구정금융센터 PB [더블 크루]",
-     "published": "2026-06-11T01:21:12+00:00",
-     "url": "https://www.youtube.com/watch?v=5eeAOpJPBvk"
-    }
-   ]
-  },
-  {
    "stock": "두빌",
    "ticker": null,
    "market": "KR",
@@ -2488,26 +5208,6 @@
      "title": "흔들리는 시장... 대응 전략은 무엇? | 박병창 MP파트너스 대표 [마켓 인사이드]",
      "published": "2026-06-11T00:27:28+00:00",
      "url": "https://www.youtube.com/watch?v=RSOtKvknTKg"
-    }
-   ]
-  },
-  {
-   "stock": "LG에너지솔루션",
-   "ticker": null,
-   "market": "KR",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "토마토증권",
-     "stance": "매수",
-     "reasoning": "ESS 중심으로 최소 5년 이상 성장 모멘텀 확보. 1분기 고정비 부담 후 2분기부터 실적 개선 예상되며, 유럽 전기차와 미국 ESS 시장 모두 호조.",
-     "confidence": "high",
-     "video_id": "ACMR1ciGqwE",
-     "title": "높은 변동성 장세 속 반도체 말고' 이주식'에 주목하라! #트럼프 #이란 #반도체 #삼성전자 #SK하이닉스 #환율 #수급 #2차전지 #금융",
-     "published": "2026-06-10T23:55:20+00:00",
-     "url": "https://www.youtube.com/watch?v=ACMR1ciGqwE"
     }
    ]
   },
@@ -2592,26 +5292,6 @@
    ]
   },
   {
-   "stock": "롯데쇼핑",
-   "ticker": null,
-   "market": "KR",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "삼프로TV",
-     "stance": "보유",
-     "reasoning": "외국인 관광객 증가의 수혜를 입고 있으며, 주가가 11만 원에서 19만5천 원으로 80~90% 상승했다. 원화 약세 기조 지속 시 백화점 수출 대체 역할을 할 수 있다.",
-     "confidence": "medium",
-     "video_id": "a-A6tmNBPBI",
-     "title": "모델Y 국내 판매 1위에 머스크 '엄지척'…\"중국산 전기차 몰려온다” | 류종은 삼프로TV 기자 [뉴스3]",
-     "published": "2026-06-10T23:18:44+00:00",
-     "url": "https://www.youtube.com/watch?v=a-A6tmNBPBI"
-    }
-   ]
-  },
-  {
    "stock": "현대자동차",
    "ticker": null,
    "market": "KR",
@@ -2652,36 +5332,6 @@
    ]
   },
   {
-   "stock": "인텔",
-   "ticker": "INTC",
-   "market": "US",
-   "buy": 2,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "트럼프 대통령이 인텔에 투자해 6-7배 수익을 얻은 성공 사례를 직접 언급하며, AI 인프라 투자 사이클에서 계속 언급하는 핵심 종목으로 평가.",
-     "confidence": "high",
-     "video_id": "5sp8xisMihc",
-     "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
-     "published": "2026-06-09T11:58:23+00:00",
-     "url": "https://www.youtube.com/watch?v=5sp8xisMihc"
-    },
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "AI 에이전트 시대의 CPU 공급사로 CEO들이 직접 공급 확보를 요청할 정도다. 메모리와 함께 가는 AI 인프라 사이클의 주도주다.",
-     "confidence": "high",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
    "stock": "오픈 AI",
    "ticker": null,
    "market": "US",
@@ -2713,26 +5363,6 @@
      "channel": "소수몽키",
      "stance": "매수",
      "reasoning": "트럼프 행정부가 주요 AI 리더로 지정해 지분 투자를 검토 중이며, 공공 펀드의 핵심 투자 대상으로 평가.",
-     "confidence": "high",
-     "video_id": "5sp8xisMihc",
-     "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
-     "published": "2026-06-09T11:58:23+00:00",
-     "url": "https://www.youtube.com/watch?v=5sp8xisMihc"
-    }
-   ]
-  },
-  {
-   "stock": "스페이스 X",
-   "ticker": null,
-   "market": "US",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "트럼프 행정부의 AI 기업 지분 투자 대상에 포함되었으며, 구글 및 앤트로픽과의 대규모 AI 컴퓨팅 임대 계약(월 1.4조원)으로 AI 인프라 수익성을 입증한 기업으로 재평가.",
      "confidence": "high",
      "video_id": "5sp8xisMihc",
      "title": "트럼프 대통령, 이번엔 AI 기업 투자? 증시 띄우기의 수혜주들",
@@ -2802,26 +5432,6 @@
    ]
   },
   {
-   "stock": "AMD",
-   "ticker": "AMD",
-   "market": "US",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "인텔과 함께 AI 에이전트 시대의 CPU 수혜주로 평가된다. 메모리, CPU 함께 가는 사이클의 주도주로 상승 시 강하게 오를 수 있다.",
-     "confidence": "high",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
    "stock": "ARM",
    "ticker": "ARM",
    "market": "US",
@@ -2833,26 +5443,6 @@
      "channel": "소수몽키",
      "stance": "매수",
      "reasoning": "인간 PC 10억 개에서 AI 에이전트 수십억 대 시대로의 전환에서 ARM CPU 수요가 폭증할 것으로 예상된다. 에이전트는 계속 작동해야 하기 때문이다.",
-     "confidence": "high",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "퀄컴",
-   "ticker": "QCOM",
-   "market": "US",
-   "buy": 1,
-   "sell": 0,
-   "hold": 0,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "매수",
-     "reasoning": "스마트폰 60억대, 디바이스 20억대, PC 20억대, 자동차 5억대 등 100억대 기기의 AI 에이전트 탑재 업그레이드 사이클의 수혜사다.",
      "confidence": "high",
      "video_id": "pkVOkS2Rs-c",
      "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
@@ -2934,26 +5524,6 @@
      "stance": "매수",
      "reasoning": "반도체 전반의 주도주들을 포함한 사이클 투자 상품이다. 메모리, CPU, 광통신 등 AI 인프라 전반의 강세 수혜를 받을 수 있다.",
      "confidence": "high",
-     "video_id": "pkVOkS2Rs-c",
-     "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
-     "published": "2026-06-08T12:55:26+00:00",
-     "url": "https://www.youtube.com/watch?v=pkVOkS2Rs-c"
-    }
-   ]
-  },
-  {
-   "stock": "구글(알파벳)",
-   "ticker": "GOOGL",
-   "market": "US",
-   "buy": 0,
-   "sell": 0,
-   "hold": 1,
-   "opinions": [
-    {
-     "channel": "소수몽키",
-     "stance": "보유",
-     "reasoning": "역대 최대 규모 유상증자로 단기적으로 주가 압력이 있을 것으로 예상된다. 다만 조달 자금이 AI 인프라 투자로 흘러들어가므로 장기적으로는 호재다.",
-     "confidence": "medium",
      "video_id": "pkVOkS2Rs-c",
      "title": "젠슨 황과 머스크가 증시 살린다? 동시에 찍어준 주인공 주식들",
      "published": "2026-06-08T12:55:26+00:00",
