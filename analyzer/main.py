@@ -32,7 +32,7 @@ LOG_DIR = BASE / "logs"
 MAX_VIDEOS_KEPT = 200      # videos.json에 보관할 최대 영상 수
 FIRST_RUN_PER_CHANNEL = 2  # 최초 실행 시 채널당 분석할 최신 영상 수 (백필 폭주 방지)
 NO_TRANSCRIPT_GRACE_HOURS = 6  # 이 시간 안 된 새 영상은 자막 생성을 기다리며 재시도
-MAX_PER_RUN = 30           # 한 주기 처리 상한 (IP 차단·구독 사용량 폭주 방지)
+MAX_PER_RUN = 15           # 한 주기 처리 상한 (IP 차단·구독 사용량 폭주 방지). 초과분은 다음 주기에 처리
 RUN_AFTER_HOUR = 7         # 이 시각(로컬) 이후, 하루 한 번만 실행
 
 log = logging.getLogger("stockbrief")
