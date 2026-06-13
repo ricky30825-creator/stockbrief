@@ -204,8 +204,12 @@ def update_usage_log(analyzed_records: list[dict], keep_days: int = 30):
                      "entries": entries})
 
 
-def run_analysis(channels: list[dict], processed: set[str]):
-    """승인된(또는 --force) 분석 본체: 수집→분석→저장→push→영상별 알림."""
+def run_analysis(channels: list[dict], processed: set[str]) -> bool:
+    """승인된(또는 --force) 분석 본체: 수집→분석→저장→push→영상별 알림.
+
+    반환값은 '오늘 완료로 기록해도 되는가'. 새 영상이 있었는데 전부 일시 오류
+    (IP 차단 등)로 한 건도 진전이 없으면 False → 호출부가 완료 처리하지 않고 재시도한다.
+    """
     videos_doc = load_json(DATA_DIR / "videos.json", {"videos": []})
     videos = videos_doc["videos"]
 
@@ -214,15 +218,17 @@ def run_analysis(channels: list[dict], processed: set[str]):
         raise RuntimeError("전 채널 피드 조회 실패 (네트워크 장애?) — 다음 주기에 재시도")
     if not new_videos:
         log.info("새 영상 없음")
-        return
+        return True
 
     log.info("새 영상 %d개 처리 시작", len(new_videos))
     app_url = load_env().get("APP_URL")
     notified = []
+    progressed = 0
     for video in new_videos:
         record = process_video(video)
         if record is None:
-            continue
+            continue  # 일시 오류 → 다음 주기에 재시도
+        progressed += 1
         videos.insert(0, record)
         processed.add(video["video_id"])
         if record["status"] == "analyzed":
@@ -249,6 +255,10 @@ def run_analysis(channels: list[dict], processed: set[str]):
             send_notification(format_video_message(record, app_url))
         except Exception as e:
             log.warning("텔레그램 전송 실패: %s", e)
+
+    if progressed == 0:
+        log.info("이번 주기엔 전부 일시 오류(IP 차단 등) — 완료 미기록, 다음 주기에 재시도")
+    return progressed > 0
 
 
 def main():
@@ -284,8 +294,8 @@ def main():
             log.info("분석 여부 질문 전송 (영상 %d개) — y/n 답 대기", len(new_videos))
         else:
             # 텔레그램 미설정이면 묻지 않고 바로 분석 (이전 동작 유지)
-            run_analysis(channels, processed)
-            _finish_today()
+            if run_analysis(channels, processed):
+                _finish_today()
         return
 
     # 오늘 질문을 보냈음 → 답 확인
@@ -304,8 +314,9 @@ def main():
         save_json(PENDING_PATH, pending)
         log.info("사용자 답: y — 분석 시작")
 
-    run_analysis(channels, processed)
-    _finish_today()
+    # 전부 일시 차단이면 완료로 기록하지 않고(pending.answered=y 유지) 다음 주기에 재분석
+    if run_analysis(channels, processed):
+        _finish_today()
 
 
 def _finish_today():
