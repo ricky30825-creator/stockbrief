@@ -1,3 +1,4 @@
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -11,7 +12,7 @@ from main import build_question, parse_yn, should_run_daily, transcript_wait_exp
 from analyze import _parse_result, extract_json, parse_cli_envelope
 from feeds import parse_channel_page, parse_feed, parse_relative_time
 from notify import format_video_message
-from transcript import truncate_evenly
+from transcript import parse_json3, truncate_evenly
 
 SAMPLE_FEED = """<?xml version="1.0"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns="http://www.w3.org/2005/Atom">
@@ -68,6 +69,19 @@ class TestChannelPageFallback(unittest.TestCase):
         videos = parse_channel_page(data, now=self.NOW)
         self.assertEqual(len(videos), 1)
         self.assertIn("2026-06-10", videos[0]["published"])
+
+
+class TestParseJson3(unittest.TestCase):
+    def test_joins_segments(self):
+        raw = json.dumps({"events": [
+            {"segs": [{"utf8": "안녕"}, {"utf8": "하세요"}]},
+            {"segs": [{"utf8": "\n"}]},
+            {"segs": [{"utf8": " 반갑"}, {"utf8": "습니다"}]},
+        ]})
+        self.assertEqual(parse_json3(raw), "안녕하세요 반갑습니다")
+
+    def test_empty_events(self):
+        self.assertEqual(parse_json3('{"events": []}'), "")
 
 
 class TestTranscript(unittest.TestCase):
